@@ -13,7 +13,7 @@ layout: default
 7. **Wang Z**, *et al*. Multi-task Siamese Network for Retinal Artery/Vein Separation via Deep Convolution along Vessel. IEEE Trans. on Medical Imaging (TMI), 2019. *(Submitted, Impact Factor:7.816)*
 8. **Wang Z**, *et al*. Label Refinement with an Iterative Generative Adversarial Network for Boosting Retinal Vessel Segmentation. IEEE Trans. on Biomedical Engineering (TBME), 2019. *(To submit, Impact Factor:4.491)*
 
-\* indicates the corresponding author
+\* the corresponding author
 
 ## Conference Papers
 
