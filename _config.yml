@@ -1,6 +1,6 @@
-title: Researcher
-#url: "https://ankitsultana.com"
-baseurl: "andysis.github.io"
+title: Dr. Zhiwei WANG
+url: "https://andysis.github.io/"
+baseurl: ""
 
 markdown: kramdown
 #ins_logo: "./bits-logo.png"
@@ -9,7 +9,7 @@ tracking_id: #
 
 footer: yes
 footer_url: "https://andysis.github.io/"
-footer_text: "Page design by Ankit Sultana"
+footer_text: "Be kind, for everyone's fighting a hard battel."
 
 sass:
     style: compressed
