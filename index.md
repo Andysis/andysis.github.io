@@ -6,37 +6,17 @@ layout: default
 
 <img class="profile-picture" src="sherlock.jpg">
 
-Hi! I am a junior year student of B.E. Computer Science at Birla Institute of Technology and Science, Pilani.
+I am a Postdoctoral Fellow in the Department of Electronic and Computer Engineering (ECE) at Hong Kong University of Science and Technology (HKUST), cooperating with Prof. [Tim Cheng](https://www.seng.ust.hk/web/eng/people_detail.php?id=326), Dean of Engineering. My research interest includes machine learning, computer vision and medical image analysis.
 
-This is a jekyll based resume template. You can find the full source code on [GitHub](https://github.com/bk2dcradle/researcher)
-
-## Research Interest
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam finibus ipsum ac erat aliquam dapibus. Vestibulum vehicula placerat ex, a consectetur odio pharetra quis. Mauris id urna ante. Fusce pharetra diam ac nisi aliquet, vel egestas ex iaculis. Pellentesque laoreet cursus tellus sed pellentesque. Praesent a rhoncus elit. Nunc ipsum nisl, consequat sit amet pretium quis, gravida id ipsum.
-
-
-
-## Typography
-
-This is a [link](http://google.com). Something *italics* and something **bold**.
-
-Here is a table
-
-Year | Award | Category
------|-------|--------
-2014 | Emmy  | Won Outstanding Lead Actor in a miniseries or a movie
-2015 | BAFTA | Nominated for Best Leading Actor for Sherlock
-2014 | Satellite | Won Best Actor miniseries or television film
-
-Here is a horizontal rule
+Before joining the lab at HKUST, I was pursuing a Ph.D degree from 2015 to 2019 in the School of Electronic Information and Communications at Huazhong University of Science and Technology (HUST) under the supervision of Associate Prof. Xin Yang. I also finished a one-year Master in 2015 at HUST. Before that, I received my Bachelor's Degree from the School of Physics and Electronics of Central South University (CSU).
 
 ---
 
-Here is a blockquote
+## News
 
-> To a great mind, nothing is little
+---
 
 ## Contact Info
 
 * Email: [wangzw@ust.hk](mailto:wangzw@ust.hk)
-* [Google Scholar](#https://scholar.google.com/citations?user=LwQcmgYAAAAJ&hl=en)
+* [Google Scholar](https://scholar.google.com/citations?user=LwQcmgYAAAAJ&hl=en)
