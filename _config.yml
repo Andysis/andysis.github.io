@@ -22,5 +22,3 @@ nav:
    link: "resume.pdf"
  - name: "Contact"
    link: "contact"
-
-theme: jekyll-theme-cayman
