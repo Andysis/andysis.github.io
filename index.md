@@ -10,6 +10,8 @@ I am a Postdoctoral Fellow in the Department of Electronic and Computer Engineer
 
 Before joining the lab at HKUST, I was pursuing a Ph.D. degree from 2015 to 2019 in the School of Electronic Information and Communications at Huazhong University of Science and Technology (HUST) under the supervision of Associate [Prof. Xin Yang](https://sites.google.com/view/xinyang/home). I also finished a one-year Master in 2015 at HUST. Before that I received my Bachelor's degree from the School of Physics and Electronics of Central South University (CSU).
 
+Want more about me, please see [my CV](resume.pdf).
+
 ---
 
 ## News
