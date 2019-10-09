@@ -16,6 +16,8 @@ Want more about me? Please see my [CV](resume.pdf).
 
 ## News
 
+* [2019-10-9] The first round review of my TMI paper is completed!
+
 ---
 
 ## Contact Info
