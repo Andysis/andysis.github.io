@@ -16,7 +16,8 @@ Want more about me? Please see my [CV](resume.pdf).
 
 ## News
 
-* [2019-10-9] The first round review of my TMI paper with a decision of major revision is completed!
+* [2019-10-21] My previous email address (zhiweiwang@hust.edu.cn) has been suspended! Please contact me via the new one.
+* [2019-10-09] The first round review of my TMI paper with a decision of major revision is completed!
 
 ---
 
