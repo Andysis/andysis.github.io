@@ -23,5 +23,5 @@ Want more about me? Please see my [CV](resume.pdf).
 
 ## Contact Info
 
-* Email: [wangzw@ust.hk](mailto:wangzw@ust.hk)
+* Email: [wangzw@ust.hk](mailto:eezhiweiwang@ust.hk)
 * [Google Scholar](https://scholar.google.com/citations?user=LwQcmgYAAAAJ&hl=en)
