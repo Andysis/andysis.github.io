@@ -5,7 +5,7 @@ layout: default
 ## Journal Papers
 
 1. **Wang Z**, *et al*. "Semi-supervised mp-MRI Data Synthesis with StitchLayer and Auxiliary Distance Maximization". (2020). Medical image analysis (MedIA). *(Impact Factor:8.88)*
-2. **Wang Z**, *et al*. "Multi-task Siamese Network for Retinal Artery/Vein Separation via Deep Convolution along Vessel". (2019). IEEE Trans. on Medical Imaging (TMI). *(Under revision, Impact Factor:7.816)*
+2. **Wang Z**, *et al*. "Multi-task Siamese Network for Retinal Artery/Vein Separation via Deep Convolution along Vessel". (2019). IEEE Trans. on Medical Imaging (TMI). *(To appear, Impact Factor:7.816)*
 3. **Wang Z**, *et al*. "Automated Detection of Clinically Significant Prostate Cancer in mp-MRI Images based on an End-to-End Deep Neural Network". (2018). IEEE Trans. on Medical Imaging (TMI). *(Impact Factor:7.816)*
 4. **Wang Z**, *et al*. "Accurate face alignment and adaptive patch selection for heart rate estimation from videos under realistic scenarios". (2018). PloS one. *(Impact Factor:2.776)*
 5. Yang X, Liu C, **Wang Z\***, *et al*. "Co-trained convolutional neural networks for automated detection of prostate cancer in multi-parametric MRI". (2017). Medical image analysis (MedIA). *(Impact Factor:8.88)*
