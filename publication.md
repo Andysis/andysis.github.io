@@ -17,9 +17,11 @@ layout: default
 
 ## Conference Papers
 
-1. Yang X, Cheng J, **Wang Z**, *et al*. "Monocular Camera Based Real-Time Dense Mapping Using Generative Adversarial Network". (2018). ACM on Multimedia Conference (ACM MM). *poster*.
-2. **Wang Z**, *et al*. "StitchAD-GAN for Synthesizing Apparent Diffusion Coefficient Images of Clinically Significant Prostate Cancer". (2018). The British Machine Vision Conference (BMVC). *poster*.
-3. **Wang Z**, *et al*. "DeepCADx: Automated Prostate Cancer Detection and Diagnosis in mp-MRI based on Multimodal Convolutional Neural Networks". (2017). ACM on Multimedia Conference (ACM MM). *demo*.
-4. Yang X, **Wang Z**, *et al*. "Joint Detection and Diagnosis of Prostate Cancer in Multi-parametric MRI Based on Multimodal Convolutional Neural Networks". (2017). International Conference on Medical Image Computing and Computer-Assisted Intervention (MICCAI). *poster*.
-5. **Wang Z**, *et al*. "Joint Face Detection and Initialization for Face Alignment". (2017). International Conference on Multimedia Modeling (MMM). *oral*.
-6. **Wang Z**, *et al*. "V-Head: Face Detection and Alignment for Facial Augmented Reality Applications". (2017). International Conference on Multimedia Modeling (MMM). *demo*.
+1. Yang Y, **Wang Z**, *et al*. "CSResNet: Cross Stage Residual Network for Pancreas Segmentation". (2020). International Conference on Medical Image Computing and Computer-Assisted Intervention (MICCAI). *submitted*.
+2. Jiang X, Luo Q, **Wang Z**, *et al*. "Multi-modal and Multi-level Selective Feature Fusion for Pancreas Segmentation". (2020). International Conference on Medical Image Computing and Computer-Assisted Intervention (MICCAI). *submitted*.
+3. Yang X, Cheng J, **Wang Z**, *et al*. "Monocular Camera Based Real-Time Dense Mapping Using Generative Adversarial Network". (2018). ACM on Multimedia Conference (ACM MM). *poster*.
+4. **Wang Z**, *et al*. "StitchAD-GAN for Synthesizing Apparent Diffusion Coefficient Images of Clinically Significant Prostate Cancer". (2018). The British Machine Vision Conference (BMVC). *poster*.
+5. **Wang Z**, *et al*. "DeepCADx: Automated Prostate Cancer Detection and Diagnosis in mp-MRI based on Multimodal Convolutional Neural Networks". (2017). ACM on Multimedia Conference (ACM MM). *demo*.
+6. Yang X, **Wang Z**, *et al*. "Joint Detection and Diagnosis of Prostate Cancer in Multi-parametric MRI Based on Multimodal Convolutional Neural Networks". (2017). International Conference on Medical Image Computing and Computer-Assisted Intervention (MICCAI). *poster*.
+7. **Wang Z**, *et al*. "Joint Face Detection and Initialization for Face Alignment". (2017). International Conference on Multimedia Modeling (MMM). *oral*.
+8. **Wang Z**, *et al*. "V-Head: Face Detection and Alignment for Facial Augmented Reality Applications". (2017). International Conference on Multimedia Modeling (MMM). *demo*.
