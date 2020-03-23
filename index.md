@@ -16,6 +16,7 @@ Want more about me? Please see my [CV](resume.pdf).
 
 ## News
 
+* [2020-03-18] Two co-authored MICCAI papers have been submitted!
 * [2020-03-09] Our TMI has been accepted. Congratulations!
 * [2019-10-21] My previous email address (zhiweiwang@hust.edu.cn) has been suspended! Please contact me via the new one.
 * [2019-10-09] The first round review of our TMI paper with a decision of major revision is completed!
