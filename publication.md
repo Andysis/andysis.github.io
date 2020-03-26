@@ -9,9 +9,10 @@ layout: default
 3. **Wang Z**, *et al*. "Automated Detection of Clinically Significant Prostate Cancer in mp-MRI Images based on an End-to-End Deep Neural Network". (2018). IEEE Trans. on Medical Imaging (TMI). *(Impact Factor:7.816)*
 4. **Wang Z**, *et al*. "Accurate face alignment and adaptive patch selection for heart rate estimation from videos under realistic scenarios". (2018). PloS one. *(Impact Factor:2.776)*
 5. Yang X, Liu C, **Wang Z\***, *et al*. "Co-trained convolutional neural networks for automated detection of prostate cancer in multi-parametric MRI". (2017). Medical image analysis (MedIA). *(Impact Factor:8.88)*
-6. Le, M. H., Chen, J., Wang, L., **Wang Z**, *et al*. "Automated diagnosis of prostate cancer in multi-parametric MRI based on multimodal convolutional neural networks". (2017). Physics in Medicine & Biology (PMB). *(Impact Factor:3.03)*
-7. Yang, X., Liu, C., Le Minh, H., **Wang Z**, *et al*. "An automated method for accurate vessel segmentation". (2017). Physics in Medicine & Biology (PMB). *(Impact Factor:3.03)*
-8. **Wang Z**, *et al*. "Label Refinement with an Iterative Generative Adversarial Network for Boosting Retinal Vessel Segmentation". (2019). arXiv.
+6. Yang X, Lin Y, **Wang Z\***, *et al*. "Bi-modality Medical Image Synthesis using Semi-supervised Sequential Generative Adversarial Networks". (2019). IEEE Journal of Biomedical and Health Informatics (JBHI). *(Impact Factor:4.217)*
+7. Le, M. H., Chen, J., Wang, L., **Wang Z**, *et al*. "Automated diagnosis of prostate cancer in multi-parametric MRI based on multimodal convolutional neural networks". (2017). Physics in Medicine & Biology (PMB). *(Impact Factor:3.03)*
+8. Yang, X., Liu, C., Le Minh, H., **Wang Z**, *et al*. "An automated method for accurate vessel segmentation". (2017). Physics in Medicine & Biology (PMB). *(Impact Factor:3.03)*
+9. **Wang Z**, *et al*. "Label Refinement with an Iterative Generative Adversarial Network for Boosting Retinal Vessel Segmentation". (2019). arXiv.
 
 **\*** Corresponding Author
 
