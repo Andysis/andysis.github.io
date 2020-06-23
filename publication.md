@@ -18,8 +18,8 @@ layout: default
 
 ## Conference Papers
 
-1. Yang Y, **Wang Z**, *et al*. "CSResNet: Cross Stage Residual Network for Pancreas Segmentation". (2020). International Conference on Medical Image Computing and Computer-Assisted Intervention (MICCAI). *submitted*.
-2. Jiang X, Luo Q, **Wang Z**, *et al*. "Multi-modal and Multi-level Selective Feature Fusion for Pancreas Segmentation". (2020). International Conference on Medical Image Computing and Computer-Assisted Intervention (MICCAI). *submitted*.
+1. Yang Y, **Wang Z**, *et al*. "CSResNet: Cross Stage Residual Network for Pancreas Segmentation". (2020). *To resubmit*.
+2. Jiang X, Luo Q, **Wang Z**, *et al*. "Multi-modal and Multi-level Selective Feature Fusion for Pancreas Segmentation". (2020). International Conference on Medical Image Computing and Computer-Assisted Intervention (MICCAI). *accepted*.
 3. Yang X, Cheng J, **Wang Z**, *et al*. "Monocular Camera Based Real-Time Dense Mapping Using Generative Adversarial Network". (2018). ACM on Multimedia Conference (ACM MM). *poster*.
 4. **Wang Z**, *et al*. "StitchAD-GAN for Synthesizing Apparent Diffusion Coefficient Images of Clinically Significant Prostate Cancer". (2018). The British Machine Vision Conference (BMVC). *poster*.
 5. **Wang Z**, *et al*. "DeepCADx: Automated Prostate Cancer Detection and Diagnosis in mp-MRI based on Multimodal Convolutional Neural Networks". (2017). ACM on Multimedia Conference (ACM MM). *demo*.
