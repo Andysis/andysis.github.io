@@ -35,5 +35,5 @@ Want more about me? Please see my [CV](resume.pdf).
 
 ## Contact Info
 
-* Email: [eezhiweiwang@ust.hk](mailto:zwwang@hust.edu.cn)
+* Email: [zwwang@hust.edu.cn](mailto:zwwang@hust.edu.cn)
 * [Google Scholar](https://scholar.google.com/citations?user=LwQcmgYAAAAJ&hl=en)
