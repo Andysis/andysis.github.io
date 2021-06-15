@@ -6,7 +6,7 @@ layout: default
 
 <img class="profile-picture" src="sherlock.jpg">
 
-I am a Associate Professor in the Wuhan National Laboratory for Optoelectronics (WNLO) at Huazhong University of Science and Technology (HUST) working with [Prof. Qiang Li](http://bmp.hust.edu.cn/info/1151/2222.htm). My research interest includes machine learning, computer vision and medical image analysis. 
+I am an Associate Professor in the Wuhan National Laboratory for Optoelectronics (WNLO) at Huazhong University of Science and Technology (HUST) working with [Prof. Qiang Li](http://bmp.hust.edu.cn/info/1151/2222.htm). My research interest includes machine learning, computer vision and medical image analysis. 
 
 *I am now recuriting students who are self-promotive, proactive and, improtantly, passional in the field of medical image analysis.*
 
