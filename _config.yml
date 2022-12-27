@@ -249,7 +249,7 @@ display_tags: ['formatting', 'images', 'links', 'math', 'code'] # this tags will
 
 scholar:
 
-  last_name: Wang
+  last_name: [Wang, Wang*]
   first_name: [Zhiwei, Z., Zhiwei*, Zhiwei#]
 
   style: apa
