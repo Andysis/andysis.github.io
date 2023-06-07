@@ -2,7 +2,7 @@
 layout: page
 permalink: /publications/
 title: publications
-description: The sharp means co-first authors and the star means corresponding author(s).
+description: The # means co-first authors, and the * means corresponding author(s).
 years: [2024, 2023, 2022, 2021, 2020, 2019, 2018, 2017]
 nav: true
 nav_order: 1
