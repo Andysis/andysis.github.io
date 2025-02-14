@@ -31,8 +31,6 @@ My research focuses on advancing **surgery robots** and **digestive endoscopy** 
 - Automating endoscopic procedures to reduce human error and improve efficiency.
 - Leveraging deep learning models for real-time lesion segmentation and diagnosis.
 
----
-
 ### **Professional Background**
 
 #### Current Position (February 2021 – Present)
@@ -54,8 +52,6 @@ My research focuses on advancing **surgery robots** and **digestive endoscopy** 
 
 - **Bachelor’s Degree**: School of Physics and Electronics, Central South University (CSU)
 
----
-
 ### **Recruitment of Students**
 
 I am actively recruiting highly motivated students passionate about **AI in medical robotics and endoscopy**. If you are eager to innovate and contribute to transformative healthcare technologies, **join our team**!
@@ -64,5 +60,3 @@ I am actively recruiting highly motivated students passionate about **AI in medi
 - **Cutting-Edge Research**: Tackle real-world challenges in AI-driven surgery and endoscopy.
 - **State-of-the-Art Facilities**: Access to advanced labs and resources at WNLO and HUST.
 - **Collaborative Environment**: Work alongside leading experts in AI and medical engineering.
-
----
