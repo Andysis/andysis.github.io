@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: Associate Professor at Wuhan National Laboratory for Optoelectronics (WNLO), Huazhong University of Science and Technology (HUST)
+subtitle: Associate Professor at HUST
 
 profile:
   align: right
