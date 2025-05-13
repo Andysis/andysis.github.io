@@ -20,7 +20,7 @@
     - title: Master
       institution: HUST, Wuhan, China
       year: 2015
-      description:        
+      description:
         - Supervised by Prof. Xiang Bai
         - Major in Information&Communication Engineering
     - title: Bachelor
@@ -39,8 +39,8 @@
       description:
         - Cooperating with Prof. Qiang Li
         - Research on AI-powered Endoscope, Vision Surgical Robotics, Medical AI
-    
-    - title: Postdoctoral Research Fellow 
+
+    - title: Postdoctoral Research Fellow
       institution: Hongkong University of Science and Technology (HKUST), Hong Kong, China
       year: 2019 - 2020
       description:
@@ -51,7 +51,7 @@
   type: nested_list
   contents:
     - title: AI-powered Endoscope
-      items: 
+      items:
         - EGD Blind Spot Monitoring
         - Polyp Detection, Segmentation and Diagnosis
         - 3D Abdominal Reconstruction
