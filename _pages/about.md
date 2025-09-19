@@ -17,20 +17,22 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-# 📖 Educations
-- *2019.06 - 2022.04 (now)*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-- *2015.09 - 2019.06*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
+# 📖 工作与教育
+- *2021.02 - 至今*, 武汉光电国家研究中心，华中科技大学，副教授，国家千人[李强教授](http://bmp.hust.edu.cn/info/1151/2222.htm)课题组。
+- *2019.08 - 2020.08*, 工学院，香港科技大学，博士后研究员，副校长兼工学院院长[郑光廷教授](https://seng.hkust.edu.hk/about/people/faculty/tim-kwang-ting-cheng)课题组。
+- *2015.09 - 2019.06*, 电子信息与通信学院，华中科技大学，博士研究生，国家优青[杨欣教授](https://sites.google.com/view/xinyang/home)课题组。
+- *2014.09 - 2015.06*, 电子信息与通信学院，华中科技大学，硕士博士研究生，国家杰青白翔教授课题组。
+- *2010.09 - 2014.06*, 物理学院，中南大学，本科生，院长刘雄飞教授。
 
-我目前是华中科技大学武汉光电国家研究中心副教授，工作于国家千人[李强教授](http://bmp.hust.edu.cn/info/1151/2222.htm)课题组。2021年2月加入武汉光电国家研究中心之前，我于2019年8月至2020年8月在香港科技大学电子与计算机工程系担任博士后研究员，合作导师为副校长兼工学院院长[郑光廷教授](https://seng.hkust.edu.hk/about/people/faculty/tim-kwang-ting-cheng)。 2015年至2019年期间，我在华中科技大学电子信息与通信学院攻读博士学位，导师为国家优青[杨欣教授](https://sites.google.com/view/xinyang/home)。 在此之前，我于2015年在华中科技大学完成硕士学习，导师为国家杰青白翔教授。 
-
-我的研究方向为重大疾病人工智能辅助筛查与手术治疗（近几年主要聚焦于微创外科、消化内镜等）。我曾获评武汉市优秀青年人才, 校教师先进典型培育对象和优秀共产党员等荣誉称号.
+我的研究方向为重大疾病人工智能辅助筛查与手术治疗（近几年主要聚焦于微创外科、消化内镜等）。我曾获评武汉市优秀青年人才, 校教师先进典型培育对象和优秀共产党员等荣誉称号。
 
 近五年，我主持了国家自然科学基金青年项目和面上项目各1项，担任科技部青年科学家项目课题负责人（总排名第二），并主持了武汉市科技重大专项“卡脖子”技术攻关课题。我的研究成果《基于深度学习的冠状动脉、肺动脉CTA辅助诊断系统的研究及临床应用》获得省科技进步二等奖；《面向脑胶质瘤手术的新型人工智能神经外科精准手术系统》入选湖北省人工智能重大创新成果（场景），并被央视、《长江日报》等媒体报道。
 
 近五年，我以第一作者或通讯作者发表30余篇高水平论文，其中包括6篇影响因子大于10的顶级期刊论文（Medical Image Analysis, IEEE Transactions on Medical Imaging），以及25篇发表于IEEE JBHI、NeurIPS、ICCV、MICCAI、AAAI、IJCAI、ACM MM等国际顶级期刊与会议。此外，我已获授权或公开发明专利10余项。
 
 
-# 🔥 News
+# 🔥 重要事件
+- *2025.09*: &nbsp;🎉🎉 一篇本人通讯``NeurIPS``会议（CCF-A）接收，祝贺杨凯翔！ 
 - *2025.07*: &nbsp;🎉🎉 一篇本人通讯``JBHI``期刊（中科院医学信息1区Top5%）接收，祝贺单文奇！ 
 - *2025.07*: &nbsp;🎉🎉 一篇本人通讯``ACM MM``会议（CCF-A）接收，祝贺李欣、杨凯翔！ 
 - *2025.06*: &nbsp;🎉🎉 一篇本人通讯``ICCV``会议（CCF-A）接收，祝贺杨凯翔、李欣！
@@ -57,7 +59,7 @@ redirect_from:
 
 
 
-# 📝 Publications 
+# 📝 一作与通讯的论文 
 ### (Note: <span style="color:#0D6EFD">&#42;</span>: 通讯作者, <span style="color:#FFA500">&#8224;</span>: 共同一作)
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">NeurIPS 2025</div><img src='images/500x300.png' alt="sym" width="100%"></div></div>
@@ -69,24 +71,14 @@ Kaixiang Yang<span style="color:#0D6EFD">&#8224;</span>, Xin Li<span style="colo
 
 [**Code**]()
 [**Paper**]()
-- Latent Diffusion-based Text-to-Image (T2I) is a free image editing tool that typically reverses an image into noise, reconstructs it using its original text prompt, and then generates an edited version under a new target prompt. To preserve unaltered image content, features from the reconstruction are directly injected to replace selected features in the generation.
-However, this direct replacement often leads to feature incompatibility, compromising editing fidelity and limiting creative flexibility, particularly for non-rigid edits (\emph{e.g.}, structural or pose changes).
-In this paper, we aim to address these limitations by proposing \textbf{FSI-Edit}, a novel framework using frequency- and stochasticity-based feature injection for flexible image editing.
-First, FSI-Edit enhances feature consistency by injecting \emph{high-frequency} components of reconstruction features into generation features, mitigating incompatibility while preserving the editing ability for major structures encoded in low-frequency information.
-Second, it introduces controlled \emph{noise} into the replaced reconstruction features, expanding the generative space to enable diverse non-rigid edits beyond the original image’s constraints.
-Experiments on non-rigid edits, \emph{e.g.}, addition, deletion, and pose manipulation, demonstrate that FSI-Edit outperforms existing baselines in target alignment, semantic fidelity and visual quality. Our work highlights the critical roles of frequency-aware design and stochasticity in overcoming rigidity in diffusion-based editing. 
 </div>
 </div>
 
-- [Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet](https://github.com), A, B, C, **CVPR 2020**
 
-# 🎖 Honors and Awards
+# 🎖 荣誉与获奖
 - *2021.10* Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
 - *2021.09* Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
 
-# 💬 Invited Talks
+# 💬 学术兼职与服务
 - *2021.06*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
 - *2021.03*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet.  \| [\[video\]](https://github.com/)
-
-# 💻 Internships
-- *2019.05 - 2020.02*, [Lorem](https://github.com/), China.
