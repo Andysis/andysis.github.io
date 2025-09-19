@@ -63,6 +63,9 @@ redirect_from:
 ### (Note: <span style="color:#0D6EFD">&#42;</span>: 通讯作者, <span style="color:#FFA500">&#8224;</span>: 共同一作)
 
 ## 📆 2025年：
+
+- <div class="badge">Medical Image Analysis 2025<span style="color:red">（中科院医学1区Top5%，影响因子>10）</span></div> [MonoPCC: Photometric-invariant Cycle Constraint for Monocular Depth Estimation of Endoscopic Images](), **Zhiwei Wang**<span style="color:#0D6EFD">&#8224;</span>, Ying Zhou<span style="color:#0D6EFD">&#8224;</span>, Shiquan He, Ting Li, Fan Huang, Qiang Ding, Xinxia Feng, Mei Liu, Qiang Li<span style="color:#FFA500">&#42;</span>. [**Code**]()
+
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">Medical Image Analysis 2025<span style="color:red">（中科院医学1区Top5%，影响因子>10）</span></div><img src='images/500x300.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
