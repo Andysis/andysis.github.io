@@ -17,6 +17,10 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
+# 📖 Educations
+- *2019.06 - 2022.04 (now)*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
+- *2015.09 - 2019.06*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
+
 我目前是华中科技大学武汉光电国家研究中心副教授，工作于国家千人[李强教授](http://bmp.hust.edu.cn/info/1151/2222.htm)课题组。2021年2月加入武汉光电国家研究中心之前，我于2019年8月至2020年8月在香港科技大学电子与计算机工程系担任博士后研究员，合作导师为副校长兼工学院院长[郑光廷教授](https://seng.hkust.edu.hk/about/people/faculty/tim-kwang-ting-cheng)。 2015年至2019年期间，我在华中科技大学电子信息与通信学院攻读博士学位，导师为国家优青[杨欣教授](https://sites.google.com/view/xinyang/home)。 在此之前，我于2015年在华中科技大学完成硕士学习，导师为国家杰青白翔教授。 
 
 我的研究方向为重大疾病人工智能辅助筛查与手术治疗（近几年主要聚焦于微创外科、消化内镜等）。我曾获评武汉市优秀青年人才, 校教师先进典型培育对象和优秀共产党员等荣誉称号.
@@ -79,10 +83,6 @@ Experiments on non-rigid edits, \emph{e.g.}, addition, deletion, and pose manipu
 # 🎖 Honors and Awards
 - *2021.10* Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
 - *2021.09* Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-
-# 📖 Educations
-- *2019.06 - 2022.04 (now)*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-- *2015.09 - 2019.06*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
 
 # 💬 Invited Talks
 - *2021.06*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
