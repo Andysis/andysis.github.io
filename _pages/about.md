@@ -129,6 +129,8 @@ redirect_from:
 
 - <span style="background-color:#1E40AF; color:white; padding:0.5px 4px; border:1px solid #0F2460; border-radius:6px; font-weight:normal; font-size:0.9em; text-shadow:0.5px 0.5px 1px rgba(0,0,0,0.2); box-shadow:1px 1px 2px rgba(0,0,0,0.1); display:inline-block;">MICCAI</span><span style="color:red">（CCF-B）</span> [Progressive and Coarse-to-Fine Network for Medical Image Registration Across Phases, Modalities and Patients](), Sheng Wang<span style="color:#0D6EFD">&#8224;</span>, Jinxin Lv<span style="color:#0D6EFD">&#8224;</span>, Hongkuan Shi, Yilang Wang, Yuanhuai Liang, Zihui Ouyang, **Zhiwei Wang**<span style="color:#FFA500">&#42;</span>, Qiang Li<span style="color:#FFA500">&#42;</span>. [**Code**]()
 
+- <span style="background-color:#1E40AF; color:white; padding:0.5px 4px; border:1px solid #0F2460; border-radius:6px; font-weight:normal; font-size:0.9em; text-shadow:0.5px 0.5px 1px rgba(0,0,0,0.2); box-shadow:1px 1px 2px rgba(0,0,0,0.1); display:inline-block;">ACCV</span><span style="color:red">（CCF-C）</span> [Improving the Quality of Sparse-view Cone-Beam Computed Tomography via Reconstruction-Friendly Interpolation Network](), Yanli Wang<span style="color:#0D6EFD">&#8224;</span>, Lianying Chao<span style="color:#0D6EFD">&#8224;</span>, Wenqi Shan, Haobo Zhang, **Zhiwei Wang**<span style="color:#FFA500">&#42;</span>, Qiang Li<span style="color:#FFA500">&#42;</span>. [**Code**]()
+
 
 ## 📆 2021年：
 
