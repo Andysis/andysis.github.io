@@ -58,14 +58,14 @@ redirect_from:
 
 
 # 📝 Publications 
-### (Note: <span style="color:#0D6EFD">&#42;</span>: 共同一作, <span style="color:#FFA500">&#8224;</span>: 通讯作者)
+### (Note: <span style="color:#0D6EFD">&#42;</span>: 通讯作者, <span style="color:#FFA500">&#8224;</span>: 共同一作)
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">NeurIPS 2025</div><img src='images/500x300.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [FSI-Edit: Frequency and Stochasticity Injection for Flexible Diffusion-Based Image Editing]()
 
-Kaixiang Yang<span style="color:#0D6EFD">&#42;</span>, Xin Li<span style="color:#0D6EFD">&#42;</span>, Yuxi Li, Qiang Li, **Zhiwei Wang**<span style="color:#FFA500">&#8224;</span>
+Kaixiang Yang<span style="color:#0D6EFD">&#8224;</span>, Xin Li<span style="color:#0D6EFD">&#8224;</span>, Yuxi Li, Qiang Li, **Zhiwei Wang**<span style="color:#FFA500">&#42;</span>
 
 [**Code**]()
 [**Paper**]()
