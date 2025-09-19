@@ -110,7 +110,7 @@ Qiang Hu, Zhenyu Yi, Ying Zhou, Fan Huang, Mei Liu, Qiang Li, **Zhiwei Wang**<sp
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">ACM MM 2025<span style="color:red">（CCF-A）</span></div></div><img src='images/500x300.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-[MonoBox: Tightness-free Box-supervised Polyp Segmentation using Monotonicity Constraint]()
+[Joint Holistic and Lesion Controllable Mammogram Synthesis via Gated Conditional Diffusion Model]()
 
 Xin Li<span style="color:#0D6EFD">&#8224;</span>, Kaixiang Yang<span style="color:#0D6EFD">&#8224;</span>, Qiang Li, **Zhiwei Wang**<span style="color:#FFA500">&#42;</span>
 
@@ -151,7 +151,7 @@ Wenqi Shan, Xudong Li, Qiang Li<span style="color:#FFA500">&#42;</span>, **Zhiwe
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">MICCAI 2025<span style="color:red">（CCF-B，提前接收，接收率9%）</span></div></div><img src='images/500x300.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">MICCAI 2025<span style="color:red">（CCF-B，提前接收，接收率9%）</span></div></div><img src='images/DADA.gif' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [Targeted False Positive Synthesis via Detector-guided Adversarial Diffusion Attacker for Robust Polyp Detection](https://arxiv.org/abs/2506.18134)
@@ -163,7 +163,7 @@ Quan Zhou<span style="color:#0D6EFD">&#8224;</span>, Gan Luo<span style="color:#
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">MICCAI 2025<span style="color:red">（CCF-B，提前接收，接收率9%）</span></div></div><img src='images/500x300.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">MICCAI 2025<span style="color:red">（CCF-B，提前接收，接收率9%）</span></div></div><img src='images/ADD-500x300.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [Holistic White-light Polyp Classification via Alignment-free Dense Distillation of Auxiliary Optical Chromoendoscopy](https://arxiv.org/abs/2505.19319)
@@ -186,7 +186,7 @@ Kaixiang Yang, Qiang Li, **Zhiwei Wang**<span style="color:#FFA500">&#42;</span>
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICASSP 2025<span style="color:red">（CCF-B）</span></div></div><img src='images/500x300.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICASSP 2025<span style="color:red">（CCF-B）</span></div></div><img src='images/PSDNet.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [First-frame Supervised Video Polyp Segmentation via Propagative and Semantic Dual-teacher Network](https://arxiv.org/abs/2412.16503)
