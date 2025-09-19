@@ -21,17 +21,17 @@ redirect_from:
 
 我的研究方向为重大疾病人工智能辅助筛查与手术治疗（近几年主要聚焦于微创外科、消化内镜等）。我曾获评武汉市优秀青年人才, 校教师先进典型培育对象和优秀共产党员等荣誉称号.
 
-近五年，我主持了国家自然科学基金青年项目和面上项目各1项，担任科技部青年科学家项目课题负责人（总排名第二），并主持了武汉市科技重大专项“卡脖子”技术攻关课题。我的研究成果*《基于深度学习的冠状动脉、肺动脉CTA辅助诊断系统的研究及临床应用》获得省科技进步二等奖；《面向脑胶质瘤手术的新型人工智能神经外科精准手术系统》*入选湖北省人工智能重大创新成果（场景），并被央视、《长江日报》等媒体报道。
+近五年，我主持了国家自然科学基金青年项目和面上项目各1项，担任科技部青年科学家项目课题负责人（总排名第二），并主持了武汉市科技重大专项“卡脖子”技术攻关课题。我的研究成果《基于深度学习的冠状动脉、肺动脉CTA辅助诊断系统的研究及临床应用》获得省科技进步二等奖；《面向脑胶质瘤手术的新型人工智能神经外科精准手术系统》入选湖北省人工智能重大创新成果（场景），并被央视、《长江日报》等媒体报道。
 
 近五年，我以第一作者或通讯作者发表30余篇高水平论文，其中包括6篇影响因子大于10的顶级期刊论文（Medical Image Analysis, IEEE Transactions on Medical Imaging），以及25篇发表于IEEE JBHI、NeurIPS、ICCV、MICCAI、AAAI、IJCAI、ACM MM等国际顶级期刊与会议。此外，我已获授权或公开发明专利10余项。
 
 
 # 🔥 News
-- *2025.07*: &nbsp;🎉🎉 One corresponding authored ``JBHI`` paper accepted. Congratulations to Wenqi Shan! 
-- *2025.07*: &nbsp;🎉🎉 One corresponding authored ``ACM MM`` paper accepted. Congratulations to Xin Li and Kaixiang Yang! 
-- *2025.06*: &nbsp;🎉🎉 One corresponding authored ``ICCV`` paper accepted. Congratulations to Kaixiang Yang and Xin Li!
-- *2025.06*: &nbsp;🎉🎉 One corresponding authored ``JBHI`` paper published. Congratulations to Ran Duan! Special thanks to Prof. Pheng-Ann Heng and Dr. Jialun Pei for their valuable contributions and support. 
-- *2025.05*: &nbsp;🎉🎉 Two corresponding authored ``MICCAI`` papers early accepted. Congratulations to Quan Zhou, Gan Luo, Qimei Wang, and Qiang Hu! 
+- *2025.07*: &nbsp;🎉🎉 一篇本人通讯``JBHI``期刊（中科院医学信息1区Top5%）论文接收，祝贺单文奇！ 
+- *2025.07*: &nbsp;🎉🎉 一篇本人通讯``ACM MM``会议（CCF-A）论文接收，祝贺李欣、杨凯翔！ 
+- *2025.06*: &nbsp;🎉🎉 一篇本人通讯``ICCV``会议（CCF-A）论文接收，祝贺杨凯翔、李欣！
+- *2025.06*: &nbsp;🎉🎉 一篇本人通讯``JBHI``期刊（中科院医学信息1区Top5%）论文接收，祝贺段然！特别感谢王平安教授、裴佳伦博士的大力支持！ 
+- *2025.05*: &nbsp;🎉🎉 两篇本人通讯``MICCAI``会议（CCF-B）论文提前接收（接收率<9%），祝贺周权、罗敢、王琦玫、胡强！
 - *2025.04*: &nbsp;🎉🎉 One corresponding authored ``JBHI`` paper accepted. Congratulations to Quan Zhou!
 - *2025.02*: &nbsp;🎉🎉 One first authored ``MedIA`` paper accepted! 
 - *2024.12*: &nbsp;🎉🎉 Three corresponding authored ``ICASSP`` papers accepted. Congratulations to Wenqi Shan, Qiang Hu, and Kaixiang Yang! 
