@@ -109,18 +109,54 @@ redirect_from:
 
 - <span style="background-color:#1E40AF; color:white; padding:0.5px 4px; border:1px solid #0F2460; border-radius:6px; font-weight:normal; font-size:0.9em; text-shadow:0.5px 0.5px 1px rgba(0,0,0,0.2); box-shadow:1px 1px 2px rgba(0,0,0,0.1); display:inline-block;">BIBM</span><span style="color:red">（CCF-B）</span> [Decoupling Feature Representations of Ego and Other Modalities for Incomplete Multi-modal Brain Tumor Segmentation](), Kaixiang Yang<span style="color:#0D6EFD">&#8224;</span>, Wenqi Shan<span style="color:#0D6EFD">&#8224;</span>, Xikai Yang, Xi Wang, Pheng-Ann Heng, Qiang Li<span style="color:#FFA500">&#42;</span>, **Zhiwei Wang**<span style="color:#FFA500">&#42;</span>. [**Code**]()
 
+## 📆 2023年：
+
+- <span style="background-color:#1E40AF; color:white; padding:0.5px 4px; border:1px solid #0F2460; border-radius:6px; font-weight:normal; font-size:0.9em; text-shadow:0.5px 0.5px 1px rgba(0,0,0,0.2); box-shadow:1px 1px 2px rgba(0,0,0,0.1); display:inline-block;">IEEE Transactions on Medical Imaging</span><span style="color:red">（中科院医学1区Top5%，影响因子>10）</span> [Bidirectional Semi-supervised Dual-branch CNN for Robust 3D Reconstruction of Stereo Endoscopic Images via Adaptive Cross and Parallel Supervisions](), Hongkuan Shi<span style="color:#0D6EFD">&#8224;</span>, **Zhiwei Wang**<span style="color:#0D6EFD">&#8224;</span>, Ying Zhou, Dun Li, Xin Yang, Qiang Li<span style="color:#FFA500">&#42;</span>. [**Code**]()
+
+- <span style="background-color:#1E40AF; color:white; padding:0.5px 4px; border:1px solid #0F2460; border-radius:6px; font-weight:normal; font-size:0.9em; text-shadow:0.5px 0.5px 1px rgba(0,0,0,0.2); box-shadow:1px 1px 2px rgba(0,0,0,0.1); display:inline-block;">AAAI</span><span style="color:red">（CCF-A）</span> [Robust One-Shot Segmentation of Brain Tissues via Image-Aligned Style Transformation](), Jinxin Lv<span style="color:#0D6EFD">&#8224;</span>, Xiaoyu Zeng<span style="color:#0D6EFD">&#8224;</span>, Sheng Wang, Ran Duan, **Zhiwei Wang**<span style="color:#FFA500">&#42;</span>, Qiang Li<span style="color:#FFA500">&#42;</span>. [**Code**]()
+
+- <span style="background-color:#1E40AF; color:white; padding:0.5px 4px; border:1px solid #0F2460; border-radius:6px; font-weight:normal; font-size:0.9em; text-shadow:0.5px 0.5px 1px rgba(0,0,0,0.2); box-shadow:1px 1px 2px rgba(0,0,0,0.1); display:inline-block;">IJCAI</span><span style="color:red">（CCF-A）</span> [Dual-view Correlation Hybrid Attention Network for Robust Holistic Mammogram Classification](), **Zhiwei Wang**<span style="color:#0D6EFD">&#8224;</span>, Junlin Xian<span style="color:#0D6EFD">&#8224;</span>, Kangyi Liu, Xin Li, Qiang Li, Xin Yang<span style="color:#FFA500">&#42;</span>. [**Code**]()
+
+- <span style="background-color:#1E40AF; color:white; padding:0.5px 4px; border:1px solid #0F2460; border-radius:6px; font-weight:normal; font-size:0.9em; text-shadow:0.5px 0.5px 1px rgba(0,0,0,0.2); box-shadow:1px 1px 2px rgba(0,0,0,0.1); display:inline-block;">BIBM</span><span style="color:red">（CCF-B）</span> [Rethinking Low-Dose CT Synthesis: Degrading Normal-Dose CT from Origin for Pairwise Training of CT Denoiser](), Lianying Chao, Taotao Zhang, Yanli Wang, Wenqi Shan, Qiang Li<span style="color:#FFA500">&#42;</span>, **Zhiwei Wang**<span style="color:#FFA500">&#42;</span>. [**Code**]()
+
+- <span style="background-color:#1E40AF; color:white; padding:0.5px 4px; border:1px solid #0F2460; border-radius:6px; font-weight:normal; font-size:0.9em; text-shadow:0.5px 0.5px 1px rgba(0,0,0,0.2); box-shadow:1px 1px 2px rgba(0,0,0,0.1); display:inline-block;">BIBM</span><span style="color:red">（CCF-B）</span> [Towards Learning-based Surgical Planning of Glioma Resection via a Contrastively Constrained Siamese Neural Network](), Wenqi Shan, Yingjie Guo, Lianying Chao, Haobo Zhang, Xudong Li, Xuan Wang, Qiang Li<span style="color:#FFA500">&#42;</span>, **Zhiwei Wang**<span style="color:#FFA500">&#42;</span>. [**Code**]()
+
+## 📆 2022年：
+
+- <span style="background-color:#1E40AF; color:white; padding:0.5px 4px; border:1px solid #0F2460; border-radius:6px; font-weight:normal; font-size:0.9em; text-shadow:0.5px 0.5px 1px rgba(0,0,0,0.2); box-shadow:1px 1px 2px rgba(0,0,0,0.1); display:inline-block;">IEEE Transactions on Medical Imaging</span><span style="color:red">（中科院医学1区Top5%，影响因子>10）</span> [Joint progressive and coarse-to-fine registration of brain MRI via deformation field integration and non-rigid feature fusion](), Jinxin Lv<span style="color:#0D6EFD">&#8224;</span>, **Zhiwei Wang**<span style="color:#0D6EFD">&#8224;</span>, Hongkuan Shi, Haobo Zhang, Sheng Wang, Yilang Wang, Qiang Li<span style="color:#FFA500">&#42;</span>. [**Code**]()
+
+- <span style="background-color:#1E40AF; color:white; padding:0.5px 4px; border:1px solid #0F2460; border-radius:6px; font-weight:normal; font-size:0.9em; text-shadow:0.5px 0.5px 1px rgba(0,0,0,0.2); box-shadow:1px 1px 2px rgba(0,0,0,0.1); display:inline-block;">IEEE Journal of Biomedical and Health Informatics</span><span style="color:red">（中科院医学信息1区）</span> [Accurate Cobb Angle Estimation on Scoliosis X-ray Images via Deeply-coupled Two-stage Network with Differentiable Cropping and Random Perturbation](), Yuanhuai Liang<span style="color:#0D6EFD">&#8224;</span>, Jinxin Lv<span style="color:#0D6EFD">&#8224;</span>, Dun Li, Xin Yang, **Zhiwei Wang**<span style="color:#FFA500">&#42;</span>, Qiang Li<span style="color:#FFA500">&#42;</span>. [**Code**]()
+
+- <span style="background-color:#1E40AF; color:white; padding:0.5px 4px; border:1px solid #0F2460; border-radius:6px; font-weight:normal; font-size:0.9em; text-shadow:0.5px 0.5px 1px rgba(0,0,0,0.2); box-shadow:1px 1px 2px rgba(0,0,0,0.1); display:inline-block;">MICCAI</span><span style="color:red">（CCF-B）</span> [Progressive and Coarse-to-Fine Network for Medical Image Registration Across Phases, Modalities and Patients](), Sheng Wang<span style="color:#0D6EFD">&#8224;</span>, Jinxin Lv<span style="color:#0D6EFD">&#8224;</span>, Hongkuan Shi, Yilang Wang, Yuanhuai Liang, Zihui Ouyang, **Zhiwei Wang**<span style="color:#FFA500">&#42;</span>, Qiang Li<span style="color:#FFA500">&#42;</span>. [**Code**]()
+
+
+## 📆 2021年：
+
+- <span style="background-color:#1E40AF; color:white; padding:0.5px 4px; border:1px solid #0F2460; border-radius:6px; font-weight:normal; font-size:0.9em; text-shadow:0.5px 0.5px 1px rgba(0,0,0,0.2); box-shadow:1px 1px 2px rgba(0,0,0,0.1); display:inline-block;">MICCAI</span><span style="color:red">（CCF-B）</span> [Towards Robust Dual-View Transformation via Densifying Sparse Supervision for Mammography Lesion Matching](), Junlin Xian<span style="color:#0D6EFD">&#8224;</span>, **Zhiwei Wang**<span style="color:#0D6EFD">&#8224;</span>, Kwang-Ting Cheng, Xin Yang<span style="color:#FFA500">&#42;</span>. [**Code**]()
 
 # 📝 其他论文
 
 ## 📆 2025年：
 
-- <span style="background-color:#1E40AF; color:white; padding:0.5px 4px; border:1px solid #0F2460; border-radius:6px; font-weight:normal; font-size:0.9em; text-shadow:0.5px 0.5px 1px rgba(0,0,0,0.2); box-shadow:1px 1px 2px rgba(0,0,0,0.1); display:inline-block;">Neural Networks</span> Toward high-quality pseudo masks from noisy or weak annotations for robust medical image segmentation. **Zhiwei Wang**, Zihang Huang, Zhiwei Wang, Tianyu Zhao, Xiaohuan Ding, Xin Yang.
+- ``Neural Networks`` Toward high-quality pseudo masks from noisy or weak annotations for robust medical image segmentation. **Zhiwei Wang**, Zihang Huang, Zhiwei Wang, Tianyu Zhao, Xiaohuan Ding, Xin Yang.
 
 ## 📆 2024年：
 
-- <span style="background-color:#1E40AF; color:white; padding:0.5px 4px; border:1px solid #0F2460; border-radius:6px; font-weight:normal; font-size:0.9em; text-shadow:0.5px 0.5px 1px rgba(0,0,0,0.2); box-shadow:1px 1px 2px rgba(0,0,0,0.1); display:inline-block;">Computers in Biology and Medicine</span> Joint denoising and interpolating network for low-dose cone-beam CT reconstruction under hybrid dose-reduction strategy. Lianying Chao, Yanli Wang, Taotao Zhang, Wenqi Shan, Haobo Zhang, **Zhiwei Wang**, Qiang Li.
+- ``Computers in Biology and Medicine`` Joint denoising and interpolating network for low-dose cone-beam CT reconstruction under hybrid dose-reduction strategy. Lianying Chao, Yanli Wang, Taotao Zhang, Wenqi Shan, Haobo Zhang, **Zhiwei Wang**, Qiang Li.
 
 - ``Expert Systems with Applications`` Co-learning-assisted progressive dense fusion network for cardiovascular disease detection using ECG and PCG signals. Haobo Zhang, Peng Zhang, Fan Lin, Lianying Chao, **Zhiwei Wang**, Fei Ma, Qiang Li.
+
+## 📆 2023年：
+
+- ``IEEE Journal of Biomedical and Health Informatics`` Multi-feature decision fusion network for heart sound abnormality detection and classification. Haobo Zhang, Peng Zhang, **Zhiwei Wang**, Lianying Chao, Yuting Chen, Qiang Li.
+
+- ``Expert Systems with Applications`` PSDP: Pseudo-Supervised Dual-Processing for Low-Dose Cone-Beam Computed Tomography Reconstruction. Lianying Chao, Wenqi Shan, Yanli Wang, Wenting Xu, Haobo Zhang, **Zhiwei Wang**, Qiang Li.
+
+## 📆 2022年：
+
+- ``Knowledge-Based Systems`` Dual-domain attention-guided convolutional neural network for low-dose cone-beam computed tomography reconstruction. Lianying Chao, Peng Zhang, Yanli Wang, **Zhiwei Wang**, Wenting Xu, Qiang Li.
+
+- ``Neurocomputing`` Sparse-View Cone Beam CT Reconstruction using Dual CNNs in Projection Domain and Image Domain. Lianying Chao, **Zhiwei Wang**, Haobo Zhang, Wenting Xu, Peng Zhang, Qiang Li.
 
 
 # 🏆️ 荣誉与获奖
