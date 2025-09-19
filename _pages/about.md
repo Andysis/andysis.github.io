@@ -62,6 +62,7 @@ redirect_from:
 # 📝 一作与通讯的论文 
 ### (Note: <span style="color:#0D6EFD">&#42;</span>: 通讯作者, <span style="color:#FFA500">&#8224;</span>: 共同一作)
 
+## 2025年：
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">Medical Image Analysis 2025<span style="color:red">（中科院医学1区Top5%，影响因子>10）</span></div><img src='images/500x300.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
@@ -216,6 +217,30 @@ Qiang Hu, Mei Liu, Qiang Li, **Zhiwei Wang**<span style="color:#FFA500">&#42;</s
 [SPNet: Sparse-mask Prompt-learning Network for Cerebrovascular Segmentation]()
 
 Wenqi Shan, Qiang Li<span style="color:#FFA500">&#42;</span>, **Zhiwei Wang**<span style="color:#FFA500">&#42;</span>
+
+[**Code**]()
+</div>
+</div>
+
+## 2024年：
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">TMI 2024<span style="color:red">（中科院医学1区Top5%，影响因子>10）</span></div><img src='images/500x300.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[Robust Semi-supervised 3D Medical Image Segmentation with Diverse Joint-task Learning and Decoupled Inter-student Learning]()
+
+Quan Zhou, Bin Yu, Feng Xiao, Mingyue Ding, **Zhiwei Wang**<span style="color:#FFA500">&#42;</span>, Xuming Zhang<span style="color:#FFA500">&#42;</span>
+
+[**Code**]()
+</div>
+</div>
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">JBHI 2024<span style="color:red">（中科院医学信息1区）</span></div><img src='images/500x300.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[Fine-grained Temporal Site Monitoring in EGD Streams via Visual Time-aware Embedding and Vision-text Asymmetric Coworking]()
+
+Fang Peng<span style="color:#0D6EFD">&#8224;</span>, Hongkuan Shi<span style="color:#0D6EFD">&#8224;</span>, Shiquan He<span style="color:#0D6EFD">&#8224;</span>, Qiang Li, Ting Li, Fan Huang, Xinxia Feng, Mei Liu, Jiazhi Liao, Qiang Li<span style="color:#FFA500">&#42;</span>, **Zhiwei Wang**<span style="color:#FFA500">&#42;</span>
 
 [**Code**]()
 </div>
