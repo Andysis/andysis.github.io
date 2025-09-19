@@ -136,6 +136,30 @@ redirect_from:
 
 - <span style="background-color:#1E40AF; color:white; padding:0.5px 4px; border:1px solid #0F2460; border-radius:6px; font-weight:normal; font-size:0.9em; text-shadow:0.5px 0.5px 1px rgba(0,0,0,0.2); box-shadow:1px 1px 2px rgba(0,0,0,0.1); display:inline-block;">MICCAI</span><span style="color:red">（CCF-B）</span> [Towards Robust Dual-View Transformation via Densifying Sparse Supervision for Mammography Lesion Matching](), Junlin Xian<span style="color:#0D6EFD">&#8224;</span>, **Zhiwei Wang**<span style="color:#0D6EFD">&#8224;</span>, Kwang-Ting Cheng, Xin Yang<span style="color:#FFA500">&#42;</span>. [**Code**]()
 
+## 📆 2020年：
+
+- <span style="background-color:#1E40AF; color:white; padding:0.5px 4px; border:1px solid #0F2460; border-radius:6px; font-weight:normal; font-size:0.9em; text-shadow:0.5px 0.5px 1px rgba(0,0,0,0.2); box-shadow:1px 1px 2px rgba(0,0,0,0.1); display:inline-block;">IEEE Transactions on Medical Imaging</span><span style="color:red">（中科院医学1区Top5%，影响因子>10）</span> [Multi-task siamese network for retinal artery/vein separation via deep convolution along vessel](), **Zhiwei Wang**, Xixi Jiang, Jengen Liu, Kwang-Ting Cheng, Xin Yang<span style="color:#FFA500">&#42;</span>. [**Code**]()
+
+- <span style="background-color:#1E40AF; color:white; padding:0.5px 4px; border:1px solid #0F2460; border-radius:6px; font-weight:normal; font-size:0.9em; text-shadow:0.5px 0.5px 1px rgba(0,0,0,0.2); box-shadow:1px 1px 2px rgba(0,0,0,0.1); display:inline-block;">Medical Image Analysis</span> <span style="color:red">（中科院医学1区Top5%，影响因子>10）</span> [Semi-supervised mp-MRI data synthesis with StitchLayer and auxiliary distance maximization](), **Zhiwei Wang**, Yi Lin, Kwang-Ting Cheng, Xin Yang<span style="color:#FFA500">&#42;</span>. [**Code**]()
+
+## 📆 2018年：
+
+- <span style="background-color:#1E40AF; color:white; padding:0.5px 4px; border:1px solid #0F2460; border-radius:6px; font-weight:normal; font-size:0.9em; text-shadow:0.5px 0.5px 1px rgba(0,0,0,0.2); box-shadow:1px 1px 2px rgba(0,0,0,0.1); display:inline-block;">IEEE Transactions on Medical Imaging</span><span style="color:red">（中科院医学1区Top5%，影响因子>10）</span> [Automated detection of clinically significant prostate cancer in mp-MRI images based on an end-to-end deep neural network](), **Zhiwei Wang**, Chaoyue Liu, Danpeng Cheng, Liang Wang, Xin Yang<span style="color:#FFA500">&#42;</span>, Kwang-Ting Cheng. [**Code**]()
+
+- <span style="background-color:#1E40AF; color:white; padding:0.5px 4px; border:1px solid #0F2460; border-radius:6px; font-weight:normal; font-size:0.9em; text-shadow:0.5px 0.5px 1px rgba(0,0,0,0.2); box-shadow:1px 1px 2px rgba(0,0,0,0.1); display:inline-block;">BMVC</span> <span style="color:red">（CCF-C）</span> [StitchAD-GAN for Synthesizing Apparent Diffusion Coefficient Images of Clinically Significant Prostate Cancer](), **Zhiwei Wang**, Yi Lin, Chunyuan Liao, Kwang-Ting Cheng, Xin Yang<span style="color:#FFA500">&#42;</span>. [**Code**]()
+
+- <span style="background-color:#1E40AF; color:white; padding:0.5px 4px; border:1px solid #0F2460; border-radius:6px; font-weight:normal; font-size:0.9em; text-shadow:0.5px 0.5px 1px rgba(0,0,0,0.2); box-shadow:1px 1px 2px rgba(0,0,0,0.1); display:inline-block;">PloS ONE</span> [Accurate face alignment and adaptive patch selection for heart rate estimation from videos under realistic scenarios](), **Zhiwei Wang**, Xin Yang<span style="color:#FFA500">&#42;</span>, Kwang-Ting Cheng. [**Code**]()
+
+## 📆 2017年：
+
+- <span style="background-color:#1E40AF; color:white; padding:0.5px 4px; border:1px solid #0F2460; border-radius:6px; font-weight:normal; font-size:0.9em; text-shadow:0.5px 0.5px 1px rgba(0,0,0,0.2); box-shadow:1px 1px 2px rgba(0,0,0,0.1); display:inline-block;">Medical Image Analysis</span> <span style="color:red">（中科院医学1区Top5%，影响因子>10）</span> [Co-trained convolutional neural networks for automated detection of prostate cancer in multi-parametric MRI](), Xin Yang, Chaoyue Liu, **Zhiwei Wang**<span style="color:#FFA500">&#42;</span>, Jun Yang, Minh Hung Le, Liang Wang, Kwang-Ting Cheng. [**Code**]()
+
+- <span style="background-color:#1E40AF; color:white; padding:0.5px 4px; border:1px solid #0F2460; border-radius:6px; font-weight:normal; font-size:0.9em; text-shadow:0.5px 0.5px 1px rgba(0,0,0,0.2); box-shadow:1px 1px 2px rgba(0,0,0,0.1); display:inline-block;">ACM MM</span><span style="color:red">（CCF-A）</span> [Deepcadx: Automated prostate cancer detection and diagnosis in mp-mri based on multimodal convolutional neural networks](), **Zhiwei Wang**, Chaoyue Liu, Xiang Bai, Xin Yang<span style="color:#FFA500">&#42;</span>, Kwang-Ting Cheng. [**Code**]()
+
+- <span style="background-color:#1E40AF; color:white; padding:0.5px 4px; border:1px solid #0F2460; border-radius:6px; font-weight:normal; font-size:0.9em; text-shadow:0.5px 0.5px 1px rgba(0,0,0,0.2); box-shadow:1px 1px 2px rgba(0,0,0,0.1); display:inline-block;">MMM</span> <span style="color:red">（CCF-C）</span> [V-head: Face detection and alignment for facial augmented reality applications](), **Zhiwei Wang**, Xin Yang<span style="color:#FFA500">&#42;</span>. [**Code**]()
+
+- <span style="background-color:#1E40AF; color:white; padding:0.5px 4px; border:1px solid #0F2460; border-radius:6px; font-weight:normal; font-size:0.9em; text-shadow:0.5px 0.5px 1px rgba(0,0,0,0.2); box-shadow:1px 1px 2px rgba(0,0,0,0.1); display:inline-block;">MMM</span> <span style="color:red">（CCF-C）</span> [Joint Face Detection and Initialization for Face Alignment](), **Zhiwei Wang**, Xin Yang<span style="color:#FFA500">&#42;</span>. [**Code**]()
+
 # 📝 其他论文
 
 ## 📆 2025年：
@@ -159,6 +183,28 @@ redirect_from:
 - ``Knowledge-Based Systems`` Dual-domain attention-guided convolutional neural network for low-dose cone-beam computed tomography reconstruction. Lianying Chao, Peng Zhang, Yanli Wang, **Zhiwei Wang**, Wenting Xu, Qiang Li.
 
 - ``Neurocomputing`` Sparse-View Cone Beam CT Reconstruction using Dual CNNs in Projection Domain and Image Domain. Lianying Chao, **Zhiwei Wang**, Haobo Zhang, Wenting Xu, Peng Zhang, Qiang Li.
+
+## 📆 2020年：
+
+- ``IEEE Journal of Biomedical and Health Informatics`` Variation-aware federated learning with multi-source decentralized medical image data. Zengqiang Yan, Jeffry Wicaksana, **Zhiwei Wang**, Xin Yang, Kwang-Ting Cheng.
+
+- ``MICCAI`` Multi-phase and multi-level selective feature fusion for automated pancreas segmentation from CT images. Xixi Jiang, Qingqing Luo, **Zhiwei Wang**, Tao Mei, Yu Wen, Xin Li, Kwang-Ting Cheng, Xin Yang.
+
+## 📆 2019年：
+
+- ``IEEE Journal of Biomedical and Health Informatics`` Bi-modality medical image synthesis using semi-supervised sequential generative adversarial networks. Xin Yang, Yi Lin, **Zhiwei Wang**, Xin Li, Kwang-Ting Cheng.
+
+## 📆 2018年：
+
+- ``ACM MM`` Monocular camera based real-time dense mapping using generative adversarial network. Xin Yang, Jinyu Chen, **Zhiwei Wang**, Qiaozhe Zhang, Wenyu Liu, Chunyuan Liao, Kwang-Ting Cheng.
+
+## 📆 2017年：
+
+- ``Physics in Medicine and Biology`` Automated diagnosis of prostate cancer in multi-parametric MRI based on multimodal convolutional neural networks. Minh Hung Le, Jinyu Chen, Liang Wang, **Zhiwei Wang**, Wenyu Liu, Kwang-Ting Cheng, Xin Yang.
+
+- ``MICCAI`` Joint detection and diagnosis of prostate cancer in multi-parametric MRI based on multimodal convolutional neural networks. Xin Yang, **Zhiwei Wang**, Chaoyue Liu, Minh Hung Le, Jinyu Chen, Kwang-Ting Cheng, Liang Wang.
+
+
 
 
 # 🏆️ 荣誉与获奖
