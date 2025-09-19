@@ -73,6 +73,7 @@ redirect_from:
 </div>
 </div>
 
+
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">NeurIPS 2025<span style="color:red">（CCF-A）</span></div><img src='images/500x300.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
@@ -83,6 +84,7 @@ Kaixiang Yang<span style="color:#0D6EFD">&#8224;</span>, Xin Li<span style="colo
 [**Code**]()
 </div>
 </div>
+
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICCV 2025<span style="color:red">（CCF-A）</span></div><img src='images/500x300.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
@@ -95,7 +97,8 @@ Kaixiang Yang<span style="color:#0D6EFD">&#8224;</span>, Xin Li<span style="colo
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">AAAI 2025<span style="color:red">（CCF-A）</span></div></div><img src='images/MonoBox-500x300.png' alt="sym" width="100%"></div></div>
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">AAAI 2025<span style="color:red">（CCF-A）</span></div><img src='images/MonoBox-500x300.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [MonoBox: Tightness-free Box-supervised Polyp Segmentation using Monotonicity Constraint](https://arxiv.org/abs/2404.01188)
@@ -107,7 +110,8 @@ Qiang Hu, Zhenyu Yi, Ying Zhou, Fan Huang, Mei Liu, Qiang Li, **Zhiwei Wang**<sp
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ACM MM 2025<span style="color:red">（CCF-A）</span></div></div><img src='images/500x300.png' alt="sym" width="100%"></div></div>
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ACM MM 2025<span style="color:red">（CCF-A）</span></div><img src='images/500x300.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [Joint Holistic and Lesion Controllable Mammogram Synthesis via Gated Conditional Diffusion Model]()
@@ -118,7 +122,8 @@ Xin Li<span style="color:#0D6EFD">&#8224;</span>, Kaixiang Yang<span style="colo
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">JBHI 2025<span style="color:red">（中科院医学信息1区Top5%）</span></div></div><img src='images/500x300.png' alt="sym" width="100%"></div></div>
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">JBHI 2025<span style="color:red">（中科院医学信息1区Top5%）</span></div><img src='images/500x300.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [Single-slice Semi-supervised 3D Medical Image Segmentation via Correlation Information Enhancement and Hybrid Pseudo Mask Generation]()
@@ -129,7 +134,8 @@ Quan Zhou, Mingwei Wen, Mingyue Ding, Yixin Su, **Zhiwei Wang**<span style="colo
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">JBHI 2025<span style="color:red">（中科院医学信息1区Top5%）</span></div></div><img src='images/500x300.png' alt="sym" width="100%"></div></div>
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">JBHI 2025<span style="color:red">（中科院医学信息1区Top5%）</span></div><img src='images/500x300.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [Boosting Few-shot Semantic Segmentation of 3D Medical Images via Collaborative Slice Alignment]()
@@ -140,7 +146,8 @@ Ran Duan<span style="color:#0D6EFD">&#8224;</span>, Jialun Pei<span style="color
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">JBHI 2025<span style="color:red">（中科院医学信息1区Top5%）</span></div></div><img src='images/500x300.png' alt="sym" width="100%"></div></div>
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">JBHI 2025<span style="color:red">（中科院医学信息1区Top5%）</span></div><img src='images/500x300.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [Improving 3D Thin Vessel Segmentation in Brain TOF-MRA via a Dual-space Context-Aware Network]()
@@ -151,7 +158,8 @@ Wenqi Shan, Xudong Li, Qiang Li<span style="color:#FFA500">&#42;</span>, **Zhiwe
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">MICCAI 2025<span style="color:red">（CCF-B，提前接收，接收率9%）</span></div></div><img src='images/DADA.gif' alt="sym" width="100%"></div></div>
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">MICCAI 2025<span style="color:red">（CCF-B，提前接收，接收率9%）</span></div><img src='images/DADA.gif' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [Targeted False Positive Synthesis via Detector-guided Adversarial Diffusion Attacker for Robust Polyp Detection](https://arxiv.org/abs/2506.18134)
@@ -163,7 +171,8 @@ Quan Zhou<span style="color:#0D6EFD">&#8224;</span>, Gan Luo<span style="color:#
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">MICCAI 2025<span style="color:red">（CCF-B，提前接收，接收率9%）</span></div></div><img src='images/ADD-500x300.png' alt="sym" width="100%"></div></div>
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">MICCAI 2025<span style="color:red">（CCF-B，提前接收，接收率9%）</span></div><img src='images/ADD-500x300.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [Holistic White-light Polyp Classification via Alignment-free Dense Distillation of Auxiliary Optical Chromoendoscopy](https://arxiv.org/abs/2505.19319)
@@ -175,7 +184,8 @@ Qiang Hu<span style="color:#0D6EFD">&#8224;</span>, Qimei Wang<span style="color
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICASSP 2025<span style="color:red">（CCF-B）</span></div></div><img src='images/500x300.png' alt="sym" width="100%"></div></div>
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICASSP 2025<span style="color:red">（CCF-B）</span></div><img src='images/500x300.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [DACAT: Dual-stream Adaptive Clip-aware Time Modeling for Robust Online Surgical Phase Recognition]()
@@ -186,7 +196,8 @@ Kaixiang Yang, Qiang Li, **Zhiwei Wang**<span style="color:#FFA500">&#42;</span>
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICASSP 2025<span style="color:red">（CCF-B）</span></div></div><img src='images/PSDNet.png' alt="sym" width="100%"></div></div>
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICASSP 2025<span style="color:red">（CCF-B）</span></div><img src='images/PSDNet.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [First-frame Supervised Video Polyp Segmentation via Propagative and Semantic Dual-teacher Network](https://arxiv.org/abs/2412.16503)
@@ -198,7 +209,8 @@ Qiang Hu, Mei Liu, Qiang Li, **Zhiwei Wang**<span style="color:#FFA500">&#42;</s
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICASSP 2025<span style="color:red">（CCF-B）</span></div></div><img src='images/500x300.png' alt="sym" width="100%"></div></div>
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICASSP 2025<span style="color:red">（CCF-B）</span></div><img src='images/500x300.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [SPNet: Sparse-mask Prompt-learning Network for Cerebrovascular Segmentation]()
