@@ -27,31 +27,50 @@ redirect_from:
 
 
 # 🔥 News
-- *2025.07*: &nbsp;🎉🎉 一篇本人通讯``JBHI``期刊（中科院医学信息1区Top5%）论文接收，祝贺单文奇！ 
-- *2025.07*: &nbsp;🎉🎉 一篇本人通讯``ACM MM``会议（CCF-A）论文接收，祝贺李欣、杨凯翔！ 
-- *2025.06*: &nbsp;🎉🎉 一篇本人通讯``ICCV``会议（CCF-A）论文接收，祝贺杨凯翔、李欣！
-- *2025.06*: &nbsp;🎉🎉 一篇本人通讯``JBHI``期刊（中科院医学信息1区Top5%）论文接收，祝贺段然！特别感谢王平安教授、裴佳伦博士的大力支持！ 
-- *2025.05*: &nbsp;🎉🎉 两篇本人通讯``MICCAI``会议（CCF-B）论文提前接收（接收率<9%），祝贺周权、罗敢、王琦玫、胡强！
-- *2025.04*: &nbsp;🎉🎉 One corresponding authored ``JBHI`` paper accepted. Congratulations to Quan Zhou!
-- *2025.02*: &nbsp;🎉🎉 One first authored ``MedIA`` paper accepted! 
-- *2024.12*: &nbsp;🎉🎉 Three corresponding authored ``ICASSP`` papers accepted. Congratulations to Wenqi Shan, Qiang Hu, and Kaixiang Yang! 
-- *2024.12*: &nbsp;🎉🎉 One corresponding authored ``AAAI`` paper accepted. Congratulations to Qiang Hu! 
-- *2024.10*: &nbsp;🎉🎉 One corresponding authored ``JBHI`` paper accepted. Congratulations to Fang Peng, Hongkuan Shi, and Shiquan He! 
-- *2024.10*: &nbsp;🎉🎉 One corresponding authored ``BIBM`` paper accepted. Congratulations to Ying Zhou!
-- *2024.08*: &nbsp;🎉🎉 One corresponding authored ``BIBM`` paper accepted. Congratulations to Kaixiang Yang!
+- *2025.07*: &nbsp;🎉🎉 一篇本人通讯``JBHI``期刊（中科院医学信息1区Top5%）接收，祝贺单文奇！ 
+- *2025.07*: &nbsp;🎉🎉 一篇本人通讯``ACM MM``会议（CCF-A）接收，祝贺李欣、杨凯翔！ 
+- *2025.06*: &nbsp;🎉🎉 一篇本人通讯``ICCV``会议（CCF-A）接收，祝贺杨凯翔、李欣！
+- *2025.06*: &nbsp;🎉🎉 一篇本人通讯``JBHI``期刊（中科院医学信息1区Top5%）接收，祝贺段然！特别感谢王平安教授、裴佳伦博士的大力支持！ 
+- *2025.05*: &nbsp;🎉🎉 两篇本人通讯``MICCAI``会议（CCF-B）提前接收（接收率<9%），祝贺周权、罗敢、王琦玫、胡强！
+- *2025.04*: &nbsp;🎉🎉 一篇本人通讯``JBHI``期刊（中科院医学信息1区）接收，祝贺周权！
+- *2025.02*: &nbsp;🎉🎉 一篇本人一作``MedIA``期刊（中科院医学1区Top5%，影响因子>10）接收！ 
+- *2024.12*: &nbsp;🎉🎉 三篇本人通讯``ICASSP``会议（CCF-B）接收，祝贺单文奇、胡强、杨凯翔！ 
+- *2024.12*: &nbsp;🎉🎉 一篇本人通讯``AAAI``会议（CCF-A）接收，祝贺胡强！ 
+- *2024.10*: &nbsp;🎉🎉 一篇本人通讯``JBHI``期刊（中科院医学信息1区）接收，祝贺彭放、石洪宽、何诗泉！ 
+- *2024.10*: &nbsp;🎉🎉 一篇本人通讯``BIBM``会议（CCF-B）接收，祝贺周瀛！
+- *2024.08*: &nbsp;🎉🎉 一篇本人通讯``BIBM``会议（CCF-B）接收，祝贺杨凯翔！
+- *2024.06*: &nbsp;🎉🎉 两篇本人通讯``MICCAI``会议（CCF-B）接收，其中一篇为口头汇报（接收率<3%），祝贺胡强、吴崇炜！
+- *2024.02*: &nbsp;🎉🎉 一篇本人通讯``TMI``期刊（中科院医学1区Top5%，影响因子>10）接收，祝贺周权！
+- *2023.10*: &nbsp;🎉🎉 两篇本人通讯``BIBM``会议（CCF-B）接收，祝贺晁联盈、单文奇！
+- *2023.05*: &nbsp;🎉🎉 一篇本人共一``TMI``期刊（中科院医学1区Top5%，影响因子>10）接收，祝贺石洪宽！
+- *2023.04*: &nbsp;🎉🎉 一篇本人一作``IJCAI``会议（CCF-A）接收！
+- *2022.12*: &nbsp;🎉🎉 一篇本人通讯``JBHI``期刊（中科院医学信息1区）接收，祝贺梁愿怀、吕进鑫！
+- *2022.11*: &nbsp;🎉🎉 一篇本人通讯``AAAI``会议（CCF-A）接收，祝贺吕进鑫、曾晓宇！特别感谢毕业生王胜的帮助！
+- *2022.04*: &nbsp;🎉🎉 一篇本人共一``TMI``期刊（中科院医学1区Top5%，影响因子>10）接收，祝贺吕进鑫！
+- *2021.07*: &nbsp;🎉🎉 一篇本人共一``ACM MM``会议（CCF-A）接收，祝贺石洪宽！
+- *2021.06*: &nbsp;🎉🎉 一篇本人共一``MICCAI``会议（CCF-B）接收，祝贺冼俊林！
+- *2020.03*: &nbsp;🎉🎉 一篇本人一作``TMI``期刊（中科院医学1区Top5%，影响因子>10）接收！
+
+
 
 # 📝 Publications 
-### (Note: <span style="color:#0D6EFD">&#42;</span>: Co-first author, <span style="color:#FFA500">&#8224;</span>: Corresponding author)
+### (Note: <span style="color:#0D6EFD">&#42;</span>: 共同一作, <span style="color:#FFA500">&#8224;</span>: 通讯作者)
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">CVPR 2016</div><img src='images/500x300.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">NeurIPS 2025</div><img src='images/500x300.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-[Deep Residual Learning for Image Recognition](https://openaccess.thecvf.com/content_cvpr_2016/papers/He_Deep_Residual_Learning_CVPR_2016_paper.pdf)
+[FSI-Edit: Frequency and Stochasticity Injection for Flexible Diffusion-Based Image Editing]()
 
-**Kaiming He**, Xiangyu Zhang, Shaoqing Ren, Jian Sun
+Kaixiang Yang<span style="color:#0D6EFD">&#42;</span>, Xin Li<span style="color:#0D6EFD">&#42;</span>, Yuxi Li, Qiang Li, **Zhiwei Wang**<span style="color:#FFA500">&#8224;</span>
 
-[**Project**](https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=DhtAFkwAAAAJ&citation_for_view=DhtAFkwAAAAJ:ALROH1vI_8AC) <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>
-- Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
+[**Code**]()
+[**Paper**]()
+- Latent Diffusion-based Text-to-Image (T2I) is a free image editing tool that typically reverses an image into noise, reconstructs it using its original text prompt, and then generates an edited version under a new target prompt. To preserve unaltered image content, features from the reconstruction are directly injected to replace selected features in the generation.
+However, this direct replacement often leads to feature incompatibility, compromising editing fidelity and limiting creative flexibility, particularly for non-rigid edits (\emph{e.g.}, structural or pose changes).
+In this paper, we aim to address these limitations by proposing \textbf{FSI-Edit}, a novel framework using frequency- and stochasticity-based feature injection for flexible image editing.
+First, FSI-Edit enhances feature consistency by injecting \emph{high-frequency} components of reconstruction features into generation features, mitigating incompatibility while preserving the editing ability for major structures encoded in low-frequency information.
+Second, it introduces controlled \emph{noise} into the replaced reconstruction features, expanding the generative space to enable diverse non-rigid edits beyond the original image’s constraints.
+Experiments on non-rigid edits, \emph{e.g.}, addition, deletion, and pose manipulation, demonstrate that FSI-Edit outperforms existing baselines in target alignment, semantic fidelity and visual quality. Our work highlights the critical roles of frequency-aware design and stochasticity in overcoming rigidity in diffusion-based editing. 
 </div>
 </div>
 
