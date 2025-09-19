@@ -62,7 +62,7 @@ redirect_from:
 # 📝 一作与通讯的论文 
 ### (Note: <span style="color:#0D6EFD">&#42;</span>: 通讯作者, <span style="color:#FFA500">&#8224;</span>: 共同一作)
 
-## 2025年：
+## 📆 2025年：
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">Medical Image Analysis 2025<span style="color:red">（中科院医学1区Top5%，影响因子>10）</span></div><img src='images/500x300.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
@@ -222,7 +222,7 @@ Wenqi Shan, Qiang Li<span style="color:#FFA500">&#42;</span>, **Zhiwei Wang**<sp
 </div>
 </div>
 
-## 2024年：
+## 📆 2024年：
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">TMI 2024<span style="color:red">（中科院医学1区Top5%，影响因子>10）</span></div><img src='images/500x300.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
@@ -247,7 +247,7 @@ Fang Peng<span style="color:#0D6EFD">&#8224;</span>, Hongkuan Shi<span style="co
 </div>
 
 
-# 🎖 荣誉与获奖
+# 🏆️ 荣誉与获奖
 - *2021.10* Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
 - *2021.09* Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
 
