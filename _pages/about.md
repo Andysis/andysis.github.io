@@ -220,8 +220,8 @@ redirect_from:
 
 
 # 🏆️ 荣誉与获奖
-- *2021.10* Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-- *2021.09* Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
+- *2023.05* 入选“武汉英才优秀青年人才计划”，武汉市组织部。 
+- *2023.02* 《基于深度学习的冠状动脉、肺动脉CTA辅助诊断系统的研究及临床应用》
 
 # 💬 学术兼职与服务
 - *2021.06*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
