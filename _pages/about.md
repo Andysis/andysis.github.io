@@ -248,5 +248,5 @@ redirect_from:
 
 
 # 💬 学术兼职与服务
-- *2021.06*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-- *2021.03*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet.  \| [\[video\]](https://github.com/)
+- 《Frontiers in Imaging》副主编、专题编辑 
+- 《Diagnostics》专题编辑
