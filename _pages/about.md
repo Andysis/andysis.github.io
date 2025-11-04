@@ -133,11 +133,11 @@ redirect_from:
 
 - <span style="background-color:#1E40AF; color:white; padding:0.5px 4px; border:1px solid #0F2460; border-radius:6px; font-weight:normal; font-size:0.9em; text-shadow:0.5px 0.5px 1px rgba(0,0,0,0.2); box-shadow:1px 1px 2px rgba(0,0,0,0.1); display:inline-block;">IEEE Transactions on Medical Imaging</span><span style="color:red">（中科院医学1区Top5%，影响因子>10）</span> *Joint progressive and coarse-to-fine registration of brain MRI via deformation field integration and non-rigid feature fusion*, Jinxin Lv<span style="color:#0D6EFD">&#8224;</span>, **Zhiwei Wang**<span style="color:#0D6EFD">&#8224;</span>, Hongkuan Shi, Haobo Zhang, Sheng Wang, Yilang Wang, Qiang Li<span style="color:#FFA500">&#42;</span>. [**Code**]()
 
-- <span style="background-color:#1E40AF; color:white; padding:0.5px 4px; border:1px solid #0F2460; border-radius:6px; font-weight:normal; font-size:0.9em; text-shadow:0.5px 0.5px 1px rgba(0,0,0,0.2); box-shadow:1px 1px 2px rgba(0,0,0,0.1); display:inline-block;">IEEE Journal of Biomedical and Health Informatics</span><span style="color:red">（中科院数学与计算生物学1区Top5%）</span> [Accurate Cobb Angle Estimation on Scoliosis X-ray Images via Deeply-coupled Two-stage Network with Differentiable Cropping and Random Perturbation](), Yuanhuai Liang<span style="color:#0D6EFD">&#8224;</span>, Jinxin Lv<span style="color:#0D6EFD">&#8224;</span>, Dun Li, Xin Yang, **Zhiwei Wang**<span style="color:#FFA500">&#42;</span>, Qiang Li<span style="color:#FFA500">&#42;</span>. [**Code**]()
+- <span style="background-color:#1E40AF; color:white; padding:0.5px 4px; border:1px solid #0F2460; border-radius:6px; font-weight:normal; font-size:0.9em; text-shadow:0.5px 0.5px 1px rgba(0,0,0,0.2); box-shadow:1px 1px 2px rgba(0,0,0,0.1); display:inline-block;">IEEE Journal of Biomedical and Health Informatics</span><span style="color:red">（中科院数学与计算生物学1区Top5%）</span> *Accurate Cobb Angle Estimation on Scoliosis X-ray Images via Deeply-coupled Two-stage Network with Differentiable Cropping and Random Perturbation*, Yuanhuai Liang<span style="color:#0D6EFD">&#8224;</span>, Jinxin Lv<span style="color:#0D6EFD">&#8224;</span>, Dun Li, Xin Yang, **Zhiwei Wang**<span style="color:#FFA500">&#42;</span>, Qiang Li<span style="color:#FFA500">&#42;</span>. [**Code**]()
 
-- <span style="background-color:#1E40AF; color:white; padding:0.5px 4px; border:1px solid #0F2460; border-radius:6px; font-weight:normal; font-size:0.9em; text-shadow:0.5px 0.5px 1px rgba(0,0,0,0.2); box-shadow:1px 1px 2px rgba(0,0,0,0.1); display:inline-block;">MICCAI</span><span style="color:red">（CCF-B）</span> [Progressive and Coarse-to-Fine Network for Medical Image Registration Across Phases, Modalities and Patients](), Sheng Wang<span style="color:#0D6EFD">&#8224;</span>, Jinxin Lv<span style="color:#0D6EFD">&#8224;</span>, Hongkuan Shi, Yilang Wang, Yuanhuai Liang, Zihui Ouyang, **Zhiwei Wang**<span style="color:#FFA500">&#42;</span>, Qiang Li<span style="color:#FFA500">&#42;</span>. [**Code**]()
+- <span style="background-color:#1E40AF; color:white; padding:0.5px 4px; border:1px solid #0F2460; border-radius:6px; font-weight:normal; font-size:0.9em; text-shadow:0.5px 0.5px 1px rgba(0,0,0,0.2); box-shadow:1px 1px 2px rgba(0,0,0,0.1); display:inline-block;">MICCAI</span><span style="color:red">（CCF-B）</span> *Progressive and Coarse-to-Fine Network for Medical Image Registration Across Phases, Modalities and Patients*, Sheng Wang<span style="color:#0D6EFD">&#8224;</span>, Jinxin Lv<span style="color:#0D6EFD">&#8224;</span>, Hongkuan Shi, Yilang Wang, Yuanhuai Liang, Zihui Ouyang, **Zhiwei Wang**<span style="color:#FFA500">&#42;</span>, Qiang Li<span style="color:#FFA500">&#42;</span>. [**Code**]()
 
-- <span style="background-color:#1E40AF; color:white; padding:0.5px 4px; border:1px solid #0F2460; border-radius:6px; font-weight:normal; font-size:0.9em; text-shadow:0.5px 0.5px 1px rgba(0,0,0,0.2); box-shadow:1px 1px 2px rgba(0,0,0,0.1); display:inline-block;">ACCV</span><span style="color:red">（CCF-C）</span> [Improving the Quality of Sparse-view Cone-Beam Computed Tomography via Reconstruction-Friendly Interpolation Network](), Yanli Wang<span style="color:#0D6EFD">&#8224;</span>, Lianying Chao<span style="color:#0D6EFD">&#8224;</span>, Wenqi Shan, Haobo Zhang, **Zhiwei Wang**<span style="color:#FFA500">&#42;</span>, Qiang Li<span style="color:#FFA500">&#42;</span>. [**Code**]()
+- <span style="background-color:#1E40AF; color:white; padding:0.5px 4px; border:1px solid #0F2460; border-radius:6px; font-weight:normal; font-size:0.9em; text-shadow:0.5px 0.5px 1px rgba(0,0,0,0.2); box-shadow:1px 1px 2px rgba(0,0,0,0.1); display:inline-block;">ACCV</span><span style="color:red">（CCF-C）</span> *Improving the Quality of Sparse-view Cone-Beam Computed Tomography via Reconstruction-Friendly Interpolation Network*, Yanli Wang<span style="color:#0D6EFD">&#8224;</span>, Lianying Chao<span style="color:#0D6EFD">&#8224;</span>, Wenqi Shan, Haobo Zhang, **Zhiwei Wang**<span style="color:#FFA500">&#42;</span>, Qiang Li<span style="color:#FFA500">&#42;</span>. [**Code**]()
 
 
 ## 📆 2021年：
@@ -172,49 +172,35 @@ redirect_from:
 
 # 📝 其他论文
 
-## 📆 2025年：
+- ``2025``. ``Neural Networks``. *Toward high-quality pseudo masks from noisy or weak annotations for robust medical image segmentation*. **Zhiwei Wang**, Zihang Huang, Zhiwei Wang, Tianyu Zhao, Xiaohuan Ding, Xin Yang.
 
-- ``Neural Networks`` *Toward high-quality pseudo masks from noisy or weak annotations for robust medical image segmentation*. **Zhiwei Wang**, Zihang Huang, Zhiwei Wang, Tianyu Zhao, Xiaohuan Ding, Xin Yang.
+- ``2024``. ``Computers in Biology and Medicine``. *Joint denoising and interpolating network for low-dose cone-beam CT reconstruction under hybrid dose-reduction strategy*. Lianying Chao, Yanli Wang, Taotao Zhang, Wenqi Shan, Haobo Zhang, **Zhiwei Wang**, Qiang Li.
 
-## 📆 2024年：
+- ``2024``. ``Expert Systems with Applications``. *Co-learning-assisted progressive dense fusion network for cardiovascular disease detection using ECG and PCG signals*. Haobo Zhang, Peng Zhang, Fan Lin, Lianying Chao, **Zhiwei Wang**, Fei Ma, Qiang Li.
 
-- ``Computers in Biology and Medicine`` *Joint denoising and interpolating network for low-dose cone-beam CT reconstruction under hybrid dose-reduction strategy*. Lianying Chao, Yanli Wang, Taotao Zhang, Wenqi Shan, Haobo Zhang, **Zhiwei Wang**, Qiang Li.
+- ``2023``. ``IEEE Journal of Biomedical and Health Informatics``. *Multi-feature decision fusion network for heart sound abnormality detection and classification*. Haobo Zhang, Peng Zhang, **Zhiwei Wang**, Lianying Chao, Yuting Chen, Qiang Li.
 
-- ``Expert Systems with Applications`` *Co-learning-assisted progressive dense fusion network for cardiovascular disease detection using ECG and PCG signals*. Haobo Zhang, Peng Zhang, Fan Lin, Lianying Chao, **Zhiwei Wang**, Fei Ma, Qiang Li.
+- ``2023``. ``Expert Systems with Applications`` *PSDP: Pseudo-Supervised Dual-Processing for Low-Dose Cone-Beam Computed Tomography Reconstruction*. Lianying Chao, Wenqi Shan, Yanli Wang, Wenting Xu, Haobo Zhang, **Zhiwei Wang**, Qiang Li.
 
-## 📆 2023年：
+- ``2022``. ``Knowledge-Based Systems`` *Dual-domain attention-guided convolutional neural network for low-dose cone-beam computed tomography reconstruction*. Lianying Chao, Peng Zhang, Yanli Wang, **Zhiwei Wang**, Wenting Xu, Qiang Li.
 
-- ``IEEE Journal of Biomedical and Health Informatics`` *Multi-feature decision fusion network for heart sound abnormality detection and classification*. Haobo Zhang, Peng Zhang, **Zhiwei Wang**, Lianying Chao, Yuting Chen, Qiang Li.
+- ``2022``. ``Neurocomputing`` *Sparse-View Cone Beam CT Reconstruction using Dual CNNs in Projection Domain and Image Domain*. Lianying Chao, **Zhiwei Wang**, Haobo Zhang, Wenting Xu, Peng Zhang, Qiang Li.
 
-- ``Expert Systems with Applications`` *PSDP: Pseudo-Supervised Dual-Processing for Low-Dose Cone-Beam Computed Tomography Reconstruction*. Lianying Chao, Wenqi Shan, Yanli Wang, Wenting Xu, Haobo Zhang, **Zhiwei Wang**, Qiang Li.
+- ``2020``. ``IEEE Journal of Biomedical and Health Informatics`` *Variation-aware federated learning with multi-source decentralized medical image data*. Zengqiang Yan, Jeffry Wicaksana, **Zhiwei Wang**, Xin Yang, Kwang-Ting Cheng.
 
-## 📆 2022年：
+- ``2020``. ``MICCAI`` *Multi-phase and multi-level selective feature fusion for automated pancreas segmentation from CT images*. Xixi Jiang, Qingqing Luo, **Zhiwei Wang**, Tao Mei, Yu Wen, Xin Li, Kwang-Ting Cheng, Xin Yang.
 
-- ``Knowledge-Based Systems`` *Dual-domain attention-guided convolutional neural network for low-dose cone-beam computed tomography reconstruction*. Lianying Chao, Peng Zhang, Yanli Wang, **Zhiwei Wang**, Wenting Xu, Qiang Li.
+- ``2019``. ``IEEE Journal of Biomedical and Health Informatics`` *Bi-modality medical image synthesis using semi-supervised sequential generative adversarial networks*. Xin Yang, Yi Lin, **Zhiwei Wang**, Xin Li, Kwang-Ting Cheng.
 
-- ``Neurocomputing`` *Sparse-View Cone Beam CT Reconstruction using Dual CNNs in Projection Domain and Image Domain*. Lianying Chao, **Zhiwei Wang**, Haobo Zhang, Wenting Xu, Peng Zhang, Qiang Li.
+- ``2018``. ``ACM MM`` *Monocular camera based real-time dense mapping using generative adversarial network*. Xin Yang, Jinyu Chen, **Zhiwei Wang**, Qiaozhe Zhang, Wenyu Liu, Chunyuan Liao, Kwang-Ting Cheng.
 
-## 📆 2020年：
+- ``2017``. ``Physics in Medicine and Biology`` *Automated diagnosis of prostate cancer in multi-parametric MRI based on multimodal convolutional neural networks*. Minh Hung Le, Jinyu Chen, Liang Wang, **Zhiwei Wang**, Wenyu Liu, Kwang-Ting Cheng, Xin Yang.
 
-- ``IEEE Journal of Biomedical and Health Informatics`` *Variation-aware federated learning with multi-source decentralized medical image data*. Zengqiang Yan, Jeffry Wicaksana, **Zhiwei Wang**, Xin Yang, Kwang-Ting Cheng.
-
-- ``MICCAI`` *Multi-phase and multi-level selective feature fusion for automated pancreas segmentation from CT images*. Xixi Jiang, Qingqing Luo, **Zhiwei Wang**, Tao Mei, Yu Wen, Xin Li, Kwang-Ting Cheng, Xin Yang.
-
-## 📆 2019年：
-
-- ``IEEE Journal of Biomedical and Health Informatics`` *Bi-modality medical image synthesis using semi-supervised sequential generative adversarial networks*. Xin Yang, Yi Lin, **Zhiwei Wang**, Xin Li, Kwang-Ting Cheng.
-
-## 📆 2018年：
-
-- ``ACM MM`` *Monocular camera based real-time dense mapping using generative adversarial network*. Xin Yang, Jinyu Chen, **Zhiwei Wang**, Qiaozhe Zhang, Wenyu Liu, Chunyuan Liao, Kwang-Ting Cheng.
-
-## 📆 2017年：
-
-- ``Physics in Medicine and Biology`` *Automated diagnosis of prostate cancer in multi-parametric MRI based on multimodal convolutional neural networks*. Minh Hung Le, Jinyu Chen, Liang Wang, **Zhiwei Wang**, Wenyu Liu, Kwang-Ting Cheng, Xin Yang.
-
-- ``MICCAI`` *Joint detection and diagnosis of prostate cancer in multi-parametric MRI based on multimodal convolutional neural networks*. Xin Yang, **Zhiwei Wang**, Chaoyue Liu, Minh Hung Le, Jinyu Chen, Kwang-Ting Cheng, Liang Wang.
+- ``2017``. ``MICCAI`` *Joint detection and diagnosis of prostate cancer in multi-parametric MRI based on multimodal convolutional neural networks*. Xin Yang, **Zhiwei Wang**, Chaoyue Liu, Minh Hung Le, Jinyu Chen, Kwang-Ting Cheng, Liang Wang.
 
 
+# 💼 主持与参与项目
+- <span style="background-color:#1E40AF; color:white; padding:0.5px 4px; border:1px solid #0F2460; border-radius:6px; font-weight:normal; font-size:0.9em; text-shadow:0.5px 0.5px 1px rgba(0,0,0,0.2); box-shadow:1px 1px 2px rgba(0,0,0,0.1); display:inline-block;">国家自然科学基金委员会面上项目</span><span style="color:red">（国家级）</span> 基于长尾数据增强的多模态协同结肠镜辅助筛查方法研究, 2026-01 至 2029-12，50万元，``项目主持人``
 
 
 # 🏆️ 荣誉与获奖
