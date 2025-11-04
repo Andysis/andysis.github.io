@@ -172,35 +172,51 @@ redirect_from:
 
 # 📝 其他论文
 
-- ``2025``. ``Neural Networks``. *Toward high-quality pseudo masks from noisy or weak annotations for robust medical image segmentation*. **Zhiwei Wang**, Zihang Huang, Zhiwei Wang, Tianyu Zhao, Xiaohuan Ding, Xin Yang.
+- ``2025`` ``Neural Networks`` *Toward high-quality pseudo masks from noisy or weak annotations for robust medical image segmentation*. **Zhiwei Wang**, Zihang Huang, Zhiwei Wang, Tianyu Zhao, Xiaohuan Ding, Xin Yang.
 
-- ``2024``. ``Computers in Biology and Medicine``. *Joint denoising and interpolating network for low-dose cone-beam CT reconstruction under hybrid dose-reduction strategy*. Lianying Chao, Yanli Wang, Taotao Zhang, Wenqi Shan, Haobo Zhang, **Zhiwei Wang**, Qiang Li.
+- ``2024`` ``Computers in Biology and Medicine`` *Joint denoising and interpolating network for low-dose cone-beam CT reconstruction under hybrid dose-reduction strategy*. Lianying Chao, Yanli Wang, Taotao Zhang, Wenqi Shan, Haobo Zhang, **Zhiwei Wang**, Qiang Li.
 
-- ``2024``. ``Expert Systems with Applications``. *Co-learning-assisted progressive dense fusion network for cardiovascular disease detection using ECG and PCG signals*. Haobo Zhang, Peng Zhang, Fan Lin, Lianying Chao, **Zhiwei Wang**, Fei Ma, Qiang Li.
+- ``2024`` ``Expert Systems with Applications``. *Co-learning-assisted progressive dense fusion network for cardiovascular disease detection using ECG and PCG signals*. Haobo Zhang, Peng Zhang, Fan Lin, Lianying Chao, **Zhiwei Wang**, Fei Ma, Qiang Li.
 
-- ``2023``. ``IEEE Journal of Biomedical and Health Informatics``. *Multi-feature decision fusion network for heart sound abnormality detection and classification*. Haobo Zhang, Peng Zhang, **Zhiwei Wang**, Lianying Chao, Yuting Chen, Qiang Li.
+- ``2023`` ``IEEE Journal of Biomedical and Health Informatics`` *Multi-feature decision fusion network for heart sound abnormality detection and classification*. Haobo Zhang, Peng Zhang, **Zhiwei Wang**, Lianying Chao, Yuting Chen, Qiang Li.
 
-- ``2023``. ``Expert Systems with Applications`` *PSDP: Pseudo-Supervised Dual-Processing for Low-Dose Cone-Beam Computed Tomography Reconstruction*. Lianying Chao, Wenqi Shan, Yanli Wang, Wenting Xu, Haobo Zhang, **Zhiwei Wang**, Qiang Li.
+- ``2023`` ``Expert Systems with Applications`` *PSDP: Pseudo-Supervised Dual-Processing for Low-Dose Cone-Beam Computed Tomography Reconstruction*. Lianying Chao, Wenqi Shan, Yanli Wang, Wenting Xu, Haobo Zhang, **Zhiwei Wang**, Qiang Li.
 
-- ``2022``. ``Knowledge-Based Systems`` *Dual-domain attention-guided convolutional neural network for low-dose cone-beam computed tomography reconstruction*. Lianying Chao, Peng Zhang, Yanli Wang, **Zhiwei Wang**, Wenting Xu, Qiang Li.
+- ``2022`` ``Knowledge-Based Systems`` *Dual-domain attention-guided convolutional neural network for low-dose cone-beam computed tomography reconstruction*. Lianying Chao, Peng Zhang, Yanli Wang, **Zhiwei Wang**, Wenting Xu, Qiang Li.
 
-- ``2022``. ``Neurocomputing`` *Sparse-View Cone Beam CT Reconstruction using Dual CNNs in Projection Domain and Image Domain*. Lianying Chao, **Zhiwei Wang**, Haobo Zhang, Wenting Xu, Peng Zhang, Qiang Li.
+- ``2022`` ``Neurocomputing`` *Sparse-View Cone Beam CT Reconstruction using Dual CNNs in Projection Domain and Image Domain*. Lianying Chao, **Zhiwei Wang**, Haobo Zhang, Wenting Xu, Peng Zhang, Qiang Li.
 
-- ``2020``. ``IEEE Journal of Biomedical and Health Informatics`` *Variation-aware federated learning with multi-source decentralized medical image data*. Zengqiang Yan, Jeffry Wicaksana, **Zhiwei Wang**, Xin Yang, Kwang-Ting Cheng.
+- ``2020`` ``IEEE Journal of Biomedical and Health Informatics`` *Variation-aware federated learning with multi-source decentralized medical image data*. Zengqiang Yan, Jeffry Wicaksana, **Zhiwei Wang**, Xin Yang, Kwang-Ting Cheng.
 
-- ``2020``. ``MICCAI`` *Multi-phase and multi-level selective feature fusion for automated pancreas segmentation from CT images*. Xixi Jiang, Qingqing Luo, **Zhiwei Wang**, Tao Mei, Yu Wen, Xin Li, Kwang-Ting Cheng, Xin Yang.
+- ``2020`` ``MICCAI`` *Multi-phase and multi-level selective feature fusion for automated pancreas segmentation from CT images*. Xixi Jiang, Qingqing Luo, **Zhiwei Wang**, Tao Mei, Yu Wen, Xin Li, Kwang-Ting Cheng, Xin Yang.
 
-- ``2019``. ``IEEE Journal of Biomedical and Health Informatics`` *Bi-modality medical image synthesis using semi-supervised sequential generative adversarial networks*. Xin Yang, Yi Lin, **Zhiwei Wang**, Xin Li, Kwang-Ting Cheng.
+- ``2019`` ``IEEE Journal of Biomedical and Health Informatics`` *Bi-modality medical image synthesis using semi-supervised sequential generative adversarial networks*. Xin Yang, Yi Lin, **Zhiwei Wang**, Xin Li, Kwang-Ting Cheng.
 
-- ``2018``. ``ACM MM`` *Monocular camera based real-time dense mapping using generative adversarial network*. Xin Yang, Jinyu Chen, **Zhiwei Wang**, Qiaozhe Zhang, Wenyu Liu, Chunyuan Liao, Kwang-Ting Cheng.
+- ``2018`` ``ACM MM`` *Monocular camera based real-time dense mapping using generative adversarial network*. Xin Yang, Jinyu Chen, **Zhiwei Wang**, Qiaozhe Zhang, Wenyu Liu, Chunyuan Liao, Kwang-Ting Cheng.
 
-- ``2017``. ``Physics in Medicine and Biology`` *Automated diagnosis of prostate cancer in multi-parametric MRI based on multimodal convolutional neural networks*. Minh Hung Le, Jinyu Chen, Liang Wang, **Zhiwei Wang**, Wenyu Liu, Kwang-Ting Cheng, Xin Yang.
+- ``2017`` ``Physics in Medicine and Biology`` *Automated diagnosis of prostate cancer in multi-parametric MRI based on multimodal convolutional neural networks*. Minh Hung Le, Jinyu Chen, Liang Wang, **Zhiwei Wang**, Wenyu Liu, Kwang-Ting Cheng, Xin Yang.
 
-- ``2017``. ``MICCAI`` *Joint detection and diagnosis of prostate cancer in multi-parametric MRI based on multimodal convolutional neural networks*. Xin Yang, **Zhiwei Wang**, Chaoyue Liu, Minh Hung Le, Jinyu Chen, Kwang-Ting Cheng, Liang Wang.
+- ``2017`` ``MICCAI`` *Joint detection and diagnosis of prostate cancer in multi-parametric MRI based on multimodal convolutional neural networks*. Xin Yang, **Zhiwei Wang**, Chaoyue Liu, Minh Hung Le, Jinyu Chen, Kwang-Ting Cheng, Liang Wang.
 
 
 # 💼 主持与参与项目
-- <span style="background-color:#1E40AF; color:white; padding:0.5px 4px; border:1px solid #0F2460; border-radius:6px; font-weight:normal; font-size:0.9em; text-shadow:0.5px 0.5px 1px rgba(0,0,0,0.2); box-shadow:1px 1px 2px rgba(0,0,0,0.1); display:inline-block;">国家自然科学基金委员会面上项目</span><span style="color:red">（国家级）</span> 基于长尾数据增强的多模态协同结肠镜辅助筛查方法研究, 2026-01 至 2029-12，50万元，``项目主持人``
+- <span style="background-color:#1E40AF; color:white; padding:0.5px 4px; border:1px solid #0F2460; border-radius:6px; font-weight:normal; font-size:0.9em; text-shadow:0.5px 0.5px 1px rgba(0,0,0,0.2); box-shadow:1px 1px 2px rgba(0,0,0,0.1); display:inline-block;">国家自然科学基金面上项目</span><span style="color:red">（国家级）</span> 基于长尾数据增强的多模态协同结肠镜辅助筛查方法研究, 2026-01 至 2029-12，50万元，``项目主持人``
+
+- <span style="background-color:#1E40AF; color:white; padding:0.5px 4px; border:1px solid #0F2460; border-radius:6px; font-weight:normal; font-size:0.9em; text-shadow:0.5px 0.5px 1px rgba(0,0,0,0.2); box-shadow:1px 1px 2px rgba(0,0,0,0.1); display:inline-block;">国家自然科学基金青年面上项目</span><span style="color:red">（国家级）</span> 基于跨视角相关性特征的乳腺癌计算机辅助诊断方法研究, 2023-01 至 2025-12，30万元，``项目主持人``
+
+- <span style="background-color:#1E40AF; color:white; padding:0.5px 4px; border:1px solid #0F2460; border-radius:6px; font-weight:normal; font-size:0.9em; text-shadow:0.5px 0.5px 1px rgba(0,0,0,0.2); box-shadow:1px 1px 2px rgba(0,0,0,0.1); display:inline-block;">国家重点研发计划青年科学家项目</span><span style="color:red">（国家级）</span> 面向腔镜手术机器人的高临场感主从操作多维感知技术及应用研究, 2023-11 至 2026-10，55万元，``课题负责人``
+
+- <span style="background-color:#1E40AF; color:white; padding:0.5px 4px; border:1px solid #0F2460; border-radius:6px; font-weight:normal; font-size:0.9em; text-shadow:0.5px 0.5px 1px rgba(0,0,0,0.2); box-shadow:1px 1px 2px rgba(0,0,0,0.1); display:inline-block;">“卡脖子”技术“揭榜挂帅”攻关项目</span><span style="color:red">（武汉市）</span> 三维影像导航手术机器人整机系统研发, 2022-01 至 2024-12，87万元，``课题负责人``
+
+- <span style="background-color:#1E40AF; color:white; padding:0.5px 4px; border:1px solid #0F2460; border-radius:6px; font-weight:normal; font-size:0.9em; text-shadow:0.5px 0.5px 1px rgba(0,0,0,0.2); box-shadow:1px 1px 2px rgba(0,0,0,0.1); display:inline-block;">自主创新研究基金项目</span><span style="color:red">（华中科技大学）</span> 基于双视角钼靶的乳腺癌自动诊断方法研究, 2021-02 至 2024-02，50万，``项目主持人``
+
+- <span style="background-color:#1E40AF; color:white; padding:0.5px 4px; border:1px solid #0F2460; border-radius:6px; font-weight:normal; font-size:0.9em; text-shadow:0.5px 0.5px 1px rgba(0,0,0,0.2); box-shadow:1px 1px 2px rgba(0,0,0,0.1); display:inline-block;">交叉研究支持计划项目</span><span style="color:red">（华中科技大学）</span> 基于AI的亚实性肺腺癌个体化手术时机预测与预后分层研究, 2026-09 至 2028-09，50万，``项目主持人``
+
+- <span style="background-color:#1E40AF; color:white; padding:0.5px 4px; border:1px solid #0F2460; border-radius:6px; font-weight:normal; font-size:0.9em; text-shadow:0.5px 0.5px 1px rgba(0,0,0,0.2); box-shadow:1px 1px 2px rgba(0,0,0,0.1); display:inline-block;">科技创新团队项目</span><span style="color:red">（湖北省）</span> 基于超声影像的二尖瓣反流介入治疗术前智能化筛选系统研发及临床转化科技创新团队, ``团队核心成员``
+
+- <span style="background-color:#1E40AF; color:white; padding:0.5px 4px; border:1px solid #0F2460; border-radius:6px; font-weight:normal; font-size:0.9em; text-shadow:0.5px 0.5px 1px rgba(0,0,0,0.2); box-shadow:1px 1px 2px rgba(0,0,0,0.1); display:inline-block;">国家重点研发计划战略性科技创新合作项目</span><span style="color:red">（国家级）</span> 多模态影像引导下脑胶质瘤手术的人工智能方法研究, 2022-06 至 2025-05，``骨干参与人``
+
+- <span style="background-color:#1E40AF; color:white; padding:0.5px 4px; border:1px solid #0F2460; border-radius:6px; font-weight:normal; font-size:0.9em; text-shadow:0.5px 0.5px 1px rgba(0,0,0,0.2); box-shadow:1px 1px 2px rgba(0,0,0,0.1); display:inline-block;">省重点研发计划项目</span><span style="color:red">（湖北省）</span> 基于多模态磁共振成像的周围神经再生的精准评估系统构建, 2022-05 至 2024-12，``骨干参与人``
 
 
 # 🏆️ 荣誉与获奖
