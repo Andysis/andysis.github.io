@@ -35,6 +35,7 @@ redirect_from:
 ---
 
 # 🔥 重要事件
+- *2025.11*: &nbsp;🎉🎉 三篇本人通讯``AAAI``会议（CCF-A）接收，祝贺郭英杰、杨凯翔、胡强！
 - *2025.11*: &nbsp;🎉🎉 一篇本人通讯``BSPC``期刊（中科院医学2区）接收，祝贺单文奇、杨凯翔！
 - *2025.10*: &nbsp;🎉🎉 两篇本人通讯``BIBM``会议（CCF-B）接收，祝贺汪睿、李欣！
 - *2025.09*: &nbsp;🎉🎉 一篇本人通讯``NeurIPS``会议（CCF-A）接收，祝贺杨凯翔！ 
@@ -66,6 +67,14 @@ redirect_from:
 
 # 📝 一作与通讯的论文 
 ### (Note: <span style="color:#FFA500">&#42;</span>: 通讯作者, <span style="color:#0D6EFD">&#8224;</span>: 共同一作)
+
+## 📆 2026年：
+
+- <span style="background-color:#1E40AF; color:white; padding:0.5px 4px; border:1px solid #0F2460; border-radius:6px; font-weight:normal; font-size:0.9em; text-shadow:0.5px 0.5px 1px rgba(0,0,0,0.2); box-shadow:1px 1px 2px rgba(0,0,0,0.1); display:inline-block;">AAAI</span><span style="color:red">（CCF-A，口头汇报，接收率\<9%）</span> *RouterNet: Hierarchical Point Routing Network for Robust Vertebral Landmark Localization on AP X-ray Images*, Yingjie Guo<span style="color:#0D6EFD">&#8224;</span>, Jinxin Lv<span style="color:#0D6EFD">&#8224;</span>, Wei Fang, Qiang Li<span style="color:#FFA500">&#42;</span>, **Zhiwei Wang**<span style="color:#FFA500">&#42;</span>. [**PDF**](), [**Code**]()
+
+- <span style="background-color:#1E40AF; color:white; padding:0.5px 4px; border:1px solid #0F2460; border-radius:6px; font-weight:normal; font-size:0.9em; text-shadow:0.5px 0.5px 1px rgba(0,0,0,0.2); box-shadow:1px 1px 2px rgba(0,0,0,0.1); display:inline-block;">AAAI</span><span style="color:red">（CCF-A，口头汇报，接收率\<9%）</span> *FIA-Edit: Frequency-Interactive Attention for Efficient and High-Fidelity Inversion-Free Text-Guided Image Editing*, Kaixiang Yang<span style="color:#0D6EFD">&#8224;</span>, Boyang Shen<span style="color:#0D6EFD">&#8224;</span>, Xin Li, Yuchen Dai, Yuxuan Luo, Yueran Ma, Wei Fang, Qiang Li<span style="color:#FFA500">&#42;</span>, **Zhiwei Wang**<span style="color:#FFA500">&#42;</span>. [**PDF**](), [**Code**]()
+
+- <span style="background-color:#1E40AF; color:white; padding:0.5px 4px; border:1px solid #0F2460; border-radius:6px; font-weight:normal; font-size:0.9em; text-shadow:0.5px 0.5px 1px rgba(0,0,0,0.2); box-shadow:1px 1px 2px rgba(0,0,0,0.1); display:inline-block;">AAAI</span><span style="color:red">（CCF-A）</span> *Pairing-free Group-level Knowledge Distillation for Robust Gastrointestinal Lesion Classification in White-Light Endoscopy*, Qiang Hu<span style="color:#0D6EFD">&#8224;</span>, Qimei Wang<span style="color:#0D6EFD">&#8224;</span>, Yingjie Guo, Qiang Li, **Zhiwei Wang**<span style="color:#FFA500">&#42;</span>. [**PDF**](), [**Code**]()
 
 ## 📆 2025年：
 
