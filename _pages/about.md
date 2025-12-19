@@ -35,6 +35,7 @@ redirect_from:
 ---
 
 # 🔥 重要事件
+- *2025.12*: &nbsp;🎉🎉 一篇本人通讯``JBHI``期刊（中科院数学与计算生物学1区）接收，祝贺吴崇炜！
 - *2025.11*: &nbsp;🎉🎉 三篇本人通讯``AAAI``会议（CCF-A）接收，祝贺郭英杰、杨凯翔、胡强！
 - *2025.11*: &nbsp;🎉🎉 一篇本人通讯``BSPC``期刊（中科院医学2区）接收，祝贺单文奇、杨凯翔！
 - *2025.10*: &nbsp;🎉🎉 两篇本人通讯``BIBM``会议（CCF-B）接收，祝贺汪睿、李欣！
@@ -75,6 +76,8 @@ redirect_from:
 - <span style="background-color:#1E40AF; color:white; padding:0.5px 4px; border:1px solid #0F2460; border-radius:6px; font-weight:normal; font-size:0.9em; text-shadow:0.5px 0.5px 1px rgba(0,0,0,0.2); box-shadow:1px 1px 2px rgba(0,0,0,0.1); display:inline-block;">AAAI</span><span style="color:red">（CCF-A，口头汇报，接收率\<9%）</span> *FIA-Edit: Frequency-Interactive Attention for Efficient and High-Fidelity Inversion-Free Text-Guided Image Editing*, Kaixiang Yang<span style="color:#0D6EFD">&#8224;</span>, Boyang Shen<span style="color:#0D6EFD">&#8224;</span>, Xin Li, Yuchen Dai, Yuxuan Luo, Yueran Ma, Wei Fang, Qiang Li<span style="color:#FFA500">&#42;</span>, **Zhiwei Wang**<span style="color:#FFA500">&#42;</span>. [**Code**](https://github.com/kk42yy/FIA-Edit), [**Arxiv Link**](https://arxiv.org/pdf/2511.12151)
 
 - <span style="background-color:#1E40AF; color:white; padding:0.5px 4px; border:1px solid #0F2460; border-radius:6px; font-weight:normal; font-size:0.9em; text-shadow:0.5px 0.5px 1px rgba(0,0,0,0.2); box-shadow:1px 1px 2px rgba(0,0,0,0.1); display:inline-block;">AAAI</span><span style="color:red">（CCF-A）</span> *Pairing-free Group-level Knowledge Distillation for Robust Gastrointestinal Lesion Classification in White-Light Endoscopy*, Qiang Hu<span style="color:#0D6EFD">&#8224;</span>, Qimei Wang<span style="color:#0D6EFD">&#8224;</span>, Yingjie Guo, Qiang Li, **Zhiwei Wang**<span style="color:#FFA500">&#42;</span>. [**Code**](https://github.com/Huster-Hq/PaGKD)
+
+- <span style="background-color:#1E40AF; color:white; padding:0.5px 4px; border:1px solid #0F2460; border-radius:6px; font-weight:normal; font-size:0.9em; text-shadow:0.5px 0.5px 1px rgba(0,0,0,0.2); box-shadow:1px 1px 2px rgba(0,0,0,0.1); display:inline-block;">IEEE Journal of Biomedical and Health Informatics</span><span style="color:red">（中科院数学与计算生物学1区Top5%）</span> *Cross-correlation Rectification for Robust Deformable Registration of Brain Tumor MRI between Preoperative and Postoperative Phases*, Chongwei Wu<span style="color:#0D6EFD">&#8224;</span>, Tao Gong<span style="color:#0D6EFD">&#8224;</span>, Xiaoyu Zeng, Shuxian Niu, Guangbin Wang<span style="color:#FFA500">&#42;</span>, Qiang Li<span style="color:#FFA500">&#42;</span>, **Zhiwei Wang**<span style="color:#FFA500">&#42;</span>.
 
 ## 📆 2025年：
 
@@ -207,6 +210,14 @@ redirect_from:
 
 - ``2017`` ``MICCAI`` *Joint detection and diagnosis of prostate cancer in multi-parametric MRI based on multimodal convolutional neural networks*. Xin Yang, **Zhiwei Wang**, Chaoyue Liu, Minh Hung Le, Jinyu Chen, Kwang-Ting Cheng, Liang Wang.
 
+# 📜 授权专利
+- <span style="background-color:#1E40AF; color:white; padding:0.5px 4px; border:1px solid #0F2460; border-radius:6px; font-weight:normal; font-size:0.9em; text-shadow:0.5px 0.5px 1px rgba(0,0,0,0.2); box-shadow:1px 1px 2px rgba(0,0,0,0.1); display:inline-block;">发明专利</span><span style="color:red">（中国）</span> 一种无监督领域自适应图像分割方法及系统；李强，**王植炜**，吕进鑫，梁愿怀；华中科技大学，武汉联影智融医疗科技有限公司；ZL202110869520.6；2024.02.06
+- <span style="background-color:#1E40AF; color:white; padding:0.5px 4px; border:1px solid #0F2460; border-radius:6px; font-weight:normal; font-size:0.9em; text-shadow:0.5px 0.5px 1px rgba(0,0,0,0.2); box-shadow:1px 1px 2px rgba(0,0,0,0.1); display:inline-block;">发明专利</span><span style="color:red">（中国）</span> 一种脊柱标记点定位模型的构建方法及应用；**王植炜**，李强，吕进鑫，杨云桥；华中科技大学；ZL202110934019.3；2024.02.06
+- <span style="background-color:#1E40AF; color:white; padding:0.5px 4px; border:1px solid #0F2460; border-radius:6px; font-weight:normal; font-size:0.9em; text-shadow:0.5px 0.5px 1px rgba(0,0,0,0.2); box-shadow:1px 1px 2px rgba(0,0,0,0.1); display:inline-block;">发明专利</span><span style="color:red">（中国）</span> 一种全角度锥束CT投影图像的复原方法、装置和系统；李强，王燕丽，**王植炜**，单文奇，晁联盈；华中科技大学；ZL202211225378.2；2025.11.04
+- <span style="background-color:#1E40AF; color:white; padding:0.5px 4px; border:1px solid #0F2460; border-radius:6px; font-weight:normal; font-size:0.9em; text-shadow:0.5px 0.5px 1px rgba(0,0,0,0.2); box-shadow:1px 1px 2px rgba(0,0,0,0.1); display:inline-block;">发明专利</span><span style="color:red">（中国）</span> 基于框标注训练的息肉分割模型建立方法及息肉分割方法；**王植炜**，李强，胡强，石洪宽，张贻彤，李婷；华中科技大学，常州联影智融医疗科技有限公司；ZL202311165596.6；2024.10.11
+- <span style="background-color:#1E40AF; color:white; padding:0.5px 4px; border:1px solid #0F2460; border-radius:6px; font-weight:normal; font-size:0.9em; text-shadow:0.5px 0.5px 1px rgba(0,0,0,0.2); box-shadow:1px 1px 2px rgba(0,0,0,0.1); display:inline-block;">发明专利</span><span style="color:red">（中国）</span> 使用单张图谱图像训练脑组织分割模型的方法及其应用；**王植炜**，李强，曾晓宇；华中科技大学，武汉联影智融医疗科技有限公司；ZL202410476118.5；2025.12.05
+- <span style="background-color:#1E40AF; color:white; padding:0.5px 4px; border:1px solid #0F2460; border-radius:6px; font-weight:normal; font-size:0.9em; text-shadow:0.5px 0.5px 1px rgba(0,0,0,0.2); box-shadow:1px 1px 2px rgba(0,0,0,0.1); display:inline-block;">发明专利</span><span style="color:red">（中国）</span> 基于目标感知的脑胶质瘤分割模型建立方法及分割方法；**王植炜**，李强，单文奇，杨凯翔；华中科技大学，武汉联影智融医疗科技有限公司；ZL202411351043.4；2025.10.17
+- <span style="background-color:#1E40AF; color:white; padding:0.5px 4px; border:1px solid #0F2460; border-radius:6px; font-weight:normal; font-size:0.9em; text-shadow:0.5px 0.5px 1px rgba(0,0,0,0.2); box-shadow:1px 1px 2px rgba(0,0,0,0.1); display:inline-block;">发明专利</span><span style="color:red">（中国）</span> 基于动态视图挑选的单目深度估计网络建立方法及其应用；**王植炜**，李强，周瀛；华中科技大学；ZL202411469165.3；2025.05.30
 
 # 💼 主持与参与项目
 - <span style="background-color:#1E40AF; color:white; padding:0.5px 4px; border:1px solid #0F2460; border-radius:6px; font-weight:normal; font-size:0.9em; text-shadow:0.5px 0.5px 1px rgba(0,0,0,0.2); box-shadow:1px 1px 2px rgba(0,0,0,0.1); display:inline-block;">国家自然科学基金面上项目</span><span style="color:red">（国家级）</span> 基于长尾数据增强的多模态协同结肠镜辅助筛查方法研究, 2026-01 至 2029-12，50万元，``项目主持人``
