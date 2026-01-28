@@ -35,7 +35,8 @@ redirect_from:
 ---
 
 # 🔥 重要事件
-- *2025.12*: &nbsp;🎉🎉 一篇本人通讯``Pattern Recognition``期刊（中科院计算机科学1区）接收，祝贺吴崇炜！
+- *2026.01*: &nbsp;🎉🎉 一篇本人通讯``ICASSP``会议（CCF-B）接收，祝贺李羽茜、李欣！
+- *2026.01*: &nbsp;🎉🎉 一篇本人通讯``Pattern Recognition``期刊（中科院计算机科学1区）接收，祝贺吴崇炜！
 - *2025.12*: &nbsp;🎉🎉 一篇本人通讯``JBHI``期刊（中科院数学与计算生物学1区）接收，祝贺吴崇炜！
 - *2025.11*: &nbsp;🎉🎉 三篇本人通讯``AAAI``会议（CCF-A）接收，祝贺郭英杰、杨凯翔、胡强！
 - *2025.11*: &nbsp;🎉🎉 一篇本人通讯``BSPC``期刊（中科院医学2区）接收，祝贺单文奇、杨凯翔！
@@ -81,6 +82,8 @@ redirect_from:
 - <span style="background-color:#1E40AF; color:white; padding:0.5px 4px; border:1px solid #0F2460; border-radius:6px; font-weight:normal; font-size:0.9em; text-shadow:0.5px 0.5px 1px rgba(0,0,0,0.2); box-shadow:1px 1px 2px rgba(0,0,0,0.1); display:inline-block;">Pattern Recognition</span><span style="color:red">（中科院计算机科学1区）</span> *StyleSeg V2: Towards Robust Single-label-supervised Segmentation of Brain Tissue via Optimization-free Registration Error Perception*, Chongwei Wu<span style="color:#0D6EFD">&#8224;</span>, Xiaoyu Zeng<span style="color:#0D6EFD">&#8224;</span>, Tingwei Quan, Jinxin Lv, Xu Zhang, Wei Fang<span style="color:#FFA500">&#42;</span>, Qiang Li<span style="color:#FFA500">&#42;</span>, **Zhiwei Wang**<span style="color:#FFA500">&#42;</span>.
 
 - <span style="background-color:#1E40AF; color:white; padding:0.5px 4px; border:1px solid #0F2460; border-radius:6px; font-weight:normal; font-size:0.9em; text-shadow:0.5px 0.5px 1px rgba(0,0,0,0.2); box-shadow:1px 1px 2px rgba(0,0,0,0.1); display:inline-block;">IEEE Journal of Biomedical and Health Informatics</span><span style="color:red">（中科院数学与计算生物学1区Top5%）</span> *Cross-correlation Rectification for Robust Deformable Registration of Brain Tumor MRI between Preoperative and Postoperative Phases*, Chongwei Wu<span style="color:#0D6EFD">&#8224;</span>, Tao Gong<span style="color:#0D6EFD">&#8224;</span>, Xiaoyu Zeng, Shuxian Niu, Guangbin Wang<span style="color:#FFA500">&#42;</span>, Qiang Li<span style="color:#FFA500">&#42;</span>, **Zhiwei Wang**<span style="color:#FFA500">&#42;</span>.
+
+- <span style="background-color:#1E40AF; color:white; padding:0.5px 4px; border:1px solid #0F2460; border-radius:6px; font-weight:normal; font-size:0.9em; text-shadow:0.5px 0.5px 1px rgba(0,0,0,0.2); box-shadow:1px 1px 2px rgba(0,0,0,0.1); display:inline-block;">ICASSP</span><span style="color:red">（CCF-B）</span> *Knowledge-Contrastive Fine-Grained Attention for CVS Recognition in Cholecystectomy Without Dense Labels*, Yuxi Li<span style="color:#0D6EFD">&#8224;</span>, Kaixiang Yang<span style="color:#0D6EFD">&#8224;</span>, Xin Li<span style="color:#0D6EFD">&#8224;</span>, Qiang Li<span style="color:#FFA500">&#42;</span>, **Zhiwei Wang**<span style="color:#FFA500">&#42;</span>.
 
 ## 📆 2025年：
 
