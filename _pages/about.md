@@ -35,6 +35,7 @@ redirect_from:
 ---
 
 # 🔥 重要事件
+- *2026.02*: &nbsp;🎉🎉 一篇本人通讯``CVPR``会议（CCF-A）接收，祝贺胡强！
 - *2026.01*: &nbsp;🎉🎉 一篇本人通讯``ICASSP``会议（CCF-B）接收，祝贺李羽茜、李欣！
 - *2026.01*: &nbsp;🎉🎉 一篇本人通讯``Pattern Recognition``期刊（中科院计算机科学1区）接收，祝贺吴崇炜！
 - *2025.12*: &nbsp;🎉🎉 一篇本人通讯``JBHI``期刊（中科院数学与计算生物学1区）接收，祝贺吴崇炜！
@@ -72,6 +73,8 @@ redirect_from:
 ### (Note: <span style="color:#FFA500">&#42;</span>: 通讯作者, <span style="color:#0D6EFD">&#8224;</span>: 共同一作)
 
 ## 📆 2026年：
+
+- <span style="background-color:#1E40AF; color:white; padding:0.5px 4px; border:1px solid #0F2460; border-radius:6px; font-weight:normal; font-size:0.9em; text-shadow:0.5px 0.5px 1px rgba(0,0,0,0.2); box-shadow:1px 1px 2px rgba(0,0,0,0.1); display:inline-block;">CVPR</span><span style="color:red">（CCF-A）</span> *SAMIX: Reinforcing SAM2 with Semantic Adapter and Reference Selecting Policy for Mix-Supervised Segmentation*, Qiang Hu, Jiajie Wei, Zhenyu Yi, Zhifen Yan, Yingjie Guo, Hongkuan Shi, Ge-Peng Ji, Qiang Li, **Zhiwei Wang**<span style="color:#FFA500">&#42;</span>.
 
 - <span style="background-color:#1E40AF; color:white; padding:0.5px 4px; border:1px solid #0F2460; border-radius:6px; font-weight:normal; font-size:0.9em; text-shadow:0.5px 0.5px 1px rgba(0,0,0,0.2); box-shadow:1px 1px 2px rgba(0,0,0,0.1); display:inline-block;">AAAI</span><span style="color:red">（CCF-A，口头汇报，接收率\<9%）</span> *RouterNet: Hierarchical Point Routing Network for Robust Vertebral Landmark Localization on AP X-ray Images*, Yingjie Guo<span style="color:#0D6EFD">&#8224;</span>, Jinxin Lv<span style="color:#0D6EFD">&#8224;</span>, Wei Fang, Qiang Li<span style="color:#FFA500">&#42;</span>, **Zhiwei Wang**<span style="color:#FFA500">&#42;</span>. [**Code**](https://github.com/YingJGuo/RouterNet)
 
