@@ -240,7 +240,7 @@ redirect_from:
 
 - <span style="background-color:#1E40AF; color:white; padding:0.5px 4px; border:1px solid #0F2460; border-radius:6px; font-weight:normal; font-size:0.9em; text-shadow:0.5px 0.5px 1px rgba(0,0,0,0.2); box-shadow:1px 1px 2px rgba(0,0,0,0.1); display:inline-block;">国家重点研发计划青年科学家项目</span><span style="color:red">（国家级）</span> 面向腔镜手术机器人的高临场感主从操作多维感知技术及应用研究, 2023-11 至 2026-10，55万元，``课题负责人``
 
-- <span style="background-color:#1E40AF; color:white; padding:0.5px 4px; border:1px solid #0F2460; border-radius:6px; font-weight:normal; font-size:0.9em; text-shadow:0.5px 0.5px 1px rgba(0,0,0,0.2); box-shadow:1px 1px 2px rgba(0,0,0,0.1); display:inline-block;">湖北省自然科学基金（联合基金项目）</span><span style="color:red">（湖北省）</span> 基于对比约束孪生神经网络的多模态影像引研究, 2026-03 至 2029-03，20万元，``项目主持人``
+- <span style="background-color:#1E40AF; color:white; padding:0.5px 4px; border:1px solid #0F2460; border-radius:6px; font-weight:normal; font-size:0.9em; text-shadow:0.5px 0.5px 1px rgba(0,0,0,0.2); box-shadow:1px 1px 2px rgba(0,0,0,0.1); display:inline-block;">省自然科学联合基金重点项目</span><span style="color:red">（湖北省）</span> 基于对比约束孪生神经网络的多模态影像引研究, 2026-03 至 2029-03，20万元，``项目主持人``
 
 - <span style="background-color:#1E40AF; color:white; padding:0.5px 4px; border:1px solid #0F2460; border-radius:6px; font-weight:normal; font-size:0.9em; text-shadow:0.5px 0.5px 1px rgba(0,0,0,0.2); box-shadow:1px 1px 2px rgba(0,0,0,0.1); display:inline-block;">“卡脖子”技术“揭榜挂帅”攻关项目</span><span style="color:red">（武汉市）</span> 三维影像导航手术机器人整机系统研发, 2022-01 至 2024-12，87万元，``课题负责人``
 
