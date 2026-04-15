@@ -91,7 +91,7 @@ redirect_from:
 
 - <span style="background-color:#1E40AF; color:white; padding:0.5px 4px; border:1px solid #0F2460; border-radius:6px; font-weight:normal; font-size:0.9em; text-shadow:0.5px 0.5px 1px rgba(0,0,0,0.2); box-shadow:1px 1px 2px rgba(0,0,0,0.1); display:inline-block;">ICASSP</span><span style="color:red">（CCF-B）</span> *Knowledge-Contrastive Fine-Grained Attention for CVS Recognition in Cholecystectomy Without Dense Labels*, Yuxi Li<span style="color:#0D6EFD">&#8224;</span>, Kaixiang Yang<span style="color:#0D6EFD">&#8224;</span>, Xin Li<span style="color:#0D6EFD">&#8224;</span>, Qiang Li<span style="color:#FFA500">&#42;</span>, **Zhiwei Wang**<span style="color:#FFA500">&#42;</span>.
 
-## 📆 2025年：
+## 📆 2025年 <span style="color:red">(16: Top5x4, Ax4, Bx7, Top50x1)</span>：
 
 - <span style="background-color:#1E40AF; color:white; padding:0.5px 4px; border:1px solid #0F2460; border-radius:6px; font-weight:normal; font-size:0.9em; text-shadow:0.5px 0.5px 1px rgba(0,0,0,0.2); box-shadow:1px 1px 2px rgba(0,0,0,0.1); display:inline-block;">Medical Image Analysis</span> <span style="color:red">（中科院医学1区Top5%，影响因子>10）</span> *MonoPCC: Photometric-invariant Cycle Constraint for Monocular Depth Estimation of Endoscopic Images*, **Zhiwei Wang**<span style="color:#0D6EFD">&#8224;</span>, Ying Zhou<span style="color:#0D6EFD">&#8224;</span>, Shiquan He, Ting Li, Fan Huang, Qiang Ding, Xinxia Feng, Mei Liu, Qiang Li<span style="color:#FFA500">&#42;</span>. [**Code**](https://github.com/adam99goat/MonoPCC), [**Link**](https://www.sciencedirect.com/science/article/pii/S1361841525000817)
 
@@ -125,7 +125,7 @@ redirect_from:
 
 - <span style="background-color:#1E40AF; color:white; padding:0.5px 4px; border:1px solid #0F2460; border-radius:6px; font-weight:normal; font-size:0.9em; text-shadow:0.5px 0.5px 1px rgba(0,0,0,0.2); box-shadow:1px 1px 2px rgba(0,0,0,0.1); display:inline-block;">ICASSP</span><span style="color:red">（CCF-B）</span> *SPNet: Sparse-mask Prompt-learning Network for Cerebrovascular Segmentation*, Wenqi Shan, Qiang Li<span style="color:#FFA500">&#42;</span>, **Zhiwei Wang**<span style="color:#FFA500">&#42;</span>. [**Code**](https://github.com/shanwq/SPNet), [**Link**](https://ieeexplore.ieee.org/document/10889326)
 
-## 📆 2024年：
+## 📆 2024年 <span style="color:red">(7: Top5x2, Bx4)</span>：
 
 - <span style="background-color:#1E40AF; color:white; padding:0.5px 4px; border:1px solid #0F2460; border-radius:6px; font-weight:normal; font-size:0.9em; text-shadow:0.5px 0.5px 1px rgba(0,0,0,0.2); box-shadow:1px 1px 2px rgba(0,0,0,0.1); display:inline-block;">IEEE Transactions on Medical Imaging</span><span style="color:red">（中科院医学1区Top5%，影响因子>10）</span> *Robust Semi-supervised 3D Medical Image Segmentation with Diverse Joint-task Learning and Decoupled Inter-student Learning*, Quan Zhou, Bin Yu, Feng Xiao, Mingyue Ding, **Zhiwei Wang**<span style="color:#FFA500">&#42;</span>, Xuming Zhang<span style="color:#FFA500">&#42;</span>. [**Code**](https://github.com/zxmboshi/DDL), [**Link**](https://ieeexplore.ieee.org/document/10422981)
 
@@ -141,7 +141,7 @@ redirect_from:
 
 - <span style="background-color:#1E40AF; color:white; padding:0.5px 4px; border:1px solid #0F2460; border-radius:6px; font-weight:normal; font-size:0.9em; text-shadow:0.5px 0.5px 1px rgba(0,0,0,0.2); box-shadow:1px 1px 2px rgba(0,0,0,0.1); display:inline-block;">BIBM</span><span style="color:red">（CCF-B）</span> *Decoupling Feature Representations of Ego and Other Modalities for Incomplete Multi-modal Brain Tumor Segmentation*, Kaixiang Yang<span style="color:#0D6EFD">&#8224;</span>, Wenqi Shan<span style="color:#0D6EFD">&#8224;</span>, Xikai Yang, Xi Wang, Pheng-Ann Heng, Qiang Li<span style="color:#FFA500">&#42;</span>, **Zhiwei Wang**<span style="color:#FFA500">&#42;</span>. [**Code**](https://github.com/kk42yy/DeMoSeg), [**Link**](https://ieeexplore.ieee.org/document/10822635)
 
-## 📆 2023年：
+## 📆 2023年 <span style="color:red">(5: Top5x1, Ax2, Bx2)</span>：
 
 - <span style="background-color:#1E40AF; color:white; padding:0.5px 4px; border:1px solid #0F2460; border-radius:6px; font-weight:normal; font-size:0.9em; text-shadow:0.5px 0.5px 1px rgba(0,0,0,0.2); box-shadow:1px 1px 2px rgba(0,0,0,0.1); display:inline-block;">IEEE Transactions on Medical Imaging</span><span style="color:red">（中科院医学1区Top5%，影响因子>10）</span> *Bidirectional Semi-supervised Dual-branch CNN for Robust 3D Reconstruction of Stereo Endoscopic Images via Adaptive Cross and Parallel Supervisions*, Hongkuan Shi<span style="color:#0D6EFD">&#8224;</span>, **Zhiwei Wang**<span style="color:#0D6EFD">&#8224;</span>, Ying Zhou, Dun Li, Xin Yang, Qiang Li<span style="color:#FFA500">&#42;</span>. [**Code**](https://github.com/HK-Shi/Bidirectional-SemiSupervised-Dual-branch-CNN), [**Link**](https://ieeexplore.ieee.org/document/10136208)
 
@@ -153,7 +153,7 @@ redirect_from:
 
 - <span style="background-color:#1E40AF; color:white; padding:0.5px 4px; border:1px solid #0F2460; border-radius:6px; font-weight:normal; font-size:0.9em; text-shadow:0.5px 0.5px 1px rgba(0,0,0,0.2); box-shadow:1px 1px 2px rgba(0,0,0,0.1); display:inline-block;">BIBM</span><span style="color:red">（CCF-B）</span> *Towards Learning-based Surgical Planning of Glioma Resection via a Contrastively Constrained Siamese Neural Network*, Wenqi Shan, Yingjie Guo, Lianying Chao, Haobo Zhang, Xudong Li, Xuan Wang, Qiang Li<span style="color:#FFA500">&#42;</span>, **Zhiwei Wang**<span style="color:#FFA500">&#42;</span>. [**Link**](https://ieeexplore.ieee.org/document/10385556)
 
-## 📆 2022年：
+## 📆 2022年 <span style="color:red">(4: Top5x2, Bx1, Cx1)</span>：
 
 - <span style="background-color:#1E40AF; color:white; padding:0.5px 4px; border:1px solid #0F2460; border-radius:6px; font-weight:normal; font-size:0.9em; text-shadow:0.5px 0.5px 1px rgba(0,0,0,0.2); box-shadow:1px 1px 2px rgba(0,0,0,0.1); display:inline-block;">IEEE Transactions on Medical Imaging</span><span style="color:red">（中科院医学1区Top5%，影响因子>10）</span> *Joint progressive and coarse-to-fine registration of brain MRI via deformation field integration and non-rigid feature fusion*, Jinxin Lv<span style="color:#0D6EFD">&#8224;</span>, **Zhiwei Wang**<span style="color:#0D6EFD">&#8224;</span>, Hongkuan Shi, Haobo Zhang, Sheng Wang, Yilang Wang, Qiang Li<span style="color:#FFA500">&#42;</span>. [**Code**](https://github.com/OldDriverJinx/Progressvie-and-Coarse-to-fine-Registration-Network), [**Link**](https://ieeexplore.ieee.org/document/9765391)
 
@@ -164,19 +164,19 @@ redirect_from:
 - <span style="background-color:#1E40AF; color:white; padding:0.5px 4px; border:1px solid #0F2460; border-radius:6px; font-weight:normal; font-size:0.9em; text-shadow:0.5px 0.5px 1px rgba(0,0,0,0.2); box-shadow:1px 1px 2px rgba(0,0,0,0.1); display:inline-block;">ACCV</span><span style="color:red">（CCF-C）</span> *Improving the Quality of Sparse-view Cone-Beam Computed Tomography via Reconstruction-Friendly Interpolation Network*, Yanli Wang<span style="color:#0D6EFD">&#8224;</span>, Lianying Chao<span style="color:#0D6EFD">&#8224;</span>, Wenqi Shan, Haobo Zhang, **Zhiwei Wang**<span style="color:#FFA500">&#42;</span>, Qiang Li<span style="color:#FFA500">&#42;</span>. [**Link**](https://link.springer.com/chapter/10.1007/978-3-031-26351-4_6)
 
 
-## 📆 2021年：
+## 📆 2021年 <span style="color:red">(2: Ax1, Bx1)</span>：
 
 - <span style="background-color:#1E40AF; color:white; padding:0.5px 4px; border:1px solid #0F2460; border-radius:6px; font-weight:normal; font-size:0.9em; text-shadow:0.5px 0.5px 1px rgba(0,0,0,0.2); box-shadow:1px 1px 2px rgba(0,0,0,0.1); display:inline-block;">ACM MM</span><span style="color:red">（CCF-A，口头汇报）</span> *Semi-supervised Learning via Improved Teacher-Student Network for Robust 3D Reconstruction of Stereo Endoscopic Image*, Hongkuan Shi<span style="color:#0D6EFD">&#8224;</span>, **Zhiwei Wang**<span style="color:#0D6EFD">&#8224;</span>, Jinxin Lv, Yilang Wang, Peng Zhang, Fei Zhu, Qiang Li<span style="color:#FFA500">&#42;</span>. [**Link**](https://dl.acm.org/doi/abs/10.1145/3474085.3475527)
 
 - <span style="background-color:#1E40AF; color:white; padding:0.5px 4px; border:1px solid #0F2460; border-radius:6px; font-weight:normal; font-size:0.9em; text-shadow:0.5px 0.5px 1px rgba(0,0,0,0.2); box-shadow:1px 1px 2px rgba(0,0,0,0.1); display:inline-block;">MICCAI</span><span style="color:red">（CCF-B）</span> *Towards Robust Dual-View Transformation via Densifying Sparse Supervision for Mammography Lesion Matching*, Junlin Xian<span style="color:#0D6EFD">&#8224;</span>, **Zhiwei Wang**<span style="color:#0D6EFD">&#8224;</span>, Kwang-Ting Cheng, Xin Yang<span style="color:#FFA500">&#42;</span>. [**Link**](https://link.springer.com/chapter/10.1007/978-3-030-87240-3_34)
 
-## 📆 2020年：
+## 📆 2020年 <span style="color:red">(2: Top5x2)</span>：
 
 - <span style="background-color:#1E40AF; color:white; padding:0.5px 4px; border:1px solid #0F2460; border-radius:6px; font-weight:normal; font-size:0.9em; text-shadow:0.5px 0.5px 1px rgba(0,0,0,0.2); box-shadow:1px 1px 2px rgba(0,0,0,0.1); display:inline-block;">IEEE Transactions on Medical Imaging</span><span style="color:red">（中科院医学1区Top5%，影响因子>10）</span> *Multi-task siamese network for retinal artery/vein separation via deep convolution along vessel*, **Zhiwei Wang**, Xixi Jiang, Jengen Liu, Kwang-Ting Cheng, Xin Yang<span style="color:#FFA500">&#42;</span>. [**Code**](), [**PDF**]().
 
 - <span style="background-color:#1E40AF; color:white; padding:0.5px 4px; border:1px solid #0F2460; border-radius:6px; font-weight:normal; font-size:0.9em; text-shadow:0.5px 0.5px 1px rgba(0,0,0,0.2); box-shadow:1px 1px 2px rgba(0,0,0,0.1); display:inline-block;">Medical Image Analysis</span> <span style="color:red">（中科院医学1区Top5%，影响因子>10）</span> *Semi-supervised mp-MRI data synthesis with StitchLayer and auxiliary distance maximization*, **Zhiwei Wang**, Yi Lin, Kwang-Ting Cheng, Xin Yang<span style="color:#FFA500">&#42;</span>. [**Code**]()
 
-## 📆 2018年：
+## 📆 2018年 <span style="color:red">(3: Top5x1, Cx1)</span>：
 
 - <span style="background-color:#1E40AF; color:white; padding:0.5px 4px; border:1px solid #0F2460; border-radius:6px; font-weight:normal; font-size:0.9em; text-shadow:0.5px 0.5px 1px rgba(0,0,0,0.2); box-shadow:1px 1px 2px rgba(0,0,0,0.1); display:inline-block;">IEEE Transactions on Medical Imaging</span><span style="color:red">（中科院医学1区Top5%，影响因子>10）</span> *Automated detection of clinically significant prostate cancer in mp-MRI images based on an end-to-end deep neural network*, **Zhiwei Wang**, Chaoyue Liu, Danpeng Cheng, Liang Wang, Xin Yang<span style="color:#FFA500">&#42;</span>, Kwang-Ting Cheng. [**Code**]()
 
@@ -184,7 +184,7 @@ redirect_from:
 
 - <span style="background-color:#1E40AF; color:white; padding:0.5px 4px; border:1px solid #0F2460; border-radius:6px; font-weight:normal; font-size:0.9em; text-shadow:0.5px 0.5px 1px rgba(0,0,0,0.2); box-shadow:1px 1px 2px rgba(0,0,0,0.1); display:inline-block;">PloS ONE</span> *Accurate face alignment and adaptive patch selection for heart rate estimation from videos under realistic scenarios*, **Zhiwei Wang**, Xin Yang<span style="color:#FFA500">&#42;</span>, Kwang-Ting Cheng. [**Code**]()
 
-## 📆 2017年：
+## 📆 2017年 <span style="color:red">(4: Top5x1, Ax1, Cx2)</span>：
 
 - <span style="background-color:#1E40AF; color:white; padding:0.5px 4px; border:1px solid #0F2460; border-radius:6px; font-weight:normal; font-size:0.9em; text-shadow:0.5px 0.5px 1px rgba(0,0,0,0.2); box-shadow:1px 1px 2px rgba(0,0,0,0.1); display:inline-block;">Medical Image Analysis</span> <span style="color:red">（中科院医学1区Top5%，影响因子>10）</span> *Co-trained convolutional neural networks for automated detection of prostate cancer in multi-parametric MRI*, Xin Yang, Chaoyue Liu, **Zhiwei Wang**<span style="color:#FFA500">&#42;</span>, Jun Yang, Minh Hung Le, Liang Wang, Kwang-Ting Cheng. [**Code**]()
 
