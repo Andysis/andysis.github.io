@@ -1,6 +1,7 @@
 _site/
 push.sh
 .DS_Store
+.sass-cache/
 pdf/
 vendor/
 .bundle/
