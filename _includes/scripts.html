@@ -16,9 +16,9 @@
     });
   });
 
-  // GitHub stats - fetch star & fork counts for Code links
+  // GitHub stats - fetch star count for Code links
   $(function() {
-    var CACHE_KEY = 'ghstats_v1';
+    var CACHE_KEY = 'ghstars_v2';
     var CACHE_TTL = 12 * 60 * 60 * 1000;
     var DELAY_MS = 800;
 
@@ -48,9 +48,9 @@
       $link.after($badge);
 
       if (cache[repo] && (now - cache[repo].ts) < CACHE_TTL) {
-        renderBadge($badge, cache[repo].stars, cache[repo].forks);
+        renderBadge($badge, cache[repo].stars);
       } else {
-        $badge.text(' loading...');
+        $badge.text(' \u22EF');
         queue.push({ repo: repo, $badge: $badge });
       }
     });
@@ -63,9 +63,8 @@
       $.getJSON('https://api.github.com/repos/' + item.repo)
         .done(function(data) {
           var stars = data.stargazers_count || 0;
-          var forks = data.forks_count || 0;
-          cache[item.repo] = { stars: stars, forks: forks, ts: Date.now() };
-          renderBadge(item.$badge, stars, forks);
+          cache[item.repo] = { stars: stars, ts: Date.now() };
+          renderBadge(item.$badge, stars);
         })
         .fail(function(xhr) {
           if (xhr.status === 403) {
@@ -83,13 +82,10 @@
     }
     fetchNext(0);
 
-    function renderBadge($el, stars, forks) {
+    function renderBadge($el, stars) {
       $el.html(
-        '<span style="display:inline-flex;align-items:center;gap:2px;margin:0 3px;font-size:0.82em;color:#6a737d;vertical-align:middle;">' +
-        '<svg style="width:12px;height:12px;fill:#e3b341;" viewBox="0 0 16 16"><path d="M8 .25a.75.75 0 01.673.418l1.882 3.815 4.21.612a.75.75 0 01.416 1.279l-3.046 2.97.719 4.192a.751.751 0 01-1.088.791L8 12.347l-3.766 1.98a.75.75 0 01-1.088-.79l.72-4.194L.818 6.374a.75.75 0 01.416-1.28l4.21-.611L7.327.668A.75.75 0 018 .25z"/></svg>' +
-        stars +
-        '<svg style="width:12px;height:12px;fill:#6a737d;margin-left:4px;" viewBox="0 0 16 16"><path d="M5 5.372v.878c0 .414.336.75.75.75h4.5a.75.75 0 00.75-.75v-.878a2.25 2.25 0 115.25-.75v.878a2.25 2.25 0 01-2.25 2.25H11v2.128a2.25 2.25 0 11-1.5 0V8.5H8.122A2.25 2.25 0 015 6.122v-.878a2.25 2.25 0 111.5 0zM5 3.25a.75.75 0 10-1.5 0 .75.75 0 001.5 0zm6.75 0a.75.75 0 10-1.5 0 .75.75 0 001.5 0zm-3 8.75a.75.75 0 10-1.5 0 .75.75 0 001.5 0z"/></svg>' +
-        forks +
+        '<span style="font-size:1em;font-weight:700;color:#e3b341;margin:0 4px;vertical-align:middle;">' +
+        '\u2B50 ' + stars +
         '</span>'
       );
     }
