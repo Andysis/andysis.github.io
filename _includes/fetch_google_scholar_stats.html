@@ -5,15 +5,66 @@
         {% else %}
         var gsDataBaseUrl = 'https://raw.githubusercontent.com/{{ site.repository }}/'
         {% endif %}
-        $.getJSON(gsDataBaseUrl + "google-scholar-stats/gs_data.json", function (data) {
-            var totalCitation = data['citedby']
-            document.getElementById('total_cit').innerHTML = totalCitation;
-            var citationEles = document.getElementsByClassName('show_paper_citations')
-            Array.prototype.forEach.call(citationEles, element => {
-                var paperId = element.getAttribute('data')
-                var numCitations = data['publications'][paperId]['num_citations']
-                element.innerHTML = '| Citations: ' + numCitations;
+        $.getJSON(gsDataBaseUrl + "google-scholar-stats/gs_data.json")
+        .done(function (data) {
+            var totalCitation = data['citedby'];
+            var el = document.getElementById('total_cit');
+            if (el && totalCitation) el.innerHTML = totalCitation;
+
+            var citationEles = document.getElementsByClassName('show_paper_citations');
+            Array.prototype.forEach.call(citationEles, function(element) {
+                var paperId = element.getAttribute('data');
+                if (data['publications'] && data['publications'][paperId]) {
+                    var numCitations = data['publications'][paperId]['num_citations'];
+                    element.innerHTML = '| Citations: ' + numCitations;
+                }
             });
-        });
+
+            function normalize(s) {
+                return s.toLowerCase().replace(/[^a-z0-9\s]/g, '').replace(/\s+/g, ' ').trim();
+            }
+
+            if (data['publications']) {
+                var titleMap = {};
+                var seen = {};
+                for (var pid in data['publications']) {
+                    var pub = data['publications'][pid];
+                    if (pub.bib && pub.bib.title) {
+                        var key = normalize(pub.bib.title);
+                        if (!seen[key]) {
+                            seen[key] = true;
+                            titleMap[key] = pub.num_citations || 0;
+                        }
+                    }
+                }
+
+                $('.page__content li').each(function() {
+                    var $li = $(this);
+                    if (!$li.find('span[style*="background-color"]').length) return;
+                    if ($li.find('.paper-cited').length) return;
+                    var $em = $li.find('em').first();
+                    if (!$em.length) return;
+                    var text = $em.text().trim();
+                    if (text.length < 15) return;
+
+                    var norm = normalize(text);
+                    var count = titleMap[norm];
+                    if (count === undefined) {
+                        for (var key in titleMap) {
+                            if (key.indexOf(norm) >= 0 || norm.indexOf(key) >= 0) {
+                                count = titleMap[key];
+                                break;
+                            }
+                        }
+                    }
+                    if (count !== undefined && count > 0) {
+                        $li.append(
+                            '<span class="paper-cited" style="font-size:1em;font-weight:700;color:#4285f4;margin:0 4px;vertical-align:middle;">\uD83D\uDCD6 ' + count + '</span>'
+                        );
+                    }
+                });
+            }
+        })
+        .fail(function() {});
     })
 </script>
