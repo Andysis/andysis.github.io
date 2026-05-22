@@ -57,11 +57,10 @@
                             }
                         }
                     }
-                    if (count !== undefined && count > 0) {
-                        $li.append(
-                            '<span class="paper-cited" style="font-size:1em;font-weight:700;color:#4285f4;margin:0 4px;vertical-align:middle;">\uD83D\uDCD6 ' + count + '</span>'
-                        );
-                    }
+                    if (count === undefined) count = 0;
+                    $em.before(
+                        '<span class="paper-cited" style="font-size:0.85em;font-weight:600;color:#4285f4;margin-right:6px;vertical-align:middle;white-space:nowrap;">[cited ' + count + ']</span> '
+                    );
                 });
             }
         })
