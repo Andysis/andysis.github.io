@@ -1,4 +1,21 @@
 <script src="assets/js/main.min.js"></script>
 
+<script>
+  // Scroll spy - highlight active nav section
+  $(function() {
+    $(window).on('scroll', function() {
+      var scrollPos = $(document).scrollTop() + 80;
+      var activeId = '';
+      $('.anchor[id]').each(function() {
+        if ($(this).offset().top <= scrollPos) activeId = this.id;
+      });
+      $('.masthead__menu-item a').removeClass('active-nav');
+      if (activeId) {
+        $('.masthead__menu-item a[href$="' + activeId + '"]').addClass('active-nav');
+      }
+    });
+  });
+</script>
+
 {% include analytics.html %}
 {% include fetch_google_scholar_stats.html %}

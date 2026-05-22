@@ -95,4 +95,21 @@ $(document).ready(function(){
     midClick: true // allow opening popup on middle mouse click. Always set it to true if you don't provide alternative source.
   });
 
+  // Scroll spy - highlight active nav section
+  var sections = [];
+  $('.anchor[id]').each(function() { sections.push(this.id); });
+  if (sections.length) {
+    $(window).on('scroll', function() {
+      var scrollPos = $(document).scrollTop() + 80;
+      var activeId = '';
+      $('.anchor[id]').each(function() {
+        if ($(this).offset().top <= scrollPos) activeId = this.id;
+      });
+      $('.masthead__menu-item a').removeClass('active-nav');
+      if (activeId) {
+        $('.masthead__menu-item a[href$="' + activeId + '"]').addClass('active-nav');
+      }
+    });
+  }
+
 });
