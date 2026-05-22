@@ -17,6 +17,8 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
+<span class='anchor' id='-educations'></span>
+
 # 📖 工作与教育
 - *2021.02 -   至  今*, 武汉光电国家研究中心，华中科技大学，副教授，国家千人[李强教授](http://bmp.hust.edu.cn/info/1151/2222.htm)课题组。
 - *2019.08 - 2020.08*, 工学院，香港科技大学，博士后研究员，副校长兼工学院院长[郑光廷教授](https://seng.hkust.edu.hk/about/people/faculty/tim-kwang-ting-cheng)课题组。
@@ -33,6 +35,8 @@ redirect_from:
 我以第一作者或通讯作者发表50余篇高水平论文，其中包括**8篇**影响因子大于10的顶级期刊论文（Medical Image Analysis, IEEE Transactions on Medical Imaging），以及**30篇**发表于IEEE JBHI、Pattern Recognition、CVPR、NeurIPS、ICCV、MICCAI、AAAI、IJCAI、ACM MM、BIBM等国际顶级期刊与会议。此外，我已获授权或公开发明专利10余项。
 
 ---
+
+<span class='anchor' id='-news'></span>
 
 # 🔥 重要事件
 - *2026.03*: &nbsp;🎉🎉 一篇本人通讯``ICME``会议（CCF-B）接收，祝贺王昊、周瀛！
@@ -69,6 +73,8 @@ redirect_from:
 - *2020.03*: &nbsp;🎉🎉 一篇本人一作``TMI``期刊（中科院医学1区Top5%，影响因子>10）接收！
 
 
+
+<span class='anchor' id='-publications'></span>
 
 # 📝 一作与通讯的论文 
 ### (Note: <span style="color:#FFA500">&#42;</span>: 通讯作者, <span style="color:#0D6EFD">&#8224;</span>: 共同一作)
@@ -222,19 +228,24 @@ redirect_from:
 
 - ``2017`` ``MICCAI`` *Joint detection and diagnosis of prostate cancer in multi-parametric MRI based on multimodal convolutional neural networks*. Xin Yang, **Zhiwei Wang**, Chaoyue Liu, Minh Hung Le, Jinyu Chen, Kwang-Ting Cheng, Liang Wang.
 
+<span class='anchor' id='-patents'></span>
+
 # 📜 授权专利
 - <span style="background-color:#1E40AF; color:white; padding:0.5px 4px; border:1px solid #0F2460; border-radius:6px; font-weight:normal; font-size:0.9em; text-shadow:0.5px 0.5px 1px rgba(0,0,0,0.2); box-shadow:1px 1px 2px rgba(0,0,0,0.1); display:inline-block;">发明专利</span><span style="color:red">（中国）</span> 一种无监督领域自适应图像分割方法及系统；李强，**王植炜**，吕进鑫，梁愿怀；华中科技大学，武汉联影智融医疗科技有限公司；ZL202110869520.6；2024.02.06
 - <span style="background-color:#1E40AF; color:white; padding:0.5px 4px; border:1px solid #0F2460; border-radius:6px; font-weight:normal; font-size:0.9em; text-shadow:0.5px 0.5px 1px rgba(0,0,0,0.2); box-shadow:1px 1px 2px rgba(0,0,0,0.1); display:inline-block;">发明专利</span><span style="color:red">（中国）</span> 一种脊柱标记点定位模型的构建方法及应用；**王植炜**，李强，吕进鑫，杨云桥；华中科技大学；ZL202110934019.3；2024.02.06
+- <span style="background-color:#1E40AF; color:white; padding:0.5px 4px; border:1px solid #0F2460; border-radius:6px; font-weight:normal; font-size:0.9em; text-shadow:0.5px 0.5px 1px rgba(0,0,0,0.2); box-shadow:1px 1px 2px rgba(0,0,0,0.1); display:inline-block;">发明专利</span><span style="color:red">（中国）</span> 基于框标注训练的息肉分割模型建立方法及息肉分割方法；**王植炜**，李强，胡强，石洪宽，张贻彤，李婷；华中科技大学，常州联影智融医疗科技有限公司；ZL202311165596.6；2024.10.11
+- <span style="background-color:#1E40AF; color:white; padding:0.5px 4px; border:1px solid #0F2460; border-radius:6px; font-weight:normal; font-size:0.9em; text-shadow:0.5px 0.5px 1px rgba(0,0,0,0.2); box-shadow:1px 1px 2px rgba(0,0,0,0.1); display:inline-block;">发明专利</span><span style="color:red">（中国）</span> 基于动态视图挑选的单目深度估计网络建立方法及其应用；**王植炜**，李强，周瀛；华中科技大学；ZL202411469165.3；2025.05.30
+- <span style="background-color:#1E40AF; color:white; padding:0.5px 4px; border:1px solid #0F2460; border-radius:6px; font-weight:normal; font-size:0.9em; text-shadow:0.5px 0.5px 1px rgba(0,0,0,0.2); box-shadow:1px 1px 2px rgba(0,0,0,0.1); display:inline-block;">发明专利</span><span style="color:red">（中国）</span> 基于目标感知的脑胶质瘤分割模型建立方法及分割方法；**王植炜**，李强，单文奇，杨凯翔；华中科技大学，武汉联影智融医疗科技有限公司；ZL202411351043.4；2025.10.17
 - <span style="background-color:#1E40AF; color:white; padding:0.5px 4px; border:1px solid #0F2460; border-radius:6px; font-weight:normal; font-size:0.9em; text-shadow:0.5px 0.5px 1px rgba(0,0,0,0.2); box-shadow:1px 1px 2px rgba(0,0,0,0.1); display:inline-block;">发明专利</span><span style="color:red">（中国）</span> 一种全角度锥束CT投影图像的复原方法、装置和系统；李强，王燕丽，**王植炜**，单文奇，晁联盈；华中科技大学；ZL202211225378.2；2025.11.04
-- <span style="background-color:#1E40AF; color:white; padding:0.5px 4px; border:1px solid #0F2460; border-radius:6px; font-weight:normal; font-size:0.9em; text-shadow:0.5px 0.5px 1px rgba(0,0,0,0.2); box-shadow:1px 1px 2px rgba(0,0,0,0.1); display:inline-block;">发明专利</span><span style="color:red">（中国）</span> 图像分割网络训练方法及其训练装置、图像分割方法；**王植炜**，李强，吕进鑫，王胜；华中科技大学；ZL202211414367.9；2026.01.02
-- <span style="background-color:#1E40AF; color:white; padding:0.5px 4px; border:1px solid #0F2460; border-radius:6px; font-weight:normal; font-size:0.9em; text-shadow:0.5px 0.5px 1px rgba(0,0,0,0.2); box-shadow:1px 1px 2px rgba(0,0,0,0.1); display:inline-block;">发明专利</span><span style="color:red">（中国）</span> 基于双向监督的内窥镜图像视差预测模型建立方法及应用；**王植炜**，李强，石洪宽，周瀛；华中科技大学；ZL202211218895.7；2026.01.06
+- <span style="background-color:#1E40AF; color:white; padding:0.5px 4px; border:1px solid #0F2460; border-radius:6px; font-weight:normal; font-size:0.9em; text-shadow:0.5px 0.5px 1px rgba(0,0,0,0.2); box-shadow:1px 1px 2px rgba(0,0,0,0.1); display:inline-block;">发明专利</span><span style="color:red">（中国）</span> 使用单张图谱图像训练脑组织分割模型的方法及其应用；**王植炜**，李强，曾晓宇；华中科技大学，武汉联影智融医疗科技有限公司；ZL202410476118.5；2025.12.05
+- <span style="background-color:#1E40AF; color:white; padding:0.5px 4px; border:1px solid #0F2460; border-radius:6px; font-weight:normal; font-size:0.9em; text-shadow:0.5px 0.5px 1px rgba(0,0,0,0.2); box-shadow:1px 1px 2px rgba(0,0,0,0.1); display:inline-block;">发明专利</span><span style="color:red">（中国）</span> 基于特征解耦的可缺失模态脑胶质瘤分割模型建立方法及脑胶质瘤分割方法；**王植炜**，李强，杨凯翔，单文奇；华中科技大学，武汉联影智融医疗科技有限公司；ZL202410583087.3；2025.12.19
 - <span style="background-color:#1E40AF; color:white; padding:0.5px 4px; border:1px solid #0F2460; border-radius:6px; font-weight:normal; font-size:0.9em; text-shadow:0.5px 0.5px 1px rgba(0,0,0,0.2); box-shadow:1px 1px 2px rgba(0,0,0,0.1); display:inline-block;">发明专利</span><span style="color:red">（中国）</span> 低剂量CT投影图像生成模型建立方法及配对数据生成方法；李强，单文奇，晁联盈，王燕丽，**王植炜**；华中科技大学；ZL202310144555.2；2025.12.23
 - <span style="background-color:#1E40AF; color:white; padding:0.5px 4px; border:1px solid #0F2460; border-radius:6px; font-weight:normal; font-size:0.9em; text-shadow:0.5px 0.5px 1px rgba(0,0,0,0.2); box-shadow:1px 1px 2px rgba(0,0,0,0.1); display:inline-block;">发明专利</span><span style="color:red">（中国）</span> 一种脊柱关键点定位模型的构建方法及应用；**王植炜**，李强，郭英杰；华中科技大学，武汉联影智融医疗科技有限公司；ZL202410673417.8；2025.12.26
-- <span style="background-color:#1E40AF; color:white; padding:0.5px 4px; border:1px solid #0F2460; border-radius:6px; font-weight:normal; font-size:0.9em; text-shadow:0.5px 0.5px 1px rgba(0,0,0,0.2); box-shadow:1px 1px 2px rgba(0,0,0,0.1); display:inline-block;">发明专利</span><span style="color:red">（中国）</span> 基于框标注训练的息肉分割模型建立方法及息肉分割方法；**王植炜**，李强，胡强，石洪宽，张贻彤，李婷；华中科技大学，常州联影智融医疗科技有限公司；ZL202311165596.6；2024.10.11
-- <span style="background-color:#1E40AF; color:white; padding:0.5px 4px; border:1px solid #0F2460; border-radius:6px; font-weight:normal; font-size:0.9em; text-shadow:0.5px 0.5px 1px rgba(0,0,0,0.2); box-shadow:1px 1px 2px rgba(0,0,0,0.1); display:inline-block;">发明专利</span><span style="color:red">（中国）</span> 使用单张图谱图像训练脑组织分割模型的方法及其应用；**王植炜**，李强，曾晓宇；华中科技大学，武汉联影智融医疗科技有限公司；ZL202410476118.5；2025.12.05
-- <span style="background-color:#1E40AF; color:white; padding:0.5px 4px; border:1px solid #0F2460; border-radius:6px; font-weight:normal; font-size:0.9em; text-shadow:0.5px 0.5px 1px rgba(0,0,0,0.2); box-shadow:1px 1px 2px rgba(0,0,0,0.1); display:inline-block;">发明专利</span><span style="color:red">（中国）</span> 基于目标感知的脑胶质瘤分割模型建立方法及分割方法；**王植炜**，李强，单文奇，杨凯翔；华中科技大学，武汉联影智融医疗科技有限公司；ZL202411351043.4；2025.10.17
-- <span style="background-color:#1E40AF; color:white; padding:0.5px 4px; border:1px solid #0F2460; border-radius:6px; font-weight:normal; font-size:0.9em; text-shadow:0.5px 0.5px 1px rgba(0,0,0,0.2); box-shadow:1px 1px 2px rgba(0,0,0,0.1); display:inline-block;">发明专利</span><span style="color:red">（中国）</span> 基于动态视图挑选的单目深度估计网络建立方法及其应用；**王植炜**，李强，周瀛；华中科技大学；ZL202411469165.3；2025.05.30
-- <span style="background-color:#1E40AF; color:white; padding:0.5px 4px; border:1px solid #0F2460; border-radius:6px; font-weight:normal; font-size:0.9em; text-shadow:0.5px 0.5px 1px rgba(0,0,0,0.2); box-shadow:1px 1px 2px rgba(0,0,0,0.1); display:inline-block;">发明专利</span><span style="color:red">（中国）</span> 基于特征解耦的可缺失模态脑胶质瘤分割模型建立方法及脑胶质瘤分割方法；**王植炜**，李强，杨凯翔，单文奇；华中科技大学，武汉联影智融医疗科技有限公司；ZL202410583087.3；2025.12.19
+- <span style="background-color:#1E40AF; color:white; padding:0.5px 4px; border:1px solid #0F2460; border-radius:6px; font-weight:normal; font-size:0.9em; text-shadow:0.5px 0.5px 1px rgba(0,0,0,0.2); box-shadow:1px 1px 2px rgba(0,0,0,0.1); display:inline-block;">发明专利</span><span style="color:red">（中国）</span> 图像分割网络训练方法及其训练装置、图像分割方法；**王植炜**，李强，吕进鑫，王胜；华中科技大学；ZL202211414367.9；2026.01.02
+- <span style="background-color:#1E40AF; color:white; padding:0.5px 4px; border:1px solid #0F2460; border-radius:6px; font-weight:normal; font-size:0.9em; text-shadow:0.5px 0.5px 1px rgba(0,0,0,0.2); box-shadow:1px 1px 2px rgba(0,0,0,0.1); display:inline-block;">发明专利</span><span style="color:red">（中国）</span> 基于双向监督的内窥镜图像视差预测模型建立方法及应用；**王植炜**，李强，石洪宽，周瀛；华中科技大学；ZL202211218895.7；2026.01.06
+- <span style="background-color:#1E40AF; color:white; padding:0.5px 4px; border:1px solid #0F2460; border-radius:6px; font-weight:normal; font-size:0.9em; text-shadow:0.5px 0.5px 1px rgba(0,0,0,0.2); box-shadow:1px 1px 2px rgba(0,0,0,0.1); display:inline-block;">发明专利</span><span style="color:red">（中国）</span> 基于回归脊椎弯曲方向评估脊柱侧弯角度的方法及系统；**王植炜**，李强，梁愿怀，吕进鑫；华中科技大学；ZL202211020464.X；2026.03.31
+
+<span class='anchor' id='-projects'></span>
 
 # 💼 主持与参与项目
 - <span style="background-color:#1E40AF; color:white; padding:0.5px 4px; border:1px solid #0F2460; border-radius:6px; font-weight:normal; font-size:0.9em; text-shadow:0.5px 0.5px 1px rgba(0,0,0,0.2); box-shadow:1px 1px 2px rgba(0,0,0,0.1); display:inline-block;">国家自然科学基金面上项目</span><span style="color:red">（国家级）</span> 基于长尾数据增强的多模态协同结肠镜辅助筛查方法研究, 2026-01 至 2029-12，50万元，``项目主持人``
@@ -257,6 +268,8 @@ redirect_from:
 
 - <span style="background-color:#1E40AF; color:white; padding:0.5px 4px; border:1px solid #0F2460; border-radius:6px; font-weight:normal; font-size:0.9em; text-shadow:0.5px 0.5px 1px rgba(0,0,0,0.2); box-shadow:1px 1px 2px rgba(0,0,0,0.1); display:inline-block;">省重点研发计划项目</span><span style="color:red">（湖北省）</span> 基于多模态磁共振成像的周围神经再生的精准评估系统构建, 2022-05 至 2024-12，``骨干参与人``
 
+
+<span class='anchor' id='-honors-and-awards'></span>
 
 # 🏆️ 荣誉与获奖
 - *2025.08* “国一等奖”，第二十七届中国机器人及人工智能大赛全国总决赛
@@ -282,15 +295,19 @@ redirect_from:
 - *2023.05* “武汉英才优秀青年人才计划”，武汉市组织部
 - *2023.02* “湖北省科技进步二等奖”，湖北省人民政府
 - *2022.08* “国二等奖”，全国大学生生命科学竞赛
-- *2022.08* “IEEE TMI Distinguished Reviewer Bronze Level”，IEEE Transactions on Medical Imaging
+- *2022.08* "IEEE TMI Distinguished Reviewer Bronze Level"，IEEE Transactions on Medical Imaging
 
 
+
+<span class='anchor' id='-academic-service'></span>
 
 # 💬 学术兼职与服务
 - 《Frontiers in Imaging》副主编、专题编辑 
 - 《Diagnostics》专题编辑
 
 ---
+
+<span class='anchor' id='-alumni'></span>
 
 # 🎓 往届毕业学生
 
@@ -301,6 +318,7 @@ redirect_from:
 | 吕进鑫 | 2019级/2023届 | 深圳VIVO | 发表一作论文6篇（TMI、JBHI、AAAI等），学生一作授权发明专利3件，获博士国家奖学金 |
 | 石洪宽 | 2019级/2023届 | 武汉联影 | 发表一作论文3篇（TMI、JBHI、ACMMM），学生一作授权发明专利2件 |
 | 单文奇 | 2021级/2025届 | 武汉联影 | 发表一作论文5篇（JBHI、BIBM等），学生一作授权发明专利2件，获博士国家奖学金 |
+| 周瀛 | 2022级/2026届 | - | 发表一作论文4篇（MedIA、BIBM、ICME等），学生一作授权发明专利2件 |
 
 ## 硕士研究生
 
@@ -317,3 +335,5 @@ redirect_from:
 | 胡强 | 2022级/ - | 本组硕转博 | 发表一作论文7篇（CVPR、AAAI、MICCAI等），学生一作授权发明专利2件，获硕士国家奖学金 |
 | 方鑫 | 2022级/2025届 | - | - |
 | 何诗泉 | 2022级/2025届 | - | 发表一作论文2篇（JBHI、BIBM） |
+| 李欣 | 2023级/2026届 | - | 发表一作论文5篇（NeurIPS、ACMMM、BIBM等），获硕士国家奖学金 |
+| 王琦玫 | 2023级/2026届 | - | 发表一作论文2篇（AAAI、MICCAI） |
