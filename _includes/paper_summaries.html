@@ -1,0 +1,92 @@
+<script>
+$(function() {
+  var summaries = {
+
+"FIA-Edit: Frequency-Interactive Attention for Efficient and High-Fidelity Inversion-Free Text-Guided Image Editing":
+"提出免逆变换的文本引导图像编辑框架，用频率交互注意力实现\"说改就改\"。核心是两个模块：频域特征交换让源图与目标图跨域对齐，源特征注入把结构信息写进交叉注意力——背景纹丝不动，语义精准到位。单张512图在4090上仅需6秒，效率拉满。更妙的是，首次把文本编辑用到医学场景，合成手术出血变化做数据增强，出血分类直接起飞。AAAI 2026，口头汇报，接受率不到9%。",
+
+"MonoBox: Tightness-free Box-supervised Polyp Segmentation using Monotonicity Constraint":
+"框监督分割的重大突破——再也不需要\"框紧贴目标边缘\"这个反人类要求了。传统方法在框边缘噪声区用MIL损失是越学越歪，MonoBox用单调性约束取而代之：强制模型响应沿前景→背景方向单调递减。配上自适应标签修正，训练中自动缩小噪声区。在息肉分割上Dice至少提升5.5%，画个松垮垮的框就能出精准mask，临床标注成本断崖式下降。AAAI 2025，已开源。",
+
+"CoStoDet-DDPM: Collaborative Training of Stochastic and Deterministic Models Improves Surgical Workflow Anticipation and Recognition":
+"手术流程分析的新范式——给确定性模型配一个扩散模型\"教练\"。DDPM分支专门学习手术中的不确定性（术式变化、器械遮挡），产出更丰富的特征表示；任务分支专注预测。两个分支协同训练，互相增强。推理时DDPM直接扔掉，不拖慢速度。Cholec80上手术预期误差降16%，阶段识别Jaccard提1%。确定性之精准+随机性之鲁棒，鱼和熊掌兼得。ICCV 2025。",
+
+"Pairing-free Group-level Knowledge Distillation for Robust Gastrointestinal Lesion Classification in White-Light Endoscopy":
+"打破\"知识蒸馏必须配对数据\"的铁律。内镜场景中NBI能看清血管纹理，但设备贵。PaGKD用组级蒸馏，在完全不配对的WLI和NBI数据上做跨模态知识迁移。两个模块：组级原型蒸馏提语义一致性，组级密集蒸馏保结构保细节。四数据集AUC相对提升1.1%~3.3%，基层医院也能享受NBI级的诊断精度。AAAI 2026。",
+
+"Moving Light Adaptive Colonoscopy Reconstruction via Illumination-Attenuation-Aware 3D Gaussian Splatting":
+"结肠镜3D重建的痛点：光源跟着镜头跑，传统3DGS假设光照不变直接崩。ColIAGS设计了双因子的光照衰减模型来模拟真实内镜照明，配合改进的几何与外观建模，让高斯泼溅在移动光源下也稳如磐石。新视角合成和深度重建双SOTA，渲染保真度和几何精度全面碾压。ICME 2026。",
+
+"TiS-TSL: Image-Label Supervised Surgical Video Stereo Matching via Time-Switchable Teacher-Student Learning":
+"手术视频立体匹配的终极省标注方案。手术场景下稠密视差标注几乎不可能，只能拿到几张图像级标签。TiS-TSL用三合一模型（图像预测、前向视频预测、后向视频预测）做时空联合建模。两阶段学习：先图像到视频迁移，再视频到视频精炼——用双向时空一致性识别不可靠区域，过滤噪声伪标签。在两数据集上EPE至少改善4.54%。BIBM 2025。",
+
+"Targeted False Positive Synthesis via Detector-guided Adversarial Diffusion Attacker for Robust Polyp Detection":
+"息肉检测的一个被忽视的死穴：假阳性太多。DADA反其道而行，用对抗扩散模型刻意合成\"高价值假阳性\"——就是那种最能迷惑检测器的背景图案。先训练一个只看背景的扩散模型，再引入检测器引导的对抗攻击，逼模型生成以假乱真的\"假息肉\"。用这些数据做增强训练，检测器F1提升至少2.6%。MICCAI 2025，提前接收。",
+
+"Holistic White-light Polyp Classification via Alignment-free Dense Distillation of Auxiliary Optical Chromoendoscopy":
+"全图级别的息肉分类，无需先定位再分类——省掉检测这步。核心是免对齐密集蒸馏：WLI和NBI图像即使没对齐也能做像素级知识迁移，通过跨域亲和力学习建立特征图对应关系，再用CAM过滤确保只走语义相关的蒸馏路径。AUC相对提升至少2.5%。基层医院用普通白光也能享受窄带成像级的诊断精度。MICCAI 2025，提前接收。",
+
+"Bidirectional Mammogram View Translation with Column-Aware and Implicit 3D Conditional Diffusion":
+"乳腺钼靶的两个标准视角（CC和MLO）可以互相生成了。核心是用列感知交叉注意力来利用钼靶的几何特性——解剖对应区域在列方向上大致对齐，加高斯衰减偏置抑制远距离误匹配。再引入隐式3D结构重建，从2D潜变量反投影成3D特征体积来引导生成。合成的视图能有效提升单视图恶性分类性能。BIBM 2025。",
+
+"First-frame Supervised Video Polyp Segmentation via Propagative and Semantic Dual-teacher Network":
+"视频息肉分割的标注成本降到极限——每个视频只标第一帧。PSDNet用双教师架构：传播教师（通用目标跟踪器）把首帧标注传到后面，语义教师（学生EMA）产出更稳定的伪标签。关键创意是反向传播评估策略——把伪标签反向跟踪回首帧，对齐度高的才是好标签。在SUN-SEG上比全监督方法差不了多少，比稀疏帧监督SOTA Dice高4.5%。ICASSP 2025。",
+
+"FSI-Edit: Frequency and Stochasticity Injection for Flexible Diffusion-Based Image Editing":
+"扩散模型图像编辑再进化。提出频率注入和随机性注入双通道，既保持源图的结构信息又引入可控的编辑灵活性。频率域操作保证背景高保真，随机性通道让编辑结果不呆板。支持多种编辑任务，从属性修改到风格迁移都能打。NeurIPS 2025，团队图像编辑方向的持续突破。",
+
+"RouterNet: Hierarchical Point Routing Network for Robust Vertebral Landmark Localization on AP X-ray Images":
+"脊椎X光关键点定位——临床刚需但骨头重叠、姿态各异很难搞。RouterNet用层级式点路由网络，逐级精细化定位脊椎标志点。不再是一次性预测所有点，而是从粗到细逐层路由、逐层精修，大幅提升定位鲁棒性。AAAI 2026，口头汇报，接收率不到9%。",
+
+"SAMIX: Reinforcing SAM2 with Semantic Adapter and Reference Selecting Policy for Mix-Supervised Segmentation":
+"SAM2再升级。加语义适配器扩展SAM2的表征能力，用参考帧选择策略在混合监督场景下智能挑选最有信息量的标注帧。全监督+弱监督混合训练，发挥两种标注资源的合力。CVPR 2026，医学影像分割基座模型的又一突破。",
+
+"MonoPCC: Photometric-invariant Cycle Constraint for Monocular Depth Estimation of Endoscopic Images":
+"内镜单目深度估计的重大创新。内镜光照变化剧烈，传统光度一致性假设彻底失效。MonoPCC提出光度不变循环约束，在光照变化下依然能建立可靠的跨帧对应关系。无需任何深度传感器，仅用内镜视频即可估计精确深度图，为手术导航打下基础。Medical Image Analysis 2025，影响因子>10，作者一作兼通讯。",
+
+"Robust Semi-supervised 3D Medical Image Segmentation with Diverse Joint-task Learning and Decoupled Inter-student Learning":
+"半监督3D医学图像分割的新思路。在Diverse Joint-task Learning框架下，多个子任务互相增强；Decoupled Inter-student Learning解耦不同学生模型的学习路径，避免同质化。仅需少量标注数据即可达到接近全监督的性能。IEEE TMI 2024，中科院医学1区Top5%。"
+
+  };
+
+  function normalize(s) {
+    return s.toLowerCase().replace(/[^a-z0-9\s]/g, '').replace(/\s+/g, ' ').trim();
+  }
+
+  function hasCorrespondingAuthor(li) {
+    return li.indexOf('Zhiwei Wang') >= 0 && (li.indexOf('&#42;') >= 0 || li.indexOf('&#8224;') >= 0 || li.indexOf('orange') >= 0);
+  }
+
+  $('.page__content li').each(function() {
+    var $li = $(this);
+    var html = $li.html();
+    if (!hasCorrespondingAuthor(html)) return;
+    if ($li.find('details.paper-intro').length) return;
+    var $em = $li.find('em').first();
+    if (!$em.length) return;
+    var text = $em.text().trim();
+    if (text.length < 15) return;
+
+    var norm = normalize(text);
+    var summary = summaries[text];
+    if (!summary) {
+      for (var key in summaries) {
+        var kn = normalize(key);
+        if (kn.indexOf(norm) >= 0 || norm.indexOf(kn) >= 0) {
+          summary = summaries[key];
+          break;
+        }
+      }
+    }
+    if (!summary) return;
+
+    $li.append(
+      '<br><details class="paper-intro" style="margin-top:4px;">' +
+      '<summary style="cursor:pointer;color:#4285f4;font-size:0.85em;font-weight:600;display:inline;">📋 点我看简介</summary>' +
+      '<p style="margin:6px 0 0 0;padding:10px 14px;background:#f0f4ff;border-left:3px solid #4285f4;border-radius:0 6px 6px 0;font-size:0.88em;line-height:1.7;color:#444;">' +
+      summary +
+      '</p></details>'
+    );
+  });
+});
+</script>
