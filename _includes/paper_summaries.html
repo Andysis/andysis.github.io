@@ -3,157 +3,157 @@ $(function() {
   var summaries = {
 
 "SAMIX: Reinforcing SAM2 with Semantic Adapter and Reference Selecting Policy for Mix-Supervised Segmentation":
-"SAMIX在SAM2基础上添加语义适配器（Semantic Adapter）扩展特征表达，并设计参考帧选择策略（Reference Selecting Policy），在混合监督（全监督+弱监督）场景下自动挑选最具信息量的标注帧。通过融合两种标注资源，提升分割模型在有限标注条件下的性能。",
+"【医学图像分割 / 混合监督学习】解决真实场景下多种标注类型混用的分割训练问题。一是改造 SAM2 基础模型：在 SAM2 上加一个轻量级语义适配器（Semantic Adapter），让它不仅能接受点框提示，还能把"图文配对的参考样本"当作密集上下文提示来用，不再只依赖稀疏的空间先验。二是设计了选择策略网络（SPNet），用强化学习自动给每张图片挑最合适的参考样本组合，而不是人工写规则。最终在没有标注的图片上也能直接生成高质量伪标签。在 PASCAL VOC、Cityscapes 以及伪装物体、息肉分割四个数据集上都是 SOTA。",
 
 "RouterNet: Hierarchical Point Routing Network for Robust Vertebral Landmark Localization on AP X-ray Images":
-"RouterNet提出层级式点路由网络，用于AP位X光片上的脊椎标志点定位。网络不一次性预测所有关键点，而是从粗到细逐层路由、逐级精修，先定位全局结构再细化局部，增强对骨骼重叠和姿态差异的鲁棒性。",
+"【脊柱侧弯评估 / 关键点定位】在正位 X 光片上定位 68 个脊椎角点，用于 Cobb 角自动测量。传统热图法虽然对姿态变化鲁棒，但组织重叠导致经常预测出漏点、错点，对临床诊断是致命的。本文换个思路，回归经典的点回归方案，提出 RouterNet——从整根脊柱的中心点出发，逐层"路由"到 17 个椎体中心，再到 68 个角点，由粗到细，每一层回归的点指导下一层在更高分辨率特征图上提取更精细的局部特征。这样分而治之，天然保留了形状拓扑关系（不会出现漏点错点）。定位 NMSE 降低 73.8%，下游 Cobb 角 SMAPE 降低 14.8%。",
 
 "FIA-Edit: Frequency-Interactive Attention for Efficient and High-Fidelity Inversion-Free Text-Guided Image Editing":
-"FIA-Edit提出免逆变换（inversion-free）的文本引导图像编辑框架。核心包括两个模块：频域特征交互（FRI）在自注意力中交换源图与目标图的频率分量实现跨域对齐；特征注入（FIJ）将源图的query/key/value和文本嵌入显式注入目标分支的交叉注意力以保留结构。单张512×512图像在RTX 4090上约6秒。首次将文本编辑扩展到临床医学场景，用于合成手术出血的解剖一致性变化以增强下游出血分类数据。",
+"【扩散模型 / 文本引导图像编辑】用文字指令修改图片内容，但不需要传统方法中那个耗时又容易出错的反演（inversion）步骤。核心是频域交互注意力机制，分两块：(1) 频域特征交互（FRI）——在自注意力里交换源图和目标图的频率分量，低频管结构、高频管纹理，各取所需；(2) 特征注入（FIJ）——把源图的 query/key/value 和文本嵌入直接注入目标分支的交叉注意力，保住背景不跑偏。一张 512×512 的图在 RTX 4090 上约 6 秒搞定。还首次把这种技术用到医学场景——合成手术出血的解剖一致变异来增强出血分类数据。",
 
 "Pairing-free Group-level Knowledge Distillation for Robust Gastrointestinal Lesion Classification in White-Light Endoscopy":
-"PaGKD打破知识蒸馏必须配对数据的限制，在完全不配对的WLI和NBI数据上进行跨模态知识迁移。包含两个模块：组级原型蒸馏（GKD-Pro）通过共享的病变感知查询提取模态不变语义原型；组级密集蒸馏（GKD-Den）利用激活图导出的关系图实现跨模态像素级对齐。在四组临床数据上AUC相对提升1.1%~3.3%。",
+"【消化内镜 / 跨模态知识蒸馏】白光源（WLI）胃镜图片质量不如窄带成像（NBI），但临床大多只有 WLI。传统方法想把 NBI 的知识迁移到 WLI 模型，但要求同一病灶的 NBI-WLI 配对图像——成本高、不现实。本文打破这个限制：不要求图片配对，而是在"组级别"做知识蒸馏。(1) 组级原型蒸馏直接提取模态无关的病灶语义原型；(2) 组级密集蒸馏用 CAM 激活图导出的关系图做跨模态像素级对齐。四个临床数据集上 AUC 相对提升最高 3.3%。",
 
 "StyleSeg V2: Towards Robust Single-label-supervised Segmentation of Brain Tissue via Optimization-free Registration Error Perception":
-"StyleSeg V2在仅使用单张标注图像（atlas）的条件下实现脑组织分割。核心是免优化的配准误差感知模块，在图像风格迁移过程中自动评估配准质量，无需额外的配准网络训练。解决StyleSeg V1中配准误差导致风格迁移不可靠的问题，显著提升单标签监督下的分割鲁棒性。",
+"【脑组织分割 / 单标签监督学习】只用一张标注好的脑图谱（atlas）来分割其他所有人的脑 MRI。核心创新是"配准误差感知"——把输入图镜像翻转，如果配准是好的，翻转前后的输出应该也镜面对称；不对称的地方就是配准出错的地方。这个技巧几乎零计算开销，就能让配准模型自己"指"出哪里对齐不好。分割模型只学配准可靠的部分，同时在用风格变换扩增数据时也根据配准误差加权，避免错误信息传播。OASIS 和 CANDIShare 上比前代 StyleSeg 平均 Dice 再提升 2.0%～2.4%。",
 
 "Cross-correlation Rectification for Robust Deformable Registration of Brain Tumor MRI between Preoperative and Postoperative Phases":
-"针对脑肿瘤MRI术前与术后图像配准中由肿瘤切除引起的大形变和非对应区域问题，提出互相关矫正策略。通过分析形变场的局部互相关性来识别和修正不可靠的配准区域，避免错误形变传播，提升术前-术后跨时间点配准的精度。",
+"【脑肿瘤 MRI / 术前术后图像配准】术前和术后 MRI 由于肿瘤被切除，存在大片"有和没有"不对应的区域，传统配准方法会强行把不对应的区域也拉扯，导致形变场错误。本文分析形变场的局部互相关性，发现配准错误区域的互相关模式与正常区域不同，据此识别并修正不可靠的配准区域，让肿瘤切除引发的大形变不影响正常脑组织的对齐精度。",
 
 "Moving Light Adaptive Colonoscopy Reconstruction via Illumination-Attenuation-Aware 3D Gaussian Splatting":
-"ColIAGS解决结肠镜场景下3D Gaussian Splatting因移动光源导致的渲染失败问题。设计包含两种光照衰减因子的光照模型以模拟真实内镜照明，配合改进的几何建模（Improved Geometry Modeling）和外观建模（Improved Appearance Modeling）来隐式优化光照衰减解。在新视角合成和深度重建上均优于现有方法。",
+"【结肠镜三维重建 / 3D Gaussian Splatting】结肠镜光源在移动中不断变化，导致基于 3DGS 的方法渲染出来的画面忽明忽暗甚至一片黑。本文给 3DGS 加了一个光照衰减模型——包含光源到组织表面的距离衰减和入射角衰减两个物理因子。配合改进的几何建模和外观建模，隐式优化每帧的光照衰减参数。光源自适应后，新视角合成和深度重建的质量都明显好于现有方法。",
 
 "Knowledge-Contrastive Fine-Grained Attention for CVS Recognition in Cholecystectomy Without Dense Labels":
-"针对胆囊切除术中关键安全视图（CVS）识别任务标注成本高的问题，提出知识对比细粒度注意力机制。在无密集标注的条件下，通过对比学习引导模型关注手术场景中的关键解剖结构区域，实现稀疏监督下的精细手术阶段识别。",
+"【胆囊切除术 / 手术关键视图（CVS）识别】CVS 是胆囊切除的安全标准，但手动标注手术视频中精确的解剖结构区域太贵。本文用对比学习做细粒度注意力：不给密集标注，而是通过"知识对比"让模型自己去关注关键解剖结构（胆囊管、胆囊动脉等），原理是同一安全状态下不同帧的这些结构应具有相似的注意力模式。在稀疏监督下实现精细的手术安全评估。",
 
 "MonoPCC: Photometric-invariant Cycle Constraint for Monocular Depth Estimation of Endoscopic Images":
-"MonoPCC提出光度不变循环约束，解决内镜场景中传统光度一致性假设因剧烈光照变化而失效的问题。通过设计对光照变化鲁棒的跨帧对应约束，仅利用内镜单目视频即可估计深度图，无需额外深度传感器。在SCARED等内镜数据集上验证了深度估计精度。",
+"【内镜深度估计 / 单目自监督学习】传统自监督深度估计依赖"不同视角下同一点的光度一致性"，但内镜里光照极不稳定，这个假设基本不成立。本文改掉了这个前提，提出光度不变循环约束——前后帧之间的几何对应关系（而非颜色一致性）作为训练信号，加上相对姿态估计的联合优化，让模型在光照剧烈变化的场景下也能从单目视频中估计深度。在 SCARED 等内镜数据集上的深度精度大幅领先。",
 
 "FSI-Edit: Frequency and Stochasticity Injection for Flexible Diffusion-Based Image Editing":
-"FSI-Edit提出基于频率和随机性注入的免微调图像编辑框架。频率残差融合（FRF）将重建特征的仅高频分量注入生成特征，避免直接替换导致的结构冲突；随机噪声注入（SNI）在自注意力图中引入可控噪声，拓展非刚性编辑的生成空间。支持添加、删除、姿态操作等非刚性编辑任务。",
+"【扩散模型 / 图像编辑】解决文本引导图像编辑中两个痛点：(1) 非刚性编辑（比如改变姿势、添加物体）很难做；(2) 直接替换特征导致原图背景被破坏。方案分两步：一是频率残差融合，只把重建特征的高频部分（纹理细节）注入生成过程，低频部分（结构信息）保留不变，这样就允许结构大变而不丢纹理；二是在自注意力图里加可控噪声，让模型在"合理范围内自由发挥"，支持添加、删除、姿态变化等非刚性编辑。NeurIPS 2025 poster。",
 
 "CoStoDet-DDPM: Collaborative Training of Stochastic and Deterministic Models Improves Surgical Workflow Anticipation and Recognition":
-"CoStoDet-DDPM将去噪扩散概率模型（DDPM）引入手术流程分析，与确定性任务模型进行协同训练。DDPM分支学习手术中的过程不确定性以丰富特征表示，任务分支负责预测手术阶段和器械使用。推理时仅使用任务分支，不增加计算开销。在Cholec80上手术预期误差降16%，阶段识别Jaccard提1.0%。",
+"【手术视频分析 / 扩散模型辅助】把 DDPM（去噪扩散概率模型）引入手术流程分析，但不是直接用它做预测，而是作为"陪练"。随机模型（DDPM 分支）学习手术中什么都有可能发生的"过程不确定性"，确定性模型（任务分支）负责精确预测手术阶段和器械使用。两者协同训练，随机模型的丰富表示帮助确定性模型更鲁棒。关键是推理时只用确定分支，不增加任何计算量。Cholec80 上预期误差降 16%，阶段识别 Jaccard 提 1.0%。",
 
 "MonoBox: Tightness-free Box-supervised Polyp Segmentation using Monotonicity Constraint":
-"MonoBox解除框监督分割中\"框边缘必须紧贴目标\"的限制。用单调性约束替代传统MIL损失：在框边缘噪声区内强制模型响应沿前景→背景方向单调递减。结合自适应标签修正利用历史预测掩码收紧标注框，训练中动态缩小噪声区。在息肉分割上Dice至少提升5.5%。",
+"【息肉分割 / 弱监督分割】用矩形框标注代替像素级标注来做分割——常见思路，但传统方法要求框必须"紧贴"目标边缘，息肉边界模糊时很难做到。本文解放了这个限制：在框边缘的噪声区域内，不用传统的多实例学习损失（会误导），而是用"单调性约束"——沿着从前景到背景的方向，模型输出必须单调递减。这样即使框画大了，模型也知道框边缘处应该是从目标到背景的渐变。再配合自适应标签修正，用上一轮的预测结果收紧标注框。息肉数据集上 Dice 至少提升 5.5%。",
 
 "Joint Holistic and Lesion Controllable Mammogram Synthesis via Gated Conditional Diffusion Model":
-"提出门控条件扩散模型，实现乳腺钼靶图像的整体及病变可控合成。模型能够同时控制全图风格和局部病变特征，支持在合成过程中指定病变的有无、大小和位置，为乳腺影像数据增强和病灶分析提供可控生成工具。",
+"【乳腺钼靶合成 / 条件扩散模型】用扩散模型同时合成整张钼靶图及其中的病灶。关键在门控条件分支——自动挑选病变的影像组学特征和几何属性（大小、形状、位置等），动态融合到去噪过程中。Soft mask embedding 编码了乳房区域、病变区域和过渡带的关系，保证合成图像在解剖上合理。实现了一个模型同时控制全局乳腺外观和局部病灶特征。",
 
 "Single-slice Semi-supervised 3D Medical Image Segmentation via Correlation Information Enhancement and Hybrid Pseudo Mask Generation":
-"针对3D医学图像分割标注成本高的问题，提出基于单切片标注的半监督学习框架。利用切片间相关信息增强机制挖掘相邻切片间的关联信息，结合混合伪掩码生成策略为未标注切片产生可靠伪标签，实现从单切片标注到全3D分割的扩展。",
+"【3D 医学图像分割 / 半监督学习】解决 3D 医学图像标注太贵的问题——每例只标一张切片（而不是整个体积），利用相邻切片之间的相关信息增强机制把知识扩散到未标注切片。同时用"混合伪掩码生成"给未标注切片生产可靠的伪标签（融合来自标注切片传播的和模型直接预测的两种来源），让模型从单切片标注中学会全体积分割。",
 
 "Boosting Few-shot Semantic Segmentation of 3D Medical Images via Collaborative Slice Alignment":
-"提出协同切片对齐策略提升3D医学图像的少样本语义分割。通过在不同支持样本和查询样本之间建立切片级对应关系，实现跨体积的特征对齐与信息融合，缓解少样本场景下标注支持样本不足导致的泛化困难。",
+"【3D 医学图像 / 少样本分割】给很少的标注样本做新病例的分割。问题在于支持样本（已标注）和查询样本（待分割）的切片位置通常不对齐，直接匹配效果很差。提出协同切片对齐模块——先让模型学会给切片"排序"（通过估计分数隐含表征物理位置），再根据置信度分数自动为每个查询切片找最匹配的支持切片，用信息 reconciliation 模块补偿个体差异。三个数据集上平均 Dice 提升至少 8.61%。",
 
 "Improving 3D Thin Vessel Segmentation in Brain TOF-MRA via a Dual-space Context-Aware Network":
-"DCANet提出双空间上下文感知网络用于脑TOF-MRA图像中的3D细血管分割。分别在图像空间和特征空间构建上下文感知模块，增强对细小血管结构的特征响应，解决TOF-MRA中血管边界模糊、信号不均导致的细血管漏检问题。",
+"【脑血管分割 / TOF-MRA 图像】脑 TOF-MRA 图像里细血管信号弱、边界糊，传统分割容易漏。DCANet 在图像空间和特征空间同时构建上下文感知模块：图像空间里用多尺度感受野捕获不同粗细的血管，特征空间里通过通道和空间注意力强化血管结构响应，两个空间互补，细血管检测率显著提升。",
 
 "TSRNet: Target-aware Self Region-prompting Network for Brain Tumor Segmentation":
-"TSRNet提出目标感知自区域提示网络。网络自动从输入图像中发现肿瘤候选区域，并将区域信息作为提示反馈给分割模块，实现无需外部先验的目标驱动分割，在脑肿瘤分割任务中提升对不规则病灶的定位精度。",
+"【脑肿瘤分割 / 区域提示学习】不依赖外部先验或人工交互，让网络自己从输入图像中发现肿瘤可能在哪，再把这个"区域提示"反馈给分割模块——相当于网络自己提示自己。不需要额外的目标检测模块或人工标注的 bounding box，一个端到端框架完成肿瘤定位+分割。对不规则形状的病灶尤其有效。",
 
 "Targeted False Positive Synthesis via Detector-guided Adversarial Diffusion Attacker for Robust Polyp Detection":
-"DADA提出对抗扩散框架合成高价值假阳性（false positive）。先通过区域噪声匹配策略训练仅关注背景的扩散模型，再引入检测器引导的对抗攻击（DADA模块）来扰动负样本生成过程，使模型生成最能迷惑检测器的伪病灶图案。合成数据用于增强训练后，检测器F1分数提升至少2.6%。",
+"【息肉检测 / 对抗数据增强】息肉检测的瓶颈不是"漏检"而是"误报"——模型经常把正常组织判为病灶。本文反其道而行之，专门合成"高质量误报"来训练模型：先训练一个只看背景的扩散模型（用区域噪声匹配遮挡息肉区域），再加检测器引导的对抗攻击模块，让扩散模型生成最能骗过检测器的假病灶图案。用这些"防骗练习"来增强训练，检测器 F1 分数提升至少 2.6%。",
 
 "Holistic White-light Polyp Classification via Alignment-free Dense Distillation of Auxiliary Optical Chromoendoscopy":
-"ADD提出免对齐密集蒸馏模块，在全图级别利用NBI辅助信息提升WLI息肉分类。无需图像对齐，通过像素级跨域亲和力学习建立WLI和NBI特征图之间的对应关系，并用CAM过滤确保蒸馏路径仅沿语义相关区域进行。AUC相对提升至少2.5%。",
+"【息肉分类 / 跨模态知识蒸馏】用 NBI 的信息来提升 WLI 息肉分类，但不需要两张图像素对齐。ADD 模块学的是像素级跨域亲和力——WLI 和 NBI 特征图之间的"软对应关系"，不是严格的几何配准。再用 CAM 过滤确保蒸馏路径只在"对分类有贡献"的语义相关区域传递。全图级别操作，不需要先检测息肉区域。AUC 相对提升至少 2.5%。",
 
 "TiS-TSL: Image-Label Supervised Surgical Video Stereo Matching via Time-Switchable Teacher-Student Learning":
-"TiS-TSL在仅使用稀疏图像级标签的条件下实现手术视频立体匹配。统一模型支持三种模式：图像预测（IP）、前向视频预测（FVP）和后向视频预测（BVP）。两阶段训练：图像到视频（I2V）阶段将稀疏图像知识迁移至视频，视频到视频（V2V）阶段利用双向时空一致性识别并过滤不可靠伪标签，提升时序视差稳定性。",
+"【手术视频立体匹配 / 弱监督学习】手术场景下深度估计需要双目视差，但逐帧标注视差太贵。本文只用稀疏的图像级标签（不连续的几张标注图）来做视频级的立体匹配。一个统一模型支持三种模式：单图预测、前向视频预测、后向视频预测——可以通过时间切换灵活选。两阶段训练：先把稀疏图像知识迁移到视频（I2V），再把双向时空一致性来过滤不可靠伪标签（V2V）。结果在时序上比单帧方法稳定得多。",
 
 "Bidirectional Mammogram View Translation with Column-Aware and Implicit 3D Conditional Diffusion":
-"CA3D-Diff实现乳腺钼靶CC和MLO两个标准视角的双向互转。列感知交叉注意力利用钼靶几何特性——解剖对应区域在列方向上大致对齐，用高斯衰减偏置抑制远距离误匹配。隐式3D结构重建模块将2D噪声潜变量反投影为3D特征体积，引导跨视角生成。合成视图能有效提升单视角恶性分类性能。",
+"【乳腺钼靶 / 跨视角图像转换】乳腺钼靶有 CC 和 MLO 两个标准视角，临床中经常缺失一个。本文用条件扩散模型实现两个方向互转。利用了钼靶独特的几何属性：解剖对应区域在大致相同的列位置上——设计列感知交叉注意力，用高斯衰减 bias 抑制远距离列的错误匹配。再加隐式 3D 结构重建模块，把 2D 噪声潜变量反投影成粗糙 3D 特征体积，从三维角度约束跨视角生成。合成视图能有效提升单视角恶性分类性能。",
 
 "DACAT: Dual-stream Adaptive Clip-aware Time Modeling for Robust Online Surgical Phase Recognition":
-"DACAT提出双流自适应片段感知时序建模方法，用于在线手术阶段识别。双流结构分别处理短期运动信息和长期上下文信息，自适应片段感知模块动态调整时序感受野以适应不同手术阶段的持续时间差异，实现鲁棒的实时手术阶段分类。",
+"【手术阶段识别 / 在线时序建模】手术视频在线阶段识别要求实时、不依赖未来帧。DACAT 用双流架构：一流处理短时运动信息（最近几秒），二流处理长时上下文（更长窗口），自适应片段感知模块根据当前手术阶段动态调整两个流的时间窗口长度——长的阶段需要长记忆，短的过渡时刻需要快速反应。",
 
 "First-frame Supervised Video Polyp Segmentation via Propagative and Semantic Dual-teacher Network":
-"PSDNet将视频息肉分割标注成本降至每个视频仅标首帧。双教师架构包括传播教师（通用目标跟踪器将首帧标注传播到后续帧）和语义教师（学生模型的EMA，产出更稳定的伪标签）。反向传播评估策略将伪标签反向跟踪回首帧，基于对齐度评估标签质量以指导知识迁移。在SUN-SEG上Dice提升至少4.5%。",
+"【视频息肉分割 / 极弱监督】把视频分割的标注成本压到极致——每个视频只标第一帧。双教师架构：传播教师是通用目标跟踪器，把第一帧标注机械地传到后面帧；语义教师是学生模型自己的 EMA，产出更稳定但可能更模糊的伪标签。这里有个巧妙的"反向传播评估"——把后面的伪标签反向跟踪回第一帧，看和真值对齐程度来判断伪标签质量，高质量的多用，低质量的少用。SUN-SEG 上 Dice 至少提升 4.5%。",
 
 "SPNet: Sparse-mask Prompt-learning Network for Cerebrovascular Segmentation":
-"SPNet提出稀疏掩码提示学习网络进行脑血管分割。利用少量稀疏标注作为提示信号来引导网络学习血管分割任务，在仅需极少量标注的条件下获得完整血管分割结果，降低脑血管标注成本。",
+"【脑血管分割 / 稀疏标注提示学习】脑血管又细又密，全标很费劲。SPNet 让标注人员只需标少量稀疏的血管片段，然后把这些稀疏标注当作"提示"信号——类似大语言模型的 few-shot prompt——来引导分割网络完成整张图的血管分割。核心是把稀疏掩码编码成可学习的提示向量注入网络的多个层级，仅在极少量标注下获得完整血管分割。",
 
 "Robust Semi-supervised 3D Medical Image Segmentation with Diverse Joint-task Learning and Decoupled Inter-student Learning":
-"DDL提出多样联合任务学习和解耦学生间学习框架用于半监督3D医学图像分割。多任务分支（分割、重建等）互相增强学习信号，解耦学生间学习避免不同学生模型的同质化，提升半监督场景下各学生模型的多样性和整体分割性能。",
+"【3D 医学图像分割 / 半监督学习】半监督分割中常见的 teacher-student 框架的升级：一是多任务联合学习，分割模型同时学分割、重建等任务，不同任务互相增强学习信号；二是"解耦"学生间学习——不让两个学生模型互相模仿导致同质化，而是让它们分别关注不同区域或不同难度，保持多样性。相当于有两个"学习风格不同"的学生互相教，效果比两个一模一样的学生好得多。TMI 2024。",
 
 "Fine-grained Temporal Site Monitoring in EGD Streams via Visual Time-aware Embedding and Vision-text Asymmetric Coworking":
-"VTE-VAC提出视觉时态感知嵌入和视觉-文本非对称协同框架，用于胃镜视频流中的细粒度时间部位监测。时间感知嵌入捕获内镜检查中的时序进度特征，视觉-文本非对称协同利用文本描述信息辅助视觉模型识别当前解剖部位，实现无密集标注的胃镜部位自动跟踪。",
+"【胃镜检查 / 时序部位监测】胃镜视频中自动识别当前看到的是胃的哪个部位。时间感知嵌入捕捉检查的时间进度特征（比如从食道→贲门→胃底→胃窦有固定顺序），视觉-文本非对称协同用部位名称的文本描述来辅助视觉模型做分类——给视觉模型一个文字"标签"，帮它理解当前在看什么。不依赖密集帧标注，只需视频级别的部位标签。",
 
 "Accurate scoliosis vertebral landmark localization on x-ray images via shape-constrained multi-stage cascaded cnns":
-"提出形状约束的多级级联CNN用于脊柱侧弯X光片上的脊椎标志点精确定位。多级网络由粗到细逐级精修关键点坐标，形状约束模块利用脊椎的解剖形态先验来修正不合理的关键点预测，提升在严重侧弯和姿态差异下的定位鲁棒性。",
+"【脊柱侧弯 / 关键点定位】多级级联 CNN 由粗到细定位脊椎标志点。关键在形状约束模块——利用脊椎的解剖形态先验（17 个椎体大致排成一条曲线、相邻角点间距应有规律等）来修正不合理的关键点预测。网络预测的不一定是最终结果，还要通过形状模型"审核"一遍，过滤掉违背解剖常识的点。",
 
 "SALI: Short-term Alignment and Long-term Interaction Network for Colonoscopy Video Polyp Segmentation":
-"SALI网络结合短时对齐模块（SAM）和长时交互模块（LIM）做结肠镜视频息肉分割。SAM通过可变形卷积学习相邻帧的空间对齐特征并融合，捕获稳定的短时息肉表达；LIM维护历史息肉表达的长时记忆库，在遇到低质量帧时通过回溯交互重建可靠息肉特征。在SUN-SEG上Dice提升2.1%~4.1%。",
+"【结肠镜视频 / 息肉分割】解决内镜快速移动和近距离观察导致的帧间不一致问题。SALI 由两个模块组成：短时对齐用可变形卷积学习相邻帧的偏移并对齐，捕获稳定短期息肉表达；长时交互维护一个历史记忆库，当前帧质量不好（模糊、反光、遮挡）时，从记忆库里取出过去看到的最好的息肉特征来"救场"，通过注意力交互重建当前帧的可靠分割。SUN-SEG 四个子集上 Dice 提升 2.1%～4.1%。",
 
 "Noise Removed Inconsistency Activation Map for Unsupervised Registration of Brain Tumor MRI between Pre-operative and Follow-up Phases":
-"NR-IAM提出噪声去除的不一致性激活图用于脑肿瘤MRI术前与随访图像的无监督配准。先通过训练初期的配准网络计算不一致性激活图来定位肿瘤变化区域，再引入噪声掩码处理（NMP）滤除配准噪声，得到精确的肿瘤不一致区域以指导后续配准优化。",
+"【脑肿瘤 MRI / 无监督配准】术前和随访 MRI 中肿瘤区域变化大，无监督配准很难区分"该对齐的结构"和"该变化的结构"。NR-IAM 的思路是：先让配准网络粗略训练一轮，计算"不一致性激活图"来定位肿瘤变化区域，但这些激活图里混杂了很多配准噪声。再用噪声掩码处理（NMP）把这些噪声滤掉，得到干净的肿瘤不一致区域图，让配准网络知道哪些区域不要去强行对齐。",
 
 "Improved Self-supervised Monocular Endoscopic Depth Estimation based on Pose Alignment-friendly Dynamic View Selection":
-"DVSMono提出基于姿态对齐友好的动态视图选择策略改进自监督单目内镜深度估计。通过评估候选帧与当前帧的姿态对齐难度来动态选择训练视图对，避免选择对齐困难帧导致的训练不稳定，提升内镜深度估计精度。",
+"【内镜深度估计 / 自监督单目】自监督深度估计需要从不同视角的图像对来学习，但内镜运动幅度大时相邻帧的姿态差异太大，对齐困难导致训练效果差。DVSMono 的核心是一个动态视图选择策略：先评估候选帧和当前帧的相对姿态，只选"姿态比较好对齐"的帧来训练，自动过滤掉那些大角度旋转、大位移的帧，让训练更稳定。",
 
 "Decoupling Feature Representations of Ego and Other Modalities for Incomplete Multi-modal Brain Tumor Segmentation":
-"DeMoSeg将多模态脑肿瘤分割中每模态的特征解耦为自身表达和跨模态互表达。包含特征解耦、基于临床先验的特征补偿和U-Net分割骨干三个主要组件。CSSA层实现特征间的跨引导，RCR特征补偿策略在模态缺失时利用可用模态信息填补缺失模态特征。在BraTS2020/2018/2015上均取得最优结果。",
+"【脑肿瘤分割 / 多模态缺失场景】多模态 MRI（T1、T2、FLAIR 等）能提升分割精度，但临床中经常有模态缺失。DeMoSeg 把每模态特征解耦成两部分：自身独有的表达和其他模态给到的互表达。CSSA 层实现特征之间的信息交叉传递，RCR（相关的临床先验补偿）在某个模态缺失时用可用的其他模态信息去"补"缺失的空位。BraTS 2020/2018/2015 三个版本上都是最优。",
 
 "Bidirectional Semi-supervised Dual-branch CNN for Robust 3D Reconstruction of Stereo Endoscopic Images via Adaptive Cross and Parallel Supervisions":
-"提出双向半监督双分支CNN用于立体内镜图像的鲁棒3D重建。双分支架构同时学习视差估计和重建，自适应交叉监督和并行监督策略利用少量标注数据和大量无标注立体图像进行联合训练，在半监督场景下实现高质量的3D内镜重建。",
+"【立体内镜三维重建 / 半监督学习】从立体内镜图像重建 3D 表面。双分支架构：一支做视差估计（左右图之间的位移），另一支做三维重建。关键是自适应交叉监督和并行监督——前者让两个分支的输出互相监督、取长补短，后者在有标注和无标注数据之间并行处理。只需要少量标注的视差图就可以利用大量无标注立体图像训练。TMI 2023。",
 
 "Robust One-Shot Segmentation of Brain Tissues via Image-Aligned Style Transformation":
-"StyleSeg提出图像对齐风格变换实现脑组织的one-shot分割。通过配准网络将标注atlas图像与目标图像对齐后，利用风格变换模块将atlas图像的风格适配为目标图像风格，使分割网络能在风格一致的条件下一发分割。包含无监督回归训练、有监督分割训练和弱监督回归训练三个阶段。",
+"【脑组织分割 / One-shot 学习】只有一张标注好的脑图谱（atlas），要给所有人的脑 MRI 做分割。StyleSeg 的做法分三步：(1) 无监督训练配准网络把 atlas 对齐到目标人脑；(2) 用风格变换模块把 atlas 图像的风格改成目标人脑的风格（不同机器、不同扫描参数导致图像风格差异大）；(3) 风格一致后再做分割。三阶段训练：先无监督回归，再有监督分割，最后弱监督回归闭环。AAAI 2023。",
 
 "Dual-view Correlation Hybrid Attention Network for Robust Holistic Mammogram Classification":
-"DCHA-Net提出双视图相关混合注意力网络用于乳腺钼靶全图分类。在CC和MLO两个视图之间建立特征相关性，混合注意力机制同时聚焦通道和空间维度上最具判别力的特征区域，利用双视图互补信息提升乳腺图像分类鲁棒性。",
+"【乳腺钼靶分类 / 双视图注意力】乳腺钼靶有两个视角（CC 和 MLO），医生需要对照着看。DCHA-Net 在特征层面构建两个视图之间的相关性，混合注意力机制同时在通道和空间维度上找到最具判别力的特征——不是简单地两个视图分别处理再融合，而是让一个视图知道另一个视图的模式，互相提示哪些区域关键。IJCAI 2023。",
 
 "Rethinking Low-Dose CT Synthesis: Degrading Normal-Dose CT from Origin for Pairwise Training of CT Denoiser":
-"重新思考低剂量CT合成范式：从原始正常剂量CT出发进行退化模拟以生成配对训练数据。不同于传统从低剂量CT到正常剂量CT的去噪思路，该方法在正常剂量CT上施加物理建模的退化操作生成模拟低剂量CT，获得精确像素级配对的训练数据用于CT去噪器训练。",
+"【CT 图像去噪 / 数据合成新范式】低剂量 CT 去噪需要配对数据（同一扫描的低剂量和正常剂量），但临床上不可能同时扫两种。传统做法是往正常剂量 CT 里加噪声，但噪声和结构已经纠缠在一起了，加的噪声不像真实低剂量。本文换了个思路：从正常剂量 CT 出发，先反投影到 sinogram 域——噪声的"源头"就在这里——在 sinogram 里加噪声，再用可导的 FBP 算子重建回 CT 图像，这样噪声自然地通过重建过程与结构纠缠在一起，比直接加噪更像真实低剂量 CT。合成的配对数据训练的去噪器，放射科医生都分不出真假。",
 
 "Towards Learning-based Surgical Planning of Glioma Resection via a Contrastively Constrained Siamese Neural Network":
-"提出对比约束的孪生神经网络用于胶质瘤切除的手术规划学习。孪生网络同时处理术前MRI和预期术后结构的表示，对比约束引导网络学习切除前后脑组织的对应变化关系，辅助外科医生制定手术切除方案。",
+"【胶质瘤手术规划 / 对比学习孪生网络】胶质瘤切除手术最难的是判断"切多少"——切多了伤功能区，切少了残留肿瘤。本文用孪生神经网络同时处理术前 MRI 和预期切除术后的结构表示，对比约束让网络学习"哪些区域是肿瘤需要切、哪些是正常组织需要保留"的对应变化关系，辅助外科医生制定切除方案。",
 
 "Joint progressive and coarse-to-fine registration of brain MRI via deformation field integration and non-rigid feature fusion":
-"PCR-Net提出形变场集成和非刚性特征融合方法，在渐进式和由粗到细两个维度上分解脑MRI配准任务。DFI模块将渐进式分解的各级形变场进行集成，NFF模块在粗到细路径中融合不同尺度的非刚性特征，缓解一步预测大形变场的困难。在LPBA40数据集上验证。",
+"【脑 MRI 配准 / 由粗到细形变场集成】大形变配准很难一步做到位。PCR-Net 在两个维度上分解任务：渐进式（先配准大体的刚性部分再逐步放开形变自由度）和由粗到细（低分辨率特征图做大位移、高分辨率做精细调整）。DFI 模块把所有渐进阶段的形变场集成起来，NFF 模块在不同尺度融合非刚性特征，避免一步预测大形变场的困难。TMI 2022。",
 
 "Accurate Cobb Angle Estimation on Scoliosis X-ray Images via Deeply-coupled Two-stage Network with Differentiable Cropping and Random Perturbation":
-"提出深度耦合两阶段网络实现脊柱侧弯X光片上Cobb角的精确自动估计。第一阶段用可微分裁剪定位脊椎区域，第二阶段在裁剪区域上估计Cobb角。两阶段深度耦合训练，随机扰动增强提升模型对X光片拍摄角度差异的鲁棒性。",
+"【脊柱侧弯 / Cobb 角自动测量】两阶段深度耦合网络：第一阶段找到脊柱区域（用可微分裁剪实现端到端训练），第二阶段在裁剪区域内估计 Cobb 角。两阶段不是独立训练的而是深度耦合——角度的回归误差反向传到裁剪网络，让它自己调整裁剪位置。随机扰动增强让模型对 X 光片拍摄角度、患者体位的差异更鲁棒。JBHI 2022。",
 
 "Progressive and Coarse-to-Fine Network for Medical Image Registration Across Phases, Modalities and Patients":
-"提出渐进式粗到细网络用于跨时间、跨模态和跨患者的医学图像配准。网络按配准难度递进分解形变场：先配准大体结构再精细调整局部形变，由粗到细的框架在不同配准场景下均实现高效配准。",
+"【医学图像配准 / 通用跨模态配准】一个网络搞定三种场景：同患者不同时间点、不同模态（如 MRI-CT）、不同患者。渐进式形变场分解，先配全局结构再调局部细节，避免一步到位导致的局部极值。在多种配准设置下都表现良好，通用性强。MICCAI 2022。",
 
 "Improving the Quality of Sparse-view Cone-Beam Computed Tomography via Reconstruction-Friendly Interpolation Network":
-"提出重建友好的插值网络来改善稀疏视角CBCT图像质量。网络学习从稀疏投影到密集投影的插值映射，使得插值后的投影数据更适合后续CT重建算法处理，从而在减少辐射剂量的同时保持重建图像质量。",
+"【CBCT 重建 / 稀疏视角插值】减少 CBCT 扫描投影数可以降辐射剂量，但重建图像质量下降。本文不直接"修复"重建后的 CT 图像，而是在投影这一步做文章——训练一个插值网络在投影域把稀疏投影变成密集投影，插值后的投影再给标准 FBP 重建，这样重建算法"更喜欢"这些投影数据，最终图像质量更好。ACCV 2022。",
 
 "Semi-supervised Learning via Improved Teacher-Student Network for Robust 3D Reconstruction of Stereo Endoscopic Image":
-"提出改进的教师-学生网络用于立体内镜图像的半监督3D重建。在教师-学生框架基础上引入改进策略以增强伪标签质量和训练稳定性，利用少量标注数据和大量无标注立体内镜数据进行半监督训练。",
+"【立体内镜 / 3D 重建半监督】改进的教师-学生网络，让教师模型产生更高质量的伪标签来教学生。教师网络通过 EMA 更新保持稳定，改进的伪标签选择策略（不是所有预测都当标签用，而是筛选高置信度区域）让半监督训练更有效。ACM MM 2021，口头汇报。",
 
 "Towards Robust Dual-View Transformation via Densifying Sparse Supervision for Mammography Lesion Matching":
-"通过稠密化稀疏监督实现乳腺钼靶双视图间的鲁棒变换和病灶匹配。在仅有少量病灶级标注的条件下，通过稠密化策略将稀疏监督信号扩展到全图，学习CC和MLO视图之间的像素级对应关系以辅助跨视图病灶匹配。",
+"【乳腺钼靶 / 跨视图病灶匹配】乳腺 CC 和 MLO 视图之间找到同一个病灶。问题在于标注只有病灶级别的位置信息（太稀疏了），不够学习全图像素级的视图变换。本文把稀疏监督"稠密化"——通过病灶区域周围的几何约束和自监督信号把监督扩散到全图，在没有密集配准标注的前提下学习两个视图之间的像素对应。MICCAI 2021。",
 
 "Multi-task siamese network for retinal artery/vein separation via deep convolution along vessel":
-"提出多任务孪生网络沿血管方向做深度卷积，实现视网膜动静脉分离。孪生结构同时学习血管分割和动静脉分类两个任务，沿血管方向的深度卷积利用血管的连续性先验来增强分类一致性，在眼底图像上实现精确的A/V分类。",
+"【眼底图像 / 视网膜动静脉分类】同时做血管分割和动静脉分类两个任务，共享底层特征但各有专用头。核心是"沿血管方向深卷积"——不是普通的 2D 卷积，而是顺着血管走形方向做卷积，利用血管天然是一条连续管道的先验来让动静脉分类更一致（同一条血管不会中间突然变类型）。TMI 2020。",
 
 "Semi-supervised mp-MRI data synthesis with StitchLayer and auxiliary distance maximization":
-"提出StitchLayer和辅助距离最大化策略用于半监督多参数MRI数据合成。StitchLayer实现多模态MRI数据的无缝拼接合成，辅助距离最大化约束增强合成数据与真实数据之间的判别性，在有限标注条件下生成高质量前列腺mp-MRI数据。",
+"【前列腺 MRI / 半监督数据合成】多参数 MRI（mp-MRI）有多个序列（T2、DWI、ADC 等），合成数据需要多序列之间的对应关系。StitchLayer 把不同序列的无缝"缝合"到统一的特征空间中，辅助距离最大化约束让合成样本之间尽量分散以覆盖更广的数据分布，在有限标注下为下游任务生成高质量训练数据。MedIA 2020。",
 
 "Automated detection of clinically significant prostate cancer in mp-MRI images based on an end-to-end deep neural network":
-"提出端到端深度神经网络自动检测mp-MRI图像中的临床显著性前列腺癌。网络直接从多参数MRI输入到癌症检测结果输出，无需手工特征提取或分步处理，包含多模态信息融合和活检引导的标注策略。",
+"【前列腺癌检测 / 端到端检测网络】从多参数 MRI 直接输出"哪片区域是临床显著性前列腺癌"，不需要手工特征提取、不需要分步处理。网络融合多模态信息（T2、DWI、ADC），活检位置作为标注标准。是早期端到端深度学习在前列腺癌检测上的代表性工作。TMI 2018。",
 
 "StitchAD-GAN for Synthesizing Apparent Diffusion Coefficient Images of Clinically Significant Prostate Cancer":
-"StitchAD-GAN用于合成临床显著性前列腺癌的表观扩散系数（ADC）图像。GAN架构结合拼接策略（StitchLayer）将T2加权图像和扩散加权图像的信息融合以生成高质量ADC图像，辅助前列腺癌的多模态分析。",
+"【前列腺 MRI / 跨模态图像合成】用 T2 和 DWI（扩散加权图像）来合成 ADC 图像（表观扩散系数图），因为 ADC 在前列腺癌诊断中很重要但不是所有医院都采集。StitchAD-GAN 用 StitchLayer 把两个模态的信息拼接融合，GAN 的判别器判断生成的 ADC 是否真实，在辅助诊断中有实用价值。BMVC 2018。",
 
 "Accurate face alignment and adaptive patch selection for heart rate estimation from videos under realistic scenarios":
-"提出精确人脸对齐和自适应区域选择方法从真实场景视频中估计心率。先对人脸关键点进行精确对齐以消除头部运动干扰，再自适应选择皮肤区域以提取高质量的光电容积脉搏波信号（PPG），在非约束场景下实现鲁棒心率估计。",
+"【非接触心率估计 / 人脸视频分析】从普通摄像头视频里测心率，不用任何穿戴设备。先做精确人脸对齐来消除头部运动干扰，再自适应选择脸上皮肤区域（不是所有皮肤区域都适合提取 PPG 信号，有的区域血管丰富信号强，有的不行），从选中的区域提取光电容积脉搏波（PPG）信号计算心率。PloS ONE 2018。",
 
 "Co-trained convolutional neural networks for automated detection of prostate cancer in multi-parametric MRI":
-"提出协同训练的CNN框架用于多参数MRI前列腺癌自动检测。利用多参数MRI中不同序列（T2、DWI、ADC等）的互补信息，通过协同训练策略实现跨模态特征学习和癌症区域定位，在有限标注条件下提升检测性能。",
+"【前列腺癌检测 / 多模态协同训练】多参数 MRI 有不同序列，每个序列看的信息不同。协同训练策略：让多个 CNN 分别在不同序列上训练，每个 CNN 给其他 CNN 提供"高置信度伪标签"——你擅长的样本你标，你标完给同伴当训练数据——最终各 CNN 互相提升。在有限标注下比单独训练效果更好。MedIA 2017。",
 
 "Deepcadx: Automated prostate cancer detection and diagnosis in mp-mri based on multimodal convolutional neural networks":
-"DeepCADx提出基于多模态CNN的前列腺癌自动检测与诊断系统。网络同时处理多种MRI序列，融合T2、DWI和ADC等多模态信息，端到端输出癌症检测和Gleason分级结果，实现从图像到诊断报告的自动化流程。",
+"【前列腺癌诊断 / 多模态 CNN】从多参数 MRI 同时输出两个结果：有无癌症 + Gleason 分级（恶性程度评分）。融合 T2、DWI、ADC 三个序列的信息，端到端从原始 MRI 到诊断报告。是早期前列腺癌多模态 AI 诊断的开创性工作。ACM MM 2017。",
 
 "V-head: Face detection and alignment for facial augmented reality applications":
-"V-head提出面向面部增强现实应用的人脸检测与对齐方法。设计轻量化检测器实现实时人脸检测，配合初始化和对齐模块保证AR应用中面部特效的稳定贴合。",
+"【人脸检测对齐 / AR 应用】面向 AR 场景的轻量级人脸检测和对齐方法。检测器轻量到可以实时跑在移动设备上，检测结果直接给对齐提供良好的初始形状，保证 AR 面部特效贴合稳定，不因头部晃动而抖动。MMM 2017。",
 
 "Joint Face Detection and Initialization for Face Alignment":
-"提出联合人脸检测与初始化的人脸对齐方法。将人脸检测和对齐的初始化步骤统一在一个框架中，检测结果直接为后续对齐提供良好的初始形状估计，减少级联对齐中的迭代次数和收敛失败风险。",
+"【人脸对齐 / 检测初始化联合】把人脸检测和关键点对齐的初始化合成一个步骤，而不是级联的两步。检测框直接给出关键点的初始估计，减少后续精细对齐步骤的迭代次数，也降低初始化不准导致的收敛失败概率。MMM 2017。",
 
   };
 
@@ -165,9 +165,7 @@ $(function() {
     var $heading = $('.page__content h1').filter(function() {
       return $(this).text().indexOf('一作与通讯') >= 0;
     }).first();
-
     if (!$heading.length) return $();
-
     return $heading.nextUntil('h1').find('li');
   }
 
@@ -194,7 +192,7 @@ $(function() {
 
     $li.append(
       '<details class="paper-intro" style="display:inline-block;width:100%;margin:0;">' +
-      '<summary style="cursor:pointer;color:#6a737d;font-size:0.82em;font-weight:500;line-height:1.4;">\u{1F4C4} \u7B80\u4ECB</summary>' +
+      '<summary style="cursor:pointer;color:#6a737d;font-size:0.82em;font-weight:500;line-height:1.4;">📄 简介</summary>' +
       '<p style="margin:4px 0 0 0;padding:10px 14px;background:#f8f9fa;border-left:3px solid #6a737d;border-radius:0 6px 6px 0;font-size:0.85em;line-height:1.75;color:#555;">' +
       summary +
       '</p></details>'
