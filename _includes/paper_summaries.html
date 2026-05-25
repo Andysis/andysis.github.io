@@ -155,19 +155,24 @@ $(function() {
 "Joint Face Detection and Initialization for Face Alignment":
 "提出联合人脸检测与初始化的人脸对齐方法。将人脸检测和对齐的初始化步骤统一在一个框架中，检测结果直接为后续对齐提供良好的初始形状估计，减少级联对齐中的迭代次数和收敛失败风险。",
 
-"Toward high-quality pseudo masks from noisy or weak annotations for robust medical image segmentation":
-"提出从噪声或弱标注中生成高质量伪掩码的方法，用于鲁棒医学图像分割。通过分析不同来源标注噪声的特性设计对应的伪标签优化策略，在不增加人工标注成本的前提下提升分割模型训练质量。"
-
   };
 
   function normalize(s) {
     return s.toLowerCase().replace(/[^a-z0-9\s]/g, '').replace(/\s+/g, ' ').trim();
   }
 
-  $('.page__content li').each(function() {
+  function firstAuthorAndCorrespondingItems() {
+    var $heading = $('.page__content h1').filter(function() {
+      return $(this).text().indexOf('一作与通讯') >= 0;
+    }).first();
+
+    if (!$heading.length) return $();
+
+    return $heading.nextUntil('h1').find('li');
+  }
+
+  firstAuthorAndCorrespondingItems().each(function() {
     var $li = $(this);
-    var html = $li.html();
-    if (html.indexOf('Zhiwei Wang') < 0) return;
     if ($li.find('details.paper-intro').length) return;
     var $em = $li.find('em').first();
     if (!$em.length) return;
@@ -188,9 +193,9 @@ $(function() {
     if (!summary) return;
 
     $li.append(
-      '<br><details class="paper-intro" style="margin-top:4px;">' +
-      '<summary style="cursor:pointer;color:#6a737d;font-size:0.82em;font-weight:500;">� Abstract</summary>' +
-      '<p style="margin:6px 0 0 0;padding:10px 14px;background:#f8f9fa;border-left:3px solid #6a737d;border-radius:0 6px 6px 0;font-size:0.85em;line-height:1.75;color:#555;">' +
+      '<details class="paper-intro" style="display:inline-block;width:100%;margin:0;">' +
+      '<summary style="cursor:pointer;color:#6a737d;font-size:0.82em;font-weight:500;line-height:1.4;">\u{1F4C4} \u7B80\u4ECB</summary>' +
+      '<p style="margin:4px 0 0 0;padding:10px 14px;background:#f8f9fa;border-left:3px solid #6a737d;border-radius:0 6px 6px 0;font-size:0.85em;line-height:1.75;color:#555;">' +
       summary +
       '</p></details>'
     );
