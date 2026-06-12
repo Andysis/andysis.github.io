@@ -39,6 +39,7 @@ redirect_from:
 <span class='anchor' id='-news'></span>
 
 # 🔥 重要事件
+- *2026.06*: &nbsp;🎉🎉 两篇本人通讯``MICCAI``会议（CCF-B）接收，祝贺罗语宣（本科生）、翟少卿（武理联培）、杨凯翔、胡强！
 - *2026.03*: &nbsp;🎉🎉 一篇本人通讯``ICME``会议（CCF-B）接收，祝贺王昊、周瀛！
 - *2026.02*: &nbsp;🎉🎉 一篇本人通讯``CVPR``会议（CCF-A）接收，祝贺胡强！
 - *2026.01*: &nbsp;🎉🎉 一篇本人通讯``ICASSP``会议（CCF-B）接收，祝贺李羽茜、李欣！
@@ -52,7 +53,7 @@ redirect_from:
 - *2025.07*: &nbsp;🎉🎉 一篇本人通讯``ACM MM``会议（CCF-A）接收，祝贺李欣、杨凯翔！ 
 - *2025.06*: &nbsp;🎉🎉 一篇本人通讯``ICCV``会议（CCF-A）接收，祝贺杨凯翔、李欣！
 - *2025.06*: &nbsp;🎉🎉 一篇本人通讯``JBHI``期刊（中科院数学与计算生物学1区Top5%）接收，祝贺段然！特别感谢王平安教授、裴佳伦博士的大力支持！ 
-- *2025.05*: &nbsp;🎉🎉 两篇本人通讯``MICCAI``会议（CCF-B）提前接收（接收率<9%），祝贺周权、罗敢、王琦玫、胡强！
+- *2025.05*: &nbsp;🎉🎉 两篇本人通讯``MICCAI``会议（CCF-B）提前接收（接收率<9%），祝贺周权、罗敢（武理联培）、王琦玫、胡强！
 - *2025.04*: &nbsp;🎉🎉 一篇本人通讯``JBHI``期刊（中科院数学与计算生物学1区）接收，祝贺周权！
 - *2025.02*: &nbsp;🎉🎉 一篇本人一作``MedIA``期刊（中科院医学1区Top5%，影响因子>10）接收！ 
 - *2024.12*: &nbsp;🎉🎉 三篇本人通讯``ICASSP``会议（CCF-B）接收，祝贺单文奇、胡强、杨凯翔！ 
@@ -79,7 +80,7 @@ redirect_from:
 # 📝 一作与通讯的论文 
 ### (Note: <span style="color:#FFA500">&#42;</span>: 通讯作者, <span style="color:#0D6EFD">&#8224;</span>: 共同一作)
 
-## 📆 2026年 <span style="color:red">(8: Top5x1, Top10x1, Ax4, Bx2)</span>：
+## 📆 2026年 <span style="color:red">(10: Top5x1, Top10x1, Ax4, Bx4)</span>：
 
 - <span style="background-color:#1E40AF; color:white; padding:0.5px 4px; border:1px solid #0F2460; border-radius:6px; font-weight:normal; font-size:0.9em; text-shadow:0.5px 0.5px 1px rgba(0,0,0,0.2); box-shadow:1px 1px 2px rgba(0,0,0,0.1); display:inline-block;">CVPR</span><span style="color:red">（CCF-A）</span> *SAMIX: Reinforcing SAM2 with Semantic Adapter and Reference Selecting Policy for Mix-Supervised Segmentation*, Qiang Hu, Jiajie Wei, Zhenyu Yi, Zhifen Yan, Yingjie Guo, Hongkuan Shi, Ge-Peng Ji, Qiang Li, **Zhiwei Wang**<span style="color:#FFA500">&#42;</span>. [**Code**](https://github.com/Huster-Hq/SAMIX) [**PDF**](https://openaccess.thecvf.com/content/CVPR2026/papers/Hu_SAMIX_Reinforcing_SAM2_with_Semantic_Adapter_and_Reference_Selecting_Policy_CVPR_2026_paper.pdf)
 
@@ -94,6 +95,10 @@ redirect_from:
 - <span style="background-color:#1E40AF; color:white; padding:0.5px 4px; border:1px solid #0F2460; border-radius:6px; font-weight:normal; font-size:0.9em; text-shadow:0.5px 0.5px 1px rgba(0,0,0,0.2); box-shadow:1px 1px 2px rgba(0,0,0,0.1); display:inline-block;">IEEE Journal of Biomedical and Health Informatics</span><span style="color:red">（中科院数学与计算生物学1区Top5%）</span> *Cross-correlation Rectification for Robust Deformable Registration of Brain Tumor MRI between Preoperative and Postoperative Phases*, Chongwei Wu<span style="color:#0D6EFD">&#8224;</span>, Tao Gong<span style="color:#0D6EFD">&#8224;</span>, Xiaoyu Zeng, Shuxian Niu, Guangbin Wang<span style="color:#FFA500">&#42;</span>, Qiang Li<span style="color:#FFA500">&#42;</span>, **Zhiwei Wang**<span style="color:#FFA500">&#42;</span>. [**Link**](https://doi.org/10.1109/JBHI.2025.3648846)
 
 - <span style="background-color:#1E40AF; color:white; padding:0.5px 4px; border:1px solid #0F2460; border-radius:6px; font-weight:normal; font-size:0.9em; text-shadow:0.5px 0.5px 1px rgba(0,0,0,0.2); box-shadow:1px 1px 2px rgba(0,0,0,0.1); display:inline-block;">ICME</span><span style="color:red">（CCF-B，口头汇报，接收率\<4%）</span> *Moving Light Adaptive Colonoscopy Reconstruction via Illumination-Attenuation-Aware 3D Gaussian Splatting*, Hao Wang<span style="color:#0D6EFD">&#8224;</span>, Ying Zhou<span style="color:#0D6EFD">&#8224;</span>, Haoyu Zhao, Rui Wang, Qiang Hu, Xing Zhang, Qiang Li<span style="color:#FFA500">&#42;</span>, **Zhiwei Wang**<span style="color:#FFA500">&#42;</span>. [**Code**](https://github.com/haowang020110/ColIAGS), [**Arxiv Link**](https://arxiv.org/abs/2510.18739)
+
+- <span style="background-color:#1E40AF; color:white; padding:0.5px 4px; border:1px solid #0F2460; border-radius:6px; font-weight:normal; font-size:0.9em; text-shadow:0.5px 0.5px 1px rgba(0,0,0,0.2); box-shadow:1px 1px 2px rgba(0,0,0,0.1); display:inline-block;">MICCAI</span><span style="color:red">（CCF-B）</span> *KIDA: Kinematic-Intent Dual-path Alignment for Surgical Error Detection*, Yuxuan Luo<span style="color:#0D6EFD">&#8224;</span>, Kaixiang Yang<span style="color:#0D6EFD">&#8224;</span>, Yuxi Li<span style="color:#0D6EFD">&#8224;</span>, Wei Fang, Qiang Li, **Zhiwei Wang**<span style="color:#FFA500">&#42;</span>.
+
+- <span style="background-color:#1E40AF; color:white; padding:0.5px 4px; border:1px solid #0F2460; border-radius:6px; font-weight:normal; font-size:0.9em; text-shadow:0.5px 0.5px 1px rgba(0,0,0,0.2); box-shadow:1px 1px 2px rgba(0,0,0,0.1); display:inline-block;">MICCAI</span><span style="color:red">（CCF-B）</span> *Mask to Concept: Auto-promptable SAM3 via Concept Embedding Searching for Training-free Few-shot Annotation*, Quan Zhou<span style="color:#0D6EFD">&#8224;</span>, Shaoqing Zhai<span style="color:#0D6EFD">&#8224;</span>, Qiang Hu<span style="color:#FFA500">&#42;</span>, Jia Chen, Qiang Li, **Zhiwei Wang**<span style="color:#FFA500">&#42;</span>.
 
 - <span style="background-color:#1E40AF; color:white; padding:0.5px 4px; border:1px solid #0F2460; border-radius:6px; font-weight:normal; font-size:0.9em; text-shadow:0.5px 0.5px 1px rgba(0,0,0,0.2); box-shadow:1px 1px 2px rgba(0,0,0,0.1); display:inline-block;">ICASSP</span><span style="color:red">（CCF-B）</span> *Knowledge-Contrastive Fine-Grained Attention for CVS Recognition in Cholecystectomy Without Dense Labels*, Yuxi Li<span style="color:#0D6EFD">&#8224;</span>, Kaixiang Yang<span style="color:#0D6EFD">&#8224;</span>, Xin Li<span style="color:#0D6EFD">&#8224;</span>, Qiang Li<span style="color:#FFA500">&#42;</span>, **Zhiwei Wang**<span style="color:#FFA500">&#42;</span>. [**Link**](https://doi.org/10.1109/ICASSP55912.2026.11465051)
 
