@@ -32,13 +32,14 @@ redirect_from:
 
 近五年，我主持了国家自然科学基金青年项目1项、面上项目1项，担任科技部青年科学家项目课题负责人（总排名第二），并主持了武汉市科技重大专项“卡脖子”技术攻关课题。我的研究成果《基于深度学习的冠状动脉、肺动脉CTA辅助诊断系统的研究及临床应用》获得省科技进步二等奖；《面向脑胶质瘤手术的新型人工智能神经外科精准手术系统》入选湖北省人工智能重大创新成果（场景），并被央视、《长江日报》等媒体报道。
 
-我以第一作者或通讯作者发表50余篇高水平论文，其中包括**8篇**影响因子大于10的顶级期刊论文（Medical Image Analysis, IEEE Transactions on Medical Imaging），以及**30篇**发表于IEEE JBHI、Pattern Recognition、CVPR、NeurIPS、ICCV、MICCAI、AAAI、IJCAI、ACM MM、BIBM等国际顶级期刊与会议。此外，我已获授权或公开发明专利10余项。
+我以第一作者或通讯作者发表50余篇高水平论文，其中包括**8篇**影响因子大于10的顶级期刊论文（Medical Image Analysis, IEEE Transactions on Medical Imaging），以及**30篇**发表于IEEE JBHI、Pattern Recognition、CVPR、NeurIPS、ICCV、ECCV、MICCAI、AAAI、IJCAI、ACM MM、BIBM等国际顶级期刊与会议。此外，我已获授权或公开发明专利10余项。
 
 ---
 
 <span class='anchor' id='-news'></span>
 
 # 🔥 重要事件
+- *2026.06*: &nbsp;🎉🎉 一篇本人通讯``ECCV``会议（CCF-B）接收，祝贺胡强、罗宇轩（本科生）！
 - *2026.06*: &nbsp;🎉🎉 两篇本人通讯``MICCAI``会议（CCF-B）接收，祝贺罗语宣（本科生）、翟少卿（武理联培）、杨凯翔、胡强！
 - *2026.03*: &nbsp;🎉🎉 一篇本人通讯``ICME``会议（CCF-B）接收，祝贺王昊、周瀛！
 - *2026.02*: &nbsp;🎉🎉 一篇本人通讯``CVPR``会议（CCF-A）接收，祝贺胡强！
