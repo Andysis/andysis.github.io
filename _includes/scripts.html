@@ -90,6 +90,31 @@
       );
     }
   });
+
+  // Journal IF injection
+  $(function() {
+    var journalIF = {{ site.data.journal_if | jsonify }};
+    if (!journalIF || $.isEmptyObject(journalIF)) return;
+
+    $('span[style*="#1E40AF"]').each(function() {
+      var $badge = $(this);
+      var journalName = $badge.text().trim();
+      var ifVal = journalIF[journalName];
+      if (ifVal === undefined) return;
+
+      var ifText = 'IF=' + ifVal.toFixed(1);
+      var $nextSpan = $badge.next('span');
+
+      if ($nextSpan.length) {
+        var text = $nextSpan.text();
+        text = text.replace(/[,，]\s*影响因子[>≥]\d+(\.?\d*)/, '');
+        if (/IF=\d+(\.\d+)?/.test(text)) return;
+        $nextSpan.text(text.replace(/）$/, '，' + ifText + '）'));
+      } else {
+        $('<span style="color:red">（' + ifText + '）</span>').insertAfter(this);
+      }
+    });
+  });
 </script>
 
 {% include analytics.html %}
