@@ -155,9 +155,9 @@
         });
       });
 
-      var decoratedBase = baseText.replace(/^\((\d+)/, '(📄×$1');
+      var decoratedBase = baseText.replace(/^([（(])(\d+)/, '$1📄×$2');
       $yearSpan.text(
-        decoratedBase.replace(/）$/, '；📚×' + totalCitations + '；⭐×' + totalStars + '）')
+        decoratedBase.replace(/([）)])$/, '；📚×' + totalCitations + '；⭐×' + totalStars + '$1')
       );
     });
   }
