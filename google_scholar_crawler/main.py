@@ -1,4 +1,4 @@
-from scholarly import scholarly, ProxyGenerator
+from scholarly import scholarly
 import json
 from datetime import datetime
 import os
@@ -31,19 +31,10 @@ def try_fetch():
     scholarly.fill(author, sections=['basics', 'indices', 'counts', 'publications'])
     return author
 
-pg = ProxyGenerator()
-proxy_ok = False
-try:
-    proxy_ok = with_timeout(30)(pg.FreeProxies)()
-except (TimeoutError, Exception) as e:
-    print(f"FreeProxies failed: {e}")
-
-if proxy_ok:
-    scholarly.use_proxy(pg)
-    print("Using FreeProxies")
+print("Fetching from Google Scholar (direct connection)...")
 
 attempts = 0
-FETCH_TIMEOUT = 60
+FETCH_TIMEOUT = 120
 while attempts < 3:
     try:
         author = with_timeout(FETCH_TIMEOUT)(try_fetch)()
@@ -56,15 +47,7 @@ while attempts < 3:
             print(f"Retrying in {wait}s...")
             time.sleep(wait)
 else:
-    if proxy_ok:
-        print("Proxy failed, trying direct connection...")
-        scholarly.use_proxy(None)
-        try:
-            author = with_timeout(FETCH_TIMEOUT)(try_fetch)()
-        except (TimeoutError, Exception) as e:
-            raise RuntimeError(f"All attempts failed: {e}")
-    else:
-        raise RuntimeError("All attempts failed")
+    raise RuntimeError("All attempts failed")
 
 name = author['name']
 author['updated'] = str(datetime.now())
