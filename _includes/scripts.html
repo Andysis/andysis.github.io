@@ -55,10 +55,16 @@
       }
     });
 
-    if (!queue.length) return;
+    if (!queue.length) {
+      setTimeout(aggregateYearStats, 1500);
+      return;
+    }
 
     function fetchNext(i) {
-      if (i >= queue.length) return;
+      if (i >= queue.length) {
+        aggregateYearStats();
+        return;
+      }
       var item = queue[i];
       $.getJSON('https://api.github.com/repos/' + item.repo)
         .done(function(data) {
@@ -115,6 +121,45 @@
       }
     });
   });
+
+  // Aggregate per-year citation and star counts into year headers
+  function aggregateYearStats() {
+    var $yearHeaders = $('h2').filter(function() {
+      return /📆\s*20\d{2}年/.test($(this).text());
+    });
+    if (!$yearHeaders.length) return;
+
+    $yearHeaders.each(function() {
+      var $h2 = $(this);
+      var $yearSpan = $h2.find('span[style*="color:red"]');
+      if (!$yearSpan.length) return;
+      var yearText = $yearSpan.text();
+      if (/📈/.test(yearText)) return; // already aggregated
+
+      // Collect all <li> between this h2 and the next h2
+      var $items = $h2.nextUntil('h2').find('li');
+      if (!$items.length) return;
+
+      var totalCitations = 0;
+      var totalStars = 0;
+
+      $items.each(function() {
+        var citedMatch = $(this).find('.paper-cited').text().match(/(\d+)/);
+        if (citedMatch) totalCitations += parseInt(citedMatch[1], 10);
+
+        $(this).find('.gh-stats').each(function() {
+          var starMatch = $(this).text().match(/(\d+)/);
+          if (starMatch) totalStars += parseInt(starMatch[1], 10);
+        });
+      });
+
+      $yearSpan.text(
+        yearText
+          .replace(/^\(/, '(📄')
+          .replace(/）$/, '；📈' + totalCitations + '；⭐' + totalStars + '）')
+      );
+    });
+  }
 </script>
 
 {% include analytics.html %}
