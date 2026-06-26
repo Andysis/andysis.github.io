@@ -80,6 +80,7 @@ redirect_from:
 
 # 📝 一作与通讯的论文 
 ### (Note: <span style="color:#FFA500">&#42;</span>: 通讯作者, <span style="color:#0D6EFD">&#8224;</span>: 共同一作)
+<div id="publication-total-stats" style="color:red; font-weight:600; margin:0.25em 0 1em 0;">(📄×54: Top5x14, Top10x1, Ax8, Bx21；📈×0；⭐×0)</div>
 
 ## 📆 2026年 <span style="color:red">(11: Top5x1, Top10x1, Ax4, Bx5)</span>：
 

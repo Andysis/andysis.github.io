@@ -128,6 +128,21 @@
     });
     if (!$yearHeaders.length) return;
 
+    function statCount(text, label) {
+      var match = text.match(new RegExp(label + 'x(\\d+)'));
+      return match ? parseInt(match[1], 10) : 0;
+    }
+
+    var totals = {
+      papers: 0,
+      top5: 0,
+      top10: 0,
+      a: 0,
+      b: 0,
+      citations: 0,
+      stars: 0
+    };
+
     $yearHeaders.each(function() {
       var $h2 = $(this);
       var $yearSpan = $h2.find('span[style*="color:red"]');
@@ -155,11 +170,31 @@
         });
       });
 
+      var paperMatch = baseText.match(/[（(](\d+)\s*:/);
+      if (paperMatch) totals.papers += parseInt(paperMatch[1], 10);
+      totals.top5 += statCount(baseText, 'Top5');
+      totals.top10 += statCount(baseText, 'Top10');
+      totals.a += statCount(baseText, 'A');
+      totals.b += statCount(baseText, 'B');
+      totals.citations += totalCitations;
+      totals.stars += totalStars;
+
       var decoratedBase = baseText.replace(/^([（(])(\d+)/, '$1📄×$2');
       $yearSpan.text(
-        decoratedBase.replace(/([）)])$/, '；📚×' + totalCitations + '；⭐×' + totalStars + '$1')
+        decoratedBase.replace(/([）)])$/, '；📈×' + totalCitations + '；⭐×' + totalStars + '$1')
       );
     });
+
+    $('#publication-total-stats').text(
+      '(📄×' + totals.papers +
+      ': Top5x' + totals.top5 +
+      ', Top10x' + totals.top10 +
+      ', Ax' + totals.a +
+      ', Bx' + totals.b +
+      '；📈×' + totals.citations +
+      '；⭐×' + totals.stars +
+      ')'
+    );
   }
 </script>
 
