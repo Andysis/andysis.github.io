@@ -55,16 +55,10 @@
       }
     });
 
-    if (!queue.length) {
-      setTimeout(aggregateYearStats, 1500);
-      return;
-    }
+    if (!queue.length) return;
 
     function fetchNext(i) {
-      if (i >= queue.length) {
-        aggregateYearStats();
-        return;
-      }
+      if (i >= queue.length) return;
       var item = queue[i];
       $.getJSON('https://api.github.com/repos/' + item.repo)
         .done(function(data) {

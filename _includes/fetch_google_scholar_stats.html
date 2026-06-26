@@ -68,6 +68,11 @@
                         '<span class="paper-cited" style="font-size:0.85em;font-weight:600;color:' + color + ';margin-right:6px;vertical-align:middle;white-space:nowrap;">[cited ' + count + ']</span> '
                     );
                 });
+
+                // Wait for GitHub stars to inject, then aggregate
+                setTimeout(function() {
+                  if (typeof aggregateYearStats === 'function') aggregateYearStats();
+                }, 2500);
             }
         })
         .fail(function() {});
