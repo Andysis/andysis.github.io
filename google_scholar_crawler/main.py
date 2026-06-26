@@ -3,6 +3,25 @@ import json
 from datetime import datetime
 import os
 import time
+import signal
+
+class TimeoutError(Exception):
+    pass
+
+def with_timeout(seconds):
+    def decorator(func):
+        def handler(signum, frame):
+            raise TimeoutError(f"Timed out after {seconds}s")
+        def wrapper(*args, **kwargs):
+            old = signal.signal(signal.SIGALRM, handler)
+            signal.alarm(seconds)
+            try:
+                return func(*args, **kwargs)
+            finally:
+                signal.alarm(0)
+                signal.signal(signal.SIGALRM, old)
+        return wrapper
+    return decorator
 
 def norm_title(s):
     return s.lower().replace('\n', ' ').replace('\r', ' ').strip()
@@ -15,20 +34,21 @@ def try_fetch():
 pg = ProxyGenerator()
 proxy_ok = False
 try:
-    proxy_ok = pg.FreeProxies()
-except Exception:
-    pass
+    proxy_ok = with_timeout(30)(pg.FreeProxies)()
+except (TimeoutError, Exception) as e:
+    print(f"FreeProxies failed: {e}")
 
 if proxy_ok:
     scholarly.use_proxy(pg)
     print("Using FreeProxies")
 
 attempts = 0
+FETCH_TIMEOUT = 60
 while attempts < 3:
     try:
-        author = try_fetch()
+        author = with_timeout(FETCH_TIMEOUT)(try_fetch)()
         break
-    except Exception as e:
+    except (TimeoutError, Exception) as e:
         attempts += 1
         print(f"Attempt {attempts} failed: {e}")
         if attempts < 3:
@@ -39,7 +59,10 @@ else:
     if proxy_ok:
         print("Proxy failed, trying direct connection...")
         scholarly.use_proxy(None)
-        author = try_fetch()
+        try:
+            author = with_timeout(FETCH_TIMEOUT)(try_fetch)()
+        except (TimeoutError, Exception) as e:
+            raise RuntimeError(f"All attempts failed: {e}")
     else:
         raise RuntimeError("All attempts failed")
 
