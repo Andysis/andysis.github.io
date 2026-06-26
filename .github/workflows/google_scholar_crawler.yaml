@@ -10,6 +10,8 @@ jobs:
   build:
     runs-on: ubuntu-latest
     timeout-minutes: 10
+    permissions:
+      contents: write
     steps:
     - uses: actions/checkout@v4
     - uses: actions/setup-python@v5
@@ -24,11 +26,20 @@ jobs:
         cd ./google_scholar_crawler
         python main.py
         cd ./results
+        if ! compgen -G "*.json" > /dev/null; then
+          echo "No citation JSON files were generated."
+          exit 1
+        fi
         git init
         git config --local user.name "${GITHUB_ACTOR}"
+        git config --local user.email "${GITHUB_ACTOR}@users.noreply.github.com"
         export remote_repo="https://${GITHUB_ACTOR}:${{ secrets.GITHUB_TOKEN }}@github.com/${GITHUB_REPOSITORY}.git"
         git add *.json
         git commit -m "Updated Citation Data"
         git push "${remote_repo}" HEAD:google-scholar-stats --force
       env:
         GOOGLE_SCHOLAR_ID: ${{ secrets.GOOGLE_SCHOLAR_ID }}
+        PYTHONUNBUFFERED: "1"
+        SCHOLAR_FETCH_TIMEOUT: "75"
+        SCHOLAR_MAX_ATTEMPTS: "2"
+        SCHOLAR_RETRY_BASE_SECONDS: "15"

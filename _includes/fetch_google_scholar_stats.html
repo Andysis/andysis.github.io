@@ -9,14 +9,14 @@
         .done(function (data) {
             var totalCitation = data['citedby'];
             var el = document.getElementById('total_cit');
-            if (el && totalCitation) el.innerHTML = totalCitation;
+            if (el && totalCitation) el.textContent = totalCitation;
 
             var citationEles = document.getElementsByClassName('show_paper_citations');
             Array.prototype.forEach.call(citationEles, function(element) {
                 var paperId = element.getAttribute('data');
                 if (data['publications'] && data['publications'][paperId]) {
                     var numCitations = data['publications'][paperId]['num_citations'];
-                    element.innerHTML = '| Citations: ' + numCitations;
+                    element.textContent = '| Citations: ' + numCitations;
                 }
             });
 

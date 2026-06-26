@@ -30,6 +30,9 @@
       try { localStorage.setItem(CACHE_KEY, JSON.stringify(c)); }
       catch(e) {}
     }
+    function refreshYearStats() {
+      if (typeof aggregateYearStats === 'function') aggregateYearStats();
+    }
 
     var cache = loadCache();
     var now = Date.now();
@@ -49,6 +52,7 @@
 
       if (cache[repo] && (now - cache[repo].ts) < CACHE_TTL) {
         renderBadge($badge, cache[repo].stars);
+        refreshYearStats();
       } else {
         $badge.text(' \u22EF');
         queue.push({ repo: repo, $badge: $badge });
@@ -65,6 +69,7 @@
           var stars = data.stargazers_count || 0;
           cache[item.repo] = { stars: stars, ts: Date.now() };
           renderBadge(item.$badge, stars);
+          refreshYearStats();
         })
         .fail(function(xhr) {
           if (xhr.status === 403) {
@@ -127,8 +132,11 @@
       var $h2 = $(this);
       var $yearSpan = $h2.find('span[style*="color:red"]');
       if (!$yearSpan.length) return;
-      var yearText = $yearSpan.text();
-      if (/📈/.test(yearText)) return; // already aggregated
+      var baseText = $yearSpan.attr('data-year-stats-base');
+      if (!baseText) {
+        baseText = $yearSpan.text();
+        $yearSpan.attr('data-year-stats-base', baseText);
+      }
 
       // Collect all <li> between this h2 and the next h2
       var $items = $h2.nextUntil('h2').find('li');
@@ -147,10 +155,9 @@
         });
       });
 
+      var decoratedBase = baseText.replace(/^\((\d+)/, '(📄×$1');
       $yearSpan.text(
-        yearText
-          .replace(/^\(/, '(📄')
-          .replace(/）$/, '；📈' + totalCitations + '；⭐' + totalStars + '）')
+        decoratedBase.replace(/）$/, '；📚×' + totalCitations + '；⭐×' + totalStars + '）')
       );
     });
   }
