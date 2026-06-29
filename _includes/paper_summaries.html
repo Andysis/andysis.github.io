@@ -23,6 +23,12 @@ $(function() {
 "Moving Light Adaptive Colonoscopy Reconstruction via Illumination-Attenuation-Aware 3D Gaussian Splatting":
 "提出 ColIAGS，把结肠镜 3D 重建里的移动光源显式建模。普通 3D Gaussian Splatting 假设光照稳定，内镜里光源跟着镜头走会导致画面忽明忽暗、几何也被带偏；这项工作把光照随距离和入射角衰减的物理规律放进模型，让新视角合成和深度重建更真实。",
 
+"KIDA: Kinematic-Intent Dual-path Alignment for Surgical Error Detection":
+"提出 KIDA，用“实际做了什么”和“规范上应该怎么做”的对齐来识别机器人辅助手术中的细微操作错误。运动执行分支用轻量运动学线索捕捉不稳定、重复尝试等细节，临床意图分支把标准操作的文字描述作为正确参考；意图-执行对齐约束让正常动作贴近规范、错误动作主动远离规范，从而减少仅凭外观难以区分的误判。",
+
+"Mask to Concept: Auto-promptable SAM3 via Concept Embedding Searching for Training-free Few-shot Annotation":
+"提出 M2C，把只会等待人工提示的 SAM3 变成可自动批量标注医学图像的工具。它从少量已标注掩码中搜索可迁移的概念嵌入，无需额外网络、重训练 SAM3 或人工编写文本提示；再用混合不确定性估计找出最值得人工复核的样本，把修正结果继续反馈给概念搜索，形成越标越准的人机协同闭环。",
+
 "Knowledge-Contrastive Fine-Grained Attention for CVS Recognition in Cholecystectomy Without Dense Labels":
 "提出 KnoCo-CVS，用手术指南里的文字知识来识别胆囊切除术是否达到安全视野。它不需要给胆管、动脉等结构做密集标注，而是把“成功 CVS”和“失败 CVS”的知识作为对比信号，引导模型关注真正决定安全性的细粒度区域。",
 
