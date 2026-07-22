@@ -21,19 +21,32 @@
             });
 
             function normalize(s) {
-                return s.toLowerCase().replace(/[^a-z0-9\s]/g, '').replace(/\s+/g, ' ').trim();
+                return s.toLowerCase().replace(/[^a-z0-9\u3400-\u9fff\s]/g, '').replace(/\s+/g, ' ').trim();
+            }
+
+            var titleAliases = {};
+            var labelRefinementTitle = normalize(
+                'Label Refinement with an Iterative Generative Adversarial Network for Boosting Retinal Vessel Segmentation'
+            );
+            titleAliases[normalize('基于GAN的视网膜血管分割标签优化方法')] = labelRefinementTitle;
+            titleAliases[normalize('GAN-based Label Refinement Method for Retinal Vessel Segmentation')] = labelRefinementTitle;
+
+            function canonicalTitle(s) {
+                var normalized = normalize(s);
+                return titleAliases[normalized] || normalized;
             }
 
             if (data['publications']) {
                 var titleMap = {};
-                var seen = {};
                 for (var pid in data['publications']) {
                     var pub = data['publications'][pid];
                     if (pub.bib && pub.bib.title) {
-                        var key = normalize(pub.bib.title);
-                        if (!seen[key]) {
-                            seen[key] = true;
-                            titleMap[key] = pub.num_citations || 0;
+                        var key = canonicalTitle(pub.bib.title);
+                        var citations = pub.num_citations || 0;
+                        // Scholar may return the same work under an ID key and a title key,
+                        // or under multiple language/version titles. Keep one citation value.
+                        if (titleMap[key] === undefined || citations > titleMap[key]) {
+                            titleMap[key] = citations;
                         }
                     }
                 }
@@ -47,11 +60,11 @@
                     var text = $em.text().trim();
                     if (text.length < 15) return;
 
-                    var norm = normalize(text);
+                    var norm = canonicalTitle(text);
                     var count = titleMap[norm];
-                    if (count === undefined) {
+                    if (count === undefined && norm) {
                         for (var key in titleMap) {
-                            if (key.indexOf(norm) >= 0 || norm.indexOf(key) >= 0) {
+                            if (key && (key.indexOf(norm) >= 0 || norm.indexOf(key) >= 0)) {
                                 count = titleMap[key];
                                 break;
                             }
