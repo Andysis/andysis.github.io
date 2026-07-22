@@ -80,7 +80,7 @@ redirect_from:
 
 # 📝 一作与通讯的论文 
 ### (Note: <span style="color:#FFA500">&#42;</span>: 通讯作者, <span style="color:#0D6EFD">&#8224;</span>: 共同一作)
-<div id="publication-total-stats" style="color:red; font-weight:600; margin:0.25em 0 1em 0;">(📄×54: Top5x14, Top10x1, Ax8, Bx21；📈×0；⭐×0)</div>
+<div id="publication-total-stats" style="color:red; font-weight:600; margin:0.25em 0 1em 0;">(📄×55: Top5x14, Top10x1, Ax8, Bx21；📈×0；⭐×0)</div>
 
 ## 📆 2026年 <span style="color:red">(11: Top5x1, Top10x1, Ax4, Bx5)</span>：
 
@@ -106,7 +106,7 @@ redirect_from:
 
 - <span style="background-color:#1E40AF; color:white; padding:0.5px 4px; border:1px solid #0F2460; border-radius:6px; font-weight:normal; font-size:0.9em; text-shadow:0.5px 0.5px 1px rgba(0,0,0,0.2); box-shadow:1px 1px 2px rgba(0,0,0,0.1); display:inline-block;">ICASSP</span><span style="color:red">（CCF-B）</span> *Knowledge-Contrastive Fine-Grained Attention for CVS Recognition in Cholecystectomy Without Dense Labels*, Yuxi Li<span style="color:#0D6EFD">&#8224;</span>, Kaixiang Yang<span style="color:#0D6EFD">&#8224;</span>, Xin Li<span style="color:#0D6EFD">&#8224;</span>, Qiang Li<span style="color:#FFA500">&#42;</span>, **Zhiwei Wang**<span style="color:#FFA500">&#42;</span>. [**Link**](https://doi.org/10.1109/ICASSP55912.2026.11465051)
 
-## 📆 2025年 <span style="color:red">(16: Top5x4, Ax4, Bx7, Top50x1)</span>：
+## 📆 2025年 <span style="color:red">(17: Top5x4, Ax4, Bx7, Top50x1)</span>：
 
 - <span style="background-color:#1E40AF; color:white; padding:0.5px 4px; border:1px solid #0F2460; border-radius:6px; font-weight:normal; font-size:0.9em; text-shadow:0.5px 0.5px 1px rgba(0,0,0,0.2); box-shadow:1px 1px 2px rgba(0,0,0,0.1); display:inline-block;">Medical Image Analysis</span> <span style="color:red">（中科院医学1区Top5%，影响因子>10）</span> *MonoPCC: Photometric-invariant Cycle Constraint for Monocular Depth Estimation of Endoscopic Images*, **Zhiwei Wang**<span style="color:#0D6EFD">&#8224;</span>, Ying Zhou<span style="color:#0D6EFD">&#8224;</span>, Shiquan He, Ting Li, Fan Huang, Qiang Ding, Xinxia Feng, Mei Liu, Qiang Li<span style="color:#FFA500">&#42;</span>. [**Code**](https://github.com/adam99goat/MonoPCC), [**Link**](https://www.sciencedirect.com/science/article/pii/S1361841525000817)
 
@@ -139,6 +139,8 @@ redirect_from:
 - <span style="background-color:#1E40AF; color:white; padding:0.5px 4px; border:1px solid #0F2460; border-radius:6px; font-weight:normal; font-size:0.9em; text-shadow:0.5px 0.5px 1px rgba(0,0,0,0.2); box-shadow:1px 1px 2px rgba(0,0,0,0.1); display:inline-block;">ICASSP</span><span style="color:red">（CCF-B）</span> *First-frame Supervised Video Polyp Segmentation via Propagative and Semantic Dual-teacher Network*, Qiang Hu, Mei Liu, Qiang Li, **Zhiwei Wang**<span style="color:#FFA500">&#42;</span>. [**Code**](https://github.com/Huster-Hq/PSDNet), [**Arxiv Link**](https://arxiv.org/abs/2412.16503), [**Link**](https://ieeexplore.ieee.org/abstract/document/10888288)
 
 - <span style="background-color:#1E40AF; color:white; padding:0.5px 4px; border:1px solid #0F2460; border-radius:6px; font-weight:normal; font-size:0.9em; text-shadow:0.5px 0.5px 1px rgba(0,0,0,0.2); box-shadow:1px 1px 2px rgba(0,0,0,0.1); display:inline-block;">ICASSP</span><span style="color:red">（CCF-B）</span> *SPNet: Sparse-mask Prompt-learning Network for Cerebrovascular Segmentation*, Wenqi Shan, Qiang Li<span style="color:#FFA500">&#42;</span>, **Zhiwei Wang**<span style="color:#FFA500">&#42;</span>. [**Code**](https://github.com/shanwq/SPNet), [**Link**](https://ieeexplore.ieee.org/document/10889326)
+
+- <span style="background-color:#1E40AF; color:white; padding:0.5px 4px; border:1px solid #0F2460; border-radius:6px; font-weight:normal; font-size:0.9em; text-shadow:0.5px 0.5px 1px rgba(0,0,0,0.2); box-shadow:1px 1px 2px rgba(0,0,0,0.1); display:inline-block;">华中科技大学学报 (自然科学版)</span> *基于GAN的视网膜血管分割标签优化方法*, **Zhiwei Wang**, Zihang Huang, Yingjie Guo, Qiang Li, Xin Yang<span style="color:#FFA500">&#42;</span>. [**Link**](https://eurekamag.com/research/099/045/099045891.php)
 
 ## 📆 2024年 <span style="color:red">(7: Top5x2, Bx4)</span>：
 

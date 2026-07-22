@@ -80,6 +80,9 @@ $(function() {
 "SPNet: Sparse-mask Prompt-learning Network for Cerebrovascular Segmentation":
 "提出 SPNet，用稀疏掩码提示来分割脑血管。它先从三个方向的 MIP 投影中获得全局血管走向，再把这些粗提示注入 3D 分割网络；亮点是让模型不只看局部小块，而能理解同一条血管跨越多个区域的整体拓扑。",
 
+"基于GAN的视网膜血管分割标签优化方法":
+"提出基于 GAN 的视网膜血管分割标签优化方法，解决人工标注误差和噪声标签导致模型性能下降的问题。它用生成对抗网络模拟低质量标签的噪声分布，并结合高质量标签进行迭代优化，再通过二元交叉熵损失与对抗损失约束优化结果；特色是从训练标签入手提升不同分割框架对细小血管的识别精度。",
+
 "Robust Semi-supervised 3D Medical Image Segmentation with Diverse Joint-task Learning and Decoupled Inter-student Learning":
 "提出 DDL，把半监督 3D 分割从单一教师学生扩展成多学生、多任务协作。它通过不同遮挡任务制造多样视角，让学生模型互相补全缺失信息，同时避免多个模型越学越像、失去互补性；特色是更充分利用未标注 3D 医学图像。",
 
