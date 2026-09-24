@@ -39,6 +39,7 @@ redirect_from:
 <span class='anchor' id='-news'></span>
 
 # 🔥 重要事件
+- *2026.09*: &nbsp;🎉🎉 一篇本人通讯``BIBM``会议（CCF-B）接收，祝贺丁小洹！
 - *2026.06*: &nbsp;🎉🎉 一篇本人通讯``ECCV``会议（CCF-B）接收，祝贺胡强、罗宇轩（本科生）！
 - *2026.06*: &nbsp;🎉🎉 两篇本人通讯``MICCAI``会议（CCF-B）接收，祝贺罗语宣（本科生）、翟少卿（武理联培）、杨凯翔、胡强！
 - *2026.03*: &nbsp;🎉🎉 一篇本人通讯``ICME``会议（CCF-B）接收，祝贺王昊、周瀛！
@@ -80,9 +81,9 @@ redirect_from:
 
 # 📝 一作与通讯的论文 
 ### (Note: <span style="color:#FFA500">&#42;</span>: 通讯作者, <span style="color:#0D6EFD">&#8224;</span>: 共同一作)
-<div id="publication-total-stats" style="color:red; font-weight:600; margin:0.25em 0 1em 0;">(📄×55: Top5x14, Top10x1, Ax8, Bx21；📈×0；⭐×0)</div>
+<div id="publication-total-stats" style="color:red; font-weight:600; margin:0.25em 0 1em 0;">(📄×56: Top5x14, Top10x1, Ax12, Bx21；📈×0；⭐×0)</div>
 
-## 📆 2026年 <span style="color:red">(11: Top5x1, Top10x1, Ax4, Bx5)</span>：
+## 📆 2026年 <span style="color:red">(12: Top5x1, Top10x1, Ax4, Bx6)</span>：
 
 - <span style="background-color:#1E40AF; color:white; padding:0.5px 4px; border:1px solid #0F2460; border-radius:6px; font-weight:normal; font-size:0.9em; text-shadow:0.5px 0.5px 1px rgba(0,0,0,0.2); box-shadow:1px 1px 2px rgba(0,0,0,0.1); display:inline-block;">CVPR</span><span style="color:red">（CCF-A）</span> *SAMIX: Reinforcing SAM2 with Semantic Adapter and Reference Selecting Policy for Mix-Supervised Segmentation*, Qiang Hu, Jiajie Wei, Zhenyu Yi, Zhifen Yan, Yingjie Guo, Hongkuan Shi, Ge-Peng Ji, Qiang Li, **Zhiwei Wang**<span style="color:#FFA500">&#42;</span>. [**Code**](https://github.com/Huster-Hq/SAMIX) [**PDF**](https://openaccess.thecvf.com/content/CVPR2026/papers/Hu_SAMIX_Reinforcing_SAM2_with_Semantic_Adapter_and_Reference_Selecting_Policy_CVPR_2026_paper.pdf)
 
@@ -103,6 +104,8 @@ redirect_from:
 - <span style="background-color:#1E40AF; color:white; padding:0.5px 4px; border:1px solid #0F2460; border-radius:6px; font-weight:normal; font-size:0.9em; text-shadow:0.5px 0.5px 1px rgba(0,0,0,0.2); box-shadow:1px 1px 2px rgba(0,0,0,0.1); display:inline-block;">MICCAI</span><span style="color:red">（CCF-B）</span> *KIDA: Kinematic-Intent Dual-path Alignment for Surgical Error Detection*, Yuxuan Luo<span style="color:#0D6EFD">&#8224;</span>, Kaixiang Yang<span style="color:#0D6EFD">&#8224;</span>, Yuxi Li<span style="color:#0D6EFD">&#8224;</span>, Wei Fang, Qiang Li<span style="color:#FFA500">&#42;</span>, **Zhiwei Wang**<span style="color:#FFA500">&#42;</span>. [**Code**](https://github.com/yxluo8/KIDA)
 
 - <span style="background-color:#1E40AF; color:white; padding:0.5px 4px; border:1px solid #0F2460; border-radius:6px; font-weight:normal; font-size:0.9em; text-shadow:0.5px 0.5px 1px rgba(0,0,0,0.2); box-shadow:1px 1px 2px rgba(0,0,0,0.1); display:inline-block;">MICCAI</span><span style="color:red">（CCF-B）</span> *Mask to Concept: Auto-promptable SAM3 via Concept Embedding Searching for Training-free Few-shot Annotation*, Quan Zhou<span style="color:#0D6EFD">&#8224;</span>, Shaoqing Zhai<span style="color:#0D6EFD">&#8224;</span>, Qiang Hu<span style="color:#FFA500">&#42;</span>, Jia Chen, Qiang Li, **Zhiwei Wang**<span style="color:#FFA500">&#42;</span>. [**Code**](https://github.com/Huster-Hq/M2C)
+
+- <span style="background-color:#1E40AF; color:white; padding:0.5px 4px; border:1px solid #0F2460; border-radius:6px; font-weight:normal; font-size:0.9em; text-shadow:0.5px 0.5px 1px rgba(0,0,0,0.2); box-shadow:1px 1px 2px rgba(0,0,0,0.1); display:inline-block;">BIBM</span><span style="color:red">（CCF-B，Regular，接收率\<20%）</span> *SingleJoDi: Single-Labeled Joint Diffusion Network for Curvilinear Structure Segmentation*, Xiaohuan Ding, Shujun Chen, Liang Zhang, Tianyu Zhao, **Zhiwei Wang**<span style="color:#FFA500">&#42;</span>, and Xin Yang<span style="color:#FFA500">&#42;</span>.
 
 - <span style="background-color:#1E40AF; color:white; padding:0.5px 4px; border:1px solid #0F2460; border-radius:6px; font-weight:normal; font-size:0.9em; text-shadow:0.5px 0.5px 1px rgba(0,0,0,0.2); box-shadow:1px 1px 2px rgba(0,0,0,0.1); display:inline-block;">ICASSP</span><span style="color:red">（CCF-B）</span> *Knowledge-Contrastive Fine-Grained Attention for CVS Recognition in Cholecystectomy Without Dense Labels*, Yuxi Li<span style="color:#0D6EFD">&#8224;</span>, Kaixiang Yang<span style="color:#0D6EFD">&#8224;</span>, Xin Li<span style="color:#0D6EFD">&#8224;</span>, Qiang Li<span style="color:#FFA500">&#42;</span>, **Zhiwei Wang**<span style="color:#FFA500">&#42;</span>. [**Link**](https://doi.org/10.1109/ICASSP55912.2026.11465051)
 
