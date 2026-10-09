@@ -53,3 +53,9 @@ jobs:
         SCHOLAR_FETCH_TIMEOUT: "45"
         SCHOLAR_MAX_ATTEMPTS: "1"
         SCHOLAR_RETRY_BASE_SECONDS: "10"
+    - name: Purge citation CDN cache
+      run: |
+        for file in gs_data.json gs_data_shieldsio.json; do
+          curl --fail --silent --show-error --retry 3 \
+            "https://purge.jsdelivr.net/gh/${GITHUB_REPOSITORY}@google-scholar-stats/${file}"
+        done
