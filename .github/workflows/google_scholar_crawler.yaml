@@ -20,7 +20,9 @@ jobs:
     - name: Install Reqs
       run: |
         cd ./google_scholar_crawler
-        pip install -r requirements.txt
+        python -m pip install -r requirements.txt
+        python -m pip check
+        python -c "from scholarly import scholarly; from bibtexparser.bibdatabase import BibDatabase"
     - name: Run
       run: |
         cd ./google_scholar_crawler
