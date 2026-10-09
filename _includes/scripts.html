@@ -16,76 +16,35 @@
     });
   });
 
-  // GitHub stats - fetch star count for Code links
+  // GitHub stats - render star counts collected by GitHub Actions
   $(function() {
-    var CACHE_KEY = 'ghstars_v2';
-    var CACHE_TTL = 12 * 60 * 60 * 1000;
-    var DELAY_MS = 800;
+    var embeddedStars = {{ site.data.github_stars | jsonify }} || {};
+    var starsUrl = 'https://raw.githubusercontent.com/{{ site.repository }}/main/_data/github_stars.json';
 
-    function loadCache() {
-      try { var r = localStorage.getItem(CACHE_KEY); return r ? JSON.parse(r) : {}; }
-      catch(e) { return {}; }
-    }
-    function saveCache(c) {
-      try { localStorage.setItem(CACHE_KEY, JSON.stringify(c)); }
-      catch(e) {}
-    }
-    function refreshYearStats() {
+    function renderStars(starsByRepo) {
+      if (!starsByRepo || typeof starsByRepo !== 'object') return;
+      $('.page__content a[href*="github.com"]').each(function() {
+        var $link = $(this);
+        var href = $link.attr('href');
+        if (!href) return;
+        var m = href.match(/github\.com\/([^\/]+)\/([^\/\s\)\]?#]+)/);
+        if (!m) return;
+        var repo = m[1] + '/' + m[2];
+        if (!Object.prototype.hasOwnProperty.call(starsByRepo, repo)) return;
+
+        var $badge = $link.next('.gh-stats');
+        if (!$badge.length) {
+          $badge = $('<span class="gh-stats" data-repo="' + repo + '"></span>');
+          $link.after($badge);
+        }
+        renderBadge($badge, starsByRepo[repo]);
+      });
+
       if (typeof aggregateYearStats === 'function') aggregateYearStats();
     }
 
-    var cache = loadCache();
-    var now = Date.now();
-    var queue = [];
-
-    $('.page__content a[href*="github.com"]').each(function() {
-      var $link = $(this);
-      var href = $link.attr('href');
-      if (!href) return;
-      var m = href.match(/github\.com\/([^\/]+)\/([^\/\s\)\]?#]+)/);
-      if (!m) return;
-      var repo = m[1] + '/' + m[2];
-      if ($link.next('.gh-stats').length) return;
-
-      var $badge = $('<span class="gh-stats" data-repo="' + repo + '"></span>');
-      $link.after($badge);
-
-      if (cache[repo] && (now - cache[repo].ts) < CACHE_TTL) {
-        renderBadge($badge, cache[repo].stars);
-        refreshYearStats();
-      } else {
-        $badge.text(' \u22EF');
-        queue.push({ repo: repo, $badge: $badge });
-      }
-    });
-
-    if (!queue.length) return;
-
-    function fetchNext(i) {
-      if (i >= queue.length) return;
-      var item = queue[i];
-      $.getJSON('https://api.github.com/repos/' + item.repo)
-        .done(function(data) {
-          var stars = data.stargazers_count || 0;
-          cache[item.repo] = { stars: stars, ts: Date.now() };
-          renderBadge(item.$badge, stars);
-          refreshYearStats();
-        })
-        .fail(function(xhr) {
-          if (xhr.status === 403) {
-            item.$badge.text(' rate-limited');
-          } else if (xhr.status === 404) {
-            item.$badge.text('');
-          } else {
-            item.$badge.text('');
-          }
-        })
-        .always(function() {
-          saveCache(cache);
-          setTimeout(function() { fetchNext(i + 1); }, DELAY_MS);
-        });
-    }
-    fetchNext(0);
+    renderStars(embeddedStars);
+    $.getJSON(starsUrl).done(renderStars);
 
     function renderBadge($el, stars) {
       $el.html(
