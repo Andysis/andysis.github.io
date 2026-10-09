@@ -5,6 +5,12 @@ on:
   # Every Monday at 16:00 China Standard Time (08:00 UTC).
   - cron: '0 8 * * 1'
  workflow_dispatch:
+ push:
+  branches:
+   - main
+  paths:
+   - 'google_scholar_crawler/**'
+   - '.github/workflows/google_scholar_crawler.yaml'
 
 jobs:
   build:
@@ -23,6 +29,7 @@ jobs:
         python -m pip install -r requirements.txt
         python -m pip check
         python -c "from scholarly import scholarly; from bibtexparser.bibdatabase import BibDatabase"
+        python -m unittest -v test_main.py
     - name: Run
       run: |
         cd ./google_scholar_crawler
@@ -42,6 +49,7 @@ jobs:
       env:
         GOOGLE_SCHOLAR_ID: ${{ secrets.GOOGLE_SCHOLAR_ID }}
         PYTHONUNBUFFERED: "1"
-        SCHOLAR_FETCH_TIMEOUT: "75"
-        SCHOLAR_MAX_ATTEMPTS: "2"
-        SCHOLAR_RETRY_BASE_SECONDS: "15"
+        SCHOLAR_DIRECT_TIMEOUT: "20"
+        SCHOLAR_FETCH_TIMEOUT: "45"
+        SCHOLAR_MAX_ATTEMPTS: "1"
+        SCHOLAR_RETRY_BASE_SECONDS: "10"
