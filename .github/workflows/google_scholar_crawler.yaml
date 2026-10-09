@@ -1,9 +1,9 @@
 name: Get Citation Data
 
 on:
- page_build:
  schedule:
-  - cron: '0 8 * * *'
+  # Every Monday at 16:00 China Standard Time (08:00 UTC).
+  - cron: '0 8 * * 1'
  workflow_dispatch:
 
 jobs:
