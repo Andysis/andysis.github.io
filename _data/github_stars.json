@@ -4,7 +4,7 @@
   "HK-Shi/Bidirectional-SemiSupervised-Dual-branch-CNN": 13,
   "Huster-Hq/ADD": 10,
   "Huster-Hq/DADA": 14,
-  "Huster-Hq/M2C": 14,
+  "Huster-Hq/M2C": 15,
   "Huster-Hq/MonoBox": 25,
   "Huster-Hq/PSDNet": 9,
   "Huster-Hq/PaGKD": 10,
@@ -29,5 +29,5 @@
   "shanwq/DCANet": 5,
   "shanwq/SPNet": 3,
   "yxluo8/KIDA": 1,
-  "zxmboshi/DDL": 8
+  "zxmboshi/DDL": 0
 }
