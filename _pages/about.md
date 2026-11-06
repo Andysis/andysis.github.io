@@ -289,9 +289,14 @@ redirect_from:
 
 <span class='anchor' id='-books'></span>
 
-# 📚 教材与著作
+# 📚 教材与软件著作
 
 - <span style="background-color:#1E40AF; color:white; padding:0.5px 4px; border:1px solid #0F2460; border-radius:6px; font-weight:normal; font-size:0.9em; text-shadow:0.5px 0.5px 1px rgba(0,0,0,0.2); box-shadow:1px 1px 2px rgba(0,0,0,0.1); display:inline-block;">科普教材</span> *《从伦琴射线到大脑成像——面向未来的生命光电子》*，华中科技大学出版社，科普教材，**编委**。
+
+
+- <span style="background-color:#1E40AF; color:white; padding:0.5px 4px; border:1px solid #0F2460; border-radius:6px; font-weight:normal; font-size:0.9em; text-shadow:0.5px 0.5px 1px rgba(0,0,0,0.2); box-shadow:1px 1px 2px rgba(0,0,0,0.1); display:inline-block;">软件著作权</span> *肠镜明眸结肠镜辅助诊断视界软件 V1.0*，钟文唐、晋晨曦、靳文惠、刘朗清、**王植炜**，2024SR1944030，2024.12.02。
+
+- <span style="background-color:#1E40AF; color:white; padding:0.5px 4px; border:1px solid #0F2460; border-radius:6px; font-weight:normal; font-size:0.9em; text-shadow:0.5px 0.5px 1px rgba(0,0,0,0.2); box-shadow:1px 1px 2px rgba(0,0,0,0.1); display:inline-block;">软件著作权</span> *息肉之眼结直肠息肉智慧诊断平台软件 V1.0*，钟文唐、冯宇锐、刘朗清、袁卓雅、**王植炜**，2024SR0527565，2024.04.18。
 
 ---
 
@@ -304,6 +309,9 @@ redirect_from:
 - <span style="background-color:#1E40AF; color:white; padding:0.5px 4px; border:1px solid #0F2460; border-radius:6px; font-weight:normal; font-size:0.9em; text-shadow:0.5px 0.5px 1px rgba(0,0,0,0.2); box-shadow:1px 1px 2px rgba(0,0,0,0.1); display:inline-block;">特邀报告</span> *Mask is Not All You Need: Box-supervised Polyp Segmentation in Images and Videos*，ICBIP，成都，2025.08.02，**特邀报告**。
 
 - <span style="background-color:#1E40AF; color:white; padding:0.5px 4px; border:1px solid #0F2460; border-radius:6px; font-weight:normal; font-size:0.9em; text-shadow:0.5px 0.5px 1px rgba(0,0,0,0.2); box-shadow:1px 1px 2px rgba(0,0,0,0.1); display:inline-block;">口头报告</span> *Dual-view Correlation Hybrid Attention Network for Robust Holistic Mammogram Classification*，IJCAI，澳门，2023，**论文口头报告**。
+
+
+- <span style="background-color:#1E40AF; color:white; padding:0.5px 4px; border:1px solid #0F2460; border-radius:6px; font-weight:normal; font-size:0.9em; text-shadow:0.5px 0.5px 1px rgba(0,0,0,0.2); box-shadow:1px 1px 2px rgba(0,0,0,0.1); display:inline-block;">学术报告</span> 图图名师讲堂——同心战疫云上学术系列论坛，《中国图象图形学报》，2022.04，**报告嘉宾**。
 
 ---
 
@@ -362,18 +370,20 @@ redirect_from:
 <span class='anchor' id='-academic-service'></span>
 
 # 💬 学术兼职与服务
-- 《Frontiers in Imaging》副主编、专题编辑 
-- 《Diagnostics》专题编辑
 
+- <span style="background-color:#1E40AF; color:white; padding:0.5px 4px; border:1px solid #0F2460; border-radius:6px; font-weight:normal; font-size:0.9em; text-shadow:0.5px 0.5px 1px rgba(0,0,0,0.2); box-shadow:1px 1px 2px rgba(0,0,0,0.1); display:inline-block;">期刊编辑</span> *Frontiers in Imaging*，**副主编、专题编辑**。
 
-## 审稿荣誉
+- <span style="background-color:#1E40AF; color:white; padding:0.5px 4px; border:1px solid #0F2460; border-radius:6px; font-weight:normal; font-size:0.9em; text-shadow:0.5px 0.5px 1px rgba(0,0,0,0.2); box-shadow:1px 1px 2px rgba(0,0,0,0.1); display:inline-block;">期刊编辑</span> *Diagnostics*，**专题编辑**。
+
+- <span style="background-color:#1E40AF; color:white; padding:0.5px 4px; border:1px solid #0F2460; border-radius:6px; font-weight:normal; font-size:0.9em; text-shadow:0.5px 0.5px 1px rgba(0,0,0,0.2); box-shadow:1px 1px 2px rgba(0,0,0,0.1); display:inline-block;">程序委员会</span> IJCAI，2025，**Program Committee Member（PC）**。
+
+- <span style="background-color:#1E40AF; color:white; padding:0.5px 4px; border:1px solid #0F2460; border-radius:6px; font-weight:normal; font-size:0.9em; text-shadow:0.5px 0.5px 1px rgba(0,0,0,0.2); box-shadow:1px 1px 2px rgba(0,0,0,0.1); display:inline-block;">会议审稿</span> ICASSP，2025，**Reviewer**。
 
 - <span style="background-color:#1E40AF; color:white; padding:0.5px 4px; border:1px solid #0F2460; border-radius:6px; font-weight:normal; font-size:0.9em; text-shadow:0.5px 0.5px 1px rgba(0,0,0,0.2); box-shadow:1px 1px 2px rgba(0,0,0,0.1); display:inline-block;">优秀审稿人</span> *2024.10* “IEEE TMI Distinguished Reviewer Bronze Level”，IEEE Transactions on Medical Imaging
 
 - <span style="background-color:#1E40AF; color:white; padding:0.5px 4px; border:1px solid #0F2460; border-radius:6px; font-weight:normal; font-size:0.9em; text-shadow:0.5px 0.5px 1px rgba(0,0,0,0.2); box-shadow:1px 1px 2px rgba(0,0,0,0.1); display:inline-block;">优秀审稿人</span> *2023.10* “IEEE TMI Distinguished Reviewer Silver Level”，IEEE Transactions on Medical Imaging
 
 - <span style="background-color:#1E40AF; color:white; padding:0.5px 4px; border:1px solid #0F2460; border-radius:6px; font-weight:normal; font-size:0.9em; text-shadow:0.5px 0.5px 1px rgba(0,0,0,0.2); box-shadow:1px 1px 2px rgba(0,0,0,0.1); display:inline-block;">优秀审稿人</span> *2022.08* "IEEE TMI Distinguished Reviewer Bronze Level"，IEEE Transactions on Medical Imaging
-
 
 ---
 

@@ -53,6 +53,12 @@
                 }
 
                 $('.page__content li').each(function() {
+                    // Citation badges belong only to the two publication lists.
+                    var start = document.getElementById('-publications');
+                    var end = document.getElementById('-patents');
+                    if (!start || !end ||
+                        !(start.compareDocumentPosition(this) & Node.DOCUMENT_POSITION_FOLLOWING) ||
+                        !(this.compareDocumentPosition(end) & Node.DOCUMENT_POSITION_FOLLOWING)) return;
                     var $li = $(this);
                     if (!$li.find('span[style*="background-color"]').length) return;
                     if ($li.find('.paper-cited').length) return;
