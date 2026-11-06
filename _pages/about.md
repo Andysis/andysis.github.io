@@ -46,6 +46,10 @@ redirect_from:
 - *2026.02*: &nbsp;🎉🎉 一篇本人通讯``CVPR``会议（CCF-A）接收，祝贺胡强！
 - *2026.01*: &nbsp;🎉🎉 一篇本人通讯``ICASSP``会议（CCF-B）接收，祝贺李羽茜、李欣！
 - *2026.01*: &nbsp;🎉🎉 一篇本人通讯``Pattern Recognition``期刊（中科院计算机科学1区）接收，祝贺吴崇炜！
+
+<details markdown="1">
+<summary>展开往年动态（2025年及以前）</summary>
+
 - *2025.12*: &nbsp;🎉🎉 一篇本人通讯``JBHI``期刊（中科院数学与计算生物学1区）接收，祝贺吴崇炜！
 - *2025.11*: &nbsp;🎉🎉 三篇本人通讯``AAAI``会议（CCF-A）接收，祝贺郭英杰、杨凯翔、胡强！
 - *2025.11*: &nbsp;🎉🎉 一篇本人通讯``BSPC``期刊（中科院医学2区）接收，祝贺单文奇、杨凯翔！
@@ -75,7 +79,7 @@ redirect_from:
 - *2021.06*: &nbsp;🎉🎉 一篇本人共一``MICCAI``会议（CCF-B）接收，祝贺冼俊林！
 - *2020.03*: &nbsp;🎉🎉 一篇本人一作``TMI``期刊（中科院医学1区Top5%，影响因子>10）接收！
 
-
+</details>
 
 <span class='anchor' id='-publications'></span>
 
@@ -283,41 +287,93 @@ redirect_from:
 - <span style="background-color:#1E40AF; color:white; padding:0.5px 4px; border:1px solid #0F2460; border-radius:6px; font-weight:normal; font-size:0.9em; text-shadow:0.5px 0.5px 1px rgba(0,0,0,0.2); box-shadow:1px 1px 2px rgba(0,0,0,0.1); display:inline-block;">省重点研发计划项目</span><span style="color:red">（湖北省）</span> 基于多模态磁共振成像的周围神经再生的精准评估系统构建, 2022-05 至 2024-12，``骨干参与人``
 
 
+<span class='anchor' id='-books'></span>
+
+# 📚 教材与著作
+
+- <span style="background-color:#1E40AF; color:white; padding:0.5px 4px; border:1px solid #0F2460; border-radius:6px; font-weight:normal; font-size:0.9em; text-shadow:0.5px 0.5px 1px rgba(0,0,0,0.2); box-shadow:1px 1px 2px rgba(0,0,0,0.1); display:inline-block;">科普教材</span> *《从伦琴射线到大脑成像——面向未来的生命光电子》*，华中科技大学出版社，科普教材，**编委**。
+
+---
+
+<span class='anchor' id='-academic-exchange'></span>
+
+# 🎤 学术交流
+
+- <span style="background-color:#1E40AF; color:white; padding:0.5px 4px; border:1px solid #0F2460; border-radius:6px; font-weight:normal; font-size:0.9em; text-shadow:0.5px 0.5px 1px rgba(0,0,0,0.2); box-shadow:1px 1px 2px rgba(0,0,0,0.1); display:inline-block;">特邀报告</span> *肾早癌手术中的增强现实视觉引导技术与应用*，中港青年学者论坛，南京，2026.10.31，**特邀报告**。
+
+- <span style="background-color:#1E40AF; color:white; padding:0.5px 4px; border:1px solid #0F2460; border-radius:6px; font-weight:normal; font-size:0.9em; text-shadow:0.5px 0.5px 1px rgba(0,0,0,0.2); box-shadow:1px 1px 2px rgba(0,0,0,0.1); display:inline-block;">特邀报告</span> *Mask is Not All You Need: Box-supervised Polyp Segmentation in Images and Videos*，ICBIP，成都，2025.08.02，**特邀报告**。
+
+- <span style="background-color:#1E40AF; color:white; padding:0.5px 4px; border:1px solid #0F2460; border-radius:6px; font-weight:normal; font-size:0.9em; text-shadow:0.5px 0.5px 1px rgba(0,0,0,0.2); box-shadow:1px 1px 2px rgba(0,0,0,0.1); display:inline-block;">口头报告</span> *Dual-view Correlation Hybrid Attention Network for Robust Holistic Mammogram Classification*，IJCAI，澳门，2023，**论文口头报告**。
+
+---
+
 <span class='anchor' id='-honors-and-awards'></span>
 
 # 🏆️ 荣誉与获奖
-- *2025.08* “国一等奖”，第二十七届中国机器人及人工智能大赛全国总决赛
-- *2025.07* “国三等奖”，第十届全国大学生生命科学竞赛
-- *2025.06* “教师先进典型培育”，华中科技大学
-- *2025.06* “优秀党员”，华中科技大学
-- *2025.06* “国二等奖”，第十六届蓝桥杯全国软件和信息技术专业人才大赛全国选拔赛
-- *2025.06* “地区一等奖”，第十八届中国大学生计算机设计大赛中南地区赛
-- *2025.06* “省二等奖”，第二十七届中国机器人及人工智能大赛湖北赛区
-- *2025.01* “工会活动积极分子”，华中科技大学
-- *2024.12* “优秀指导教师”，第六届全球校园人工智能算法精英大赛全国总决赛
-- *2024.12* “国二等奖”，第六届全球校园人工智能算法精英大赛全国总决赛
-- *2024.12* “国二等奖”，第十八届iCAN大学生创新创业大赛总决赛
-- *2024.11* “省一等奖”，第六届全球校园人工智能算法精英大赛（湖北赛区）总决赛
-- *2024.11* “优秀指导教师”，第十八届iCAN大学生创新创业大赛湖北赛区选拔赛
-- *2024.11* “省一等奖”，第十八届iCAN大学生创新创业大赛湖北赛区选拔赛
-- *2024.10* “IEEE TMI Distinguished Reviewer Bronze Level”，IEEE Transactions on Medical Imaging
-- *2024.07* “国二等奖”，第九届全国大学生生物医学工程创新设计竞赛
-- *2023.10* “IEEE TMI Distinguished Reviewer Silver Level”，IEEE Transactions on Medical Imaging
-- *2023.07* “国二等奖”2项，第八届全国大学生生物医学工程创新设计竞赛
-- *2023.06* “国一等奖”，第二十五届中国机器人及人工智能大赛全国总决赛
-- *2023.05* “省二等奖”，第二十五届中国机器人及人工智能大赛湖北赛区
-- *2023.05* “武汉英才优秀青年人才计划”，武汉市组织部
-- *2023.02* “湖北省科技进步二等奖”，湖北省人民政府
-- *2022.08* “国二等奖”，全国大学生生命科学竞赛
-- *2022.08* "IEEE TMI Distinguished Reviewer Bronze Level"，IEEE Transactions on Medical Imaging
 
+## 科技奖励
 
+- <span style="background-color:#1E40AF; color:white; padding:0.5px 4px; border:1px solid #0F2460; border-radius:6px; font-weight:normal; font-size:0.9em; text-shadow:0.5px 0.5px 1px rgba(0,0,0,0.2); box-shadow:1px 1px 2px rgba(0,0,0,0.1); display:inline-block;">科技奖励</span> *2023.02* “湖北省科技进步二等奖”，湖北省人民政府
+
+## 个人荣誉
+
+- <span style="background-color:#1E40AF; color:white; padding:0.5px 4px; border:1px solid #0F2460; border-radius:6px; font-weight:normal; font-size:0.9em; text-shadow:0.5px 0.5px 1px rgba(0,0,0,0.2); box-shadow:1px 1px 2px rgba(0,0,0,0.1); display:inline-block;">个人荣誉</span> *2025.06* “教师先进典型培育”，华中科技大学
+
+- <span style="background-color:#1E40AF; color:white; padding:0.5px 4px; border:1px solid #0F2460; border-radius:6px; font-weight:normal; font-size:0.9em; text-shadow:0.5px 0.5px 1px rgba(0,0,0,0.2); box-shadow:1px 1px 2px rgba(0,0,0,0.1); display:inline-block;">个人荣誉</span> *2025.06* “优秀党员”，华中科技大学
+
+- <span style="background-color:#1E40AF; color:white; padding:0.5px 4px; border:1px solid #0F2460; border-radius:6px; font-weight:normal; font-size:0.9em; text-shadow:0.5px 0.5px 1px rgba(0,0,0,0.2); box-shadow:1px 1px 2px rgba(0,0,0,0.1); display:inline-block;">个人荣誉</span> *2025.01* “工会活动积极分子”，华中科技大学
+
+- <span style="background-color:#1E40AF; color:white; padding:0.5px 4px; border:1px solid #0F2460; border-radius:6px; font-weight:normal; font-size:0.9em; text-shadow:0.5px 0.5px 1px rgba(0,0,0,0.2); box-shadow:1px 1px 2px rgba(0,0,0,0.1); display:inline-block;">个人荣誉</span> *2023.05* “武汉英才优秀青年人才计划”，武汉市组织部
+
+## 指导获奖
+
+- <span style="background-color:#1E40AF; color:white; padding:0.5px 4px; border:1px solid #0F2460; border-radius:6px; font-weight:normal; font-size:0.9em; text-shadow:0.5px 0.5px 1px rgba(0,0,0,0.2); box-shadow:1px 1px 2px rgba(0,0,0,0.1); display:inline-block;">指导获奖</span> *2025.08* “国一等奖”，第二十七届中国机器人及人工智能大赛全国总决赛
+
+- <span style="background-color:#1E40AF; color:white; padding:0.5px 4px; border:1px solid #0F2460; border-radius:6px; font-weight:normal; font-size:0.9em; text-shadow:0.5px 0.5px 1px rgba(0,0,0,0.2); box-shadow:1px 1px 2px rgba(0,0,0,0.1); display:inline-block;">指导获奖</span> *2025.07* “国三等奖”，第十届全国大学生生命科学竞赛
+
+- <span style="background-color:#1E40AF; color:white; padding:0.5px 4px; border:1px solid #0F2460; border-radius:6px; font-weight:normal; font-size:0.9em; text-shadow:0.5px 0.5px 1px rgba(0,0,0,0.2); box-shadow:1px 1px 2px rgba(0,0,0,0.1); display:inline-block;">指导获奖</span> *2025.06* “国二等奖”，第十六届蓝桥杯全国软件和信息技术专业人才大赛全国选拔赛
+
+- <span style="background-color:#1E40AF; color:white; padding:0.5px 4px; border:1px solid #0F2460; border-radius:6px; font-weight:normal; font-size:0.9em; text-shadow:0.5px 0.5px 1px rgba(0,0,0,0.2); box-shadow:1px 1px 2px rgba(0,0,0,0.1); display:inline-block;">指导获奖</span> *2025.06* “地区一等奖”，第十八届中国大学生计算机设计大赛中南地区赛
+
+- <span style="background-color:#1E40AF; color:white; padding:0.5px 4px; border:1px solid #0F2460; border-radius:6px; font-weight:normal; font-size:0.9em; text-shadow:0.5px 0.5px 1px rgba(0,0,0,0.2); box-shadow:1px 1px 2px rgba(0,0,0,0.1); display:inline-block;">指导获奖</span> *2025.06* “省二等奖”，第二十七届中国机器人及人工智能大赛湖北赛区
+
+- <span style="background-color:#1E40AF; color:white; padding:0.5px 4px; border:1px solid #0F2460; border-radius:6px; font-weight:normal; font-size:0.9em; text-shadow:0.5px 0.5px 1px rgba(0,0,0,0.2); box-shadow:1px 1px 2px rgba(0,0,0,0.1); display:inline-block;">指导获奖</span> *2024.12* “优秀指导教师”，第六届全球校园人工智能算法精英大赛全国总决赛
+
+- <span style="background-color:#1E40AF; color:white; padding:0.5px 4px; border:1px solid #0F2460; border-radius:6px; font-weight:normal; font-size:0.9em; text-shadow:0.5px 0.5px 1px rgba(0,0,0,0.2); box-shadow:1px 1px 2px rgba(0,0,0,0.1); display:inline-block;">指导获奖</span> *2024.12* “国二等奖”，第六届全球校园人工智能算法精英大赛全国总决赛
+
+- <span style="background-color:#1E40AF; color:white; padding:0.5px 4px; border:1px solid #0F2460; border-radius:6px; font-weight:normal; font-size:0.9em; text-shadow:0.5px 0.5px 1px rgba(0,0,0,0.2); box-shadow:1px 1px 2px rgba(0,0,0,0.1); display:inline-block;">指导获奖</span> *2024.12* “国二等奖”，第十八届iCAN大学生创新创业大赛总决赛
+
+- <span style="background-color:#1E40AF; color:white; padding:0.5px 4px; border:1px solid #0F2460; border-radius:6px; font-weight:normal; font-size:0.9em; text-shadow:0.5px 0.5px 1px rgba(0,0,0,0.2); box-shadow:1px 1px 2px rgba(0,0,0,0.1); display:inline-block;">指导获奖</span> *2024.11* “省一等奖”，第六届全球校园人工智能算法精英大赛（湖北赛区）总决赛
+
+- <span style="background-color:#1E40AF; color:white; padding:0.5px 4px; border:1px solid #0F2460; border-radius:6px; font-weight:normal; font-size:0.9em; text-shadow:0.5px 0.5px 1px rgba(0,0,0,0.2); box-shadow:1px 1px 2px rgba(0,0,0,0.1); display:inline-block;">指导获奖</span> *2024.11* “优秀指导教师”，第十八届iCAN大学生创新创业大赛湖北赛区选拔赛
+
+- <span style="background-color:#1E40AF; color:white; padding:0.5px 4px; border:1px solid #0F2460; border-radius:6px; font-weight:normal; font-size:0.9em; text-shadow:0.5px 0.5px 1px rgba(0,0,0,0.2); box-shadow:1px 1px 2px rgba(0,0,0,0.1); display:inline-block;">指导获奖</span> *2024.11* “省一等奖”，第十八届iCAN大学生创新创业大赛湖北赛区选拔赛
+
+- <span style="background-color:#1E40AF; color:white; padding:0.5px 4px; border:1px solid #0F2460; border-radius:6px; font-weight:normal; font-size:0.9em; text-shadow:0.5px 0.5px 1px rgba(0,0,0,0.2); box-shadow:1px 1px 2px rgba(0,0,0,0.1); display:inline-block;">指导获奖</span> *2024.07* “国二等奖”，第九届全国大学生生物医学工程创新设计竞赛
+
+- <span style="background-color:#1E40AF; color:white; padding:0.5px 4px; border:1px solid #0F2460; border-radius:6px; font-weight:normal; font-size:0.9em; text-shadow:0.5px 0.5px 1px rgba(0,0,0,0.2); box-shadow:1px 1px 2px rgba(0,0,0,0.1); display:inline-block;">指导获奖</span> *2023.07* “国二等奖”2项，第八届全国大学生生物医学工程创新设计竞赛
+
+- <span style="background-color:#1E40AF; color:white; padding:0.5px 4px; border:1px solid #0F2460; border-radius:6px; font-weight:normal; font-size:0.9em; text-shadow:0.5px 0.5px 1px rgba(0,0,0,0.2); box-shadow:1px 1px 2px rgba(0,0,0,0.1); display:inline-block;">指导获奖</span> *2023.06* “国一等奖”，第二十五届中国机器人及人工智能大赛全国总决赛
+
+- <span style="background-color:#1E40AF; color:white; padding:0.5px 4px; border:1px solid #0F2460; border-radius:6px; font-weight:normal; font-size:0.9em; text-shadow:0.5px 0.5px 1px rgba(0,0,0,0.2); box-shadow:1px 1px 2px rgba(0,0,0,0.1); display:inline-block;">指导获奖</span> *2023.05* “省二等奖”，第二十五届中国机器人及人工智能大赛湖北赛区
+
+- <span style="background-color:#1E40AF; color:white; padding:0.5px 4px; border:1px solid #0F2460; border-radius:6px; font-weight:normal; font-size:0.9em; text-shadow:0.5px 0.5px 1px rgba(0,0,0,0.2); box-shadow:1px 1px 2px rgba(0,0,0,0.1); display:inline-block;">指导获奖</span> *2022.08* “国二等奖”，全国大学生生命科学竞赛
 
 <span class='anchor' id='-academic-service'></span>
 
 # 💬 学术兼职与服务
 - 《Frontiers in Imaging》副主编、专题编辑 
 - 《Diagnostics》专题编辑
+
+
+## 审稿荣誉
+
+- <span style="background-color:#1E40AF; color:white; padding:0.5px 4px; border:1px solid #0F2460; border-radius:6px; font-weight:normal; font-size:0.9em; text-shadow:0.5px 0.5px 1px rgba(0,0,0,0.2); box-shadow:1px 1px 2px rgba(0,0,0,0.1); display:inline-block;">优秀审稿人</span> *2024.10* “IEEE TMI Distinguished Reviewer Bronze Level”，IEEE Transactions on Medical Imaging
+
+- <span style="background-color:#1E40AF; color:white; padding:0.5px 4px; border:1px solid #0F2460; border-radius:6px; font-weight:normal; font-size:0.9em; text-shadow:0.5px 0.5px 1px rgba(0,0,0,0.2); box-shadow:1px 1px 2px rgba(0,0,0,0.1); display:inline-block;">优秀审稿人</span> *2023.10* “IEEE TMI Distinguished Reviewer Silver Level”，IEEE Transactions on Medical Imaging
+
+- <span style="background-color:#1E40AF; color:white; padding:0.5px 4px; border:1px solid #0F2460; border-radius:6px; font-weight:normal; font-size:0.9em; text-shadow:0.5px 0.5px 1px rgba(0,0,0,0.2); box-shadow:1px 1px 2px rgba(0,0,0,0.1); display:inline-block;">优秀审稿人</span> *2022.08* "IEEE TMI Distinguished Reviewer Bronze Level"，IEEE Transactions on Medical Imaging
+
 
 ---
 

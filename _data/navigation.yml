@@ -18,6 +18,12 @@ main:
   - title: "科研项目"
     url: "/#-projects"
 
+  - title: "教材著作"
+    url: "/#-books"
+
+  - title: "学术交流"
+    url: "/#-academic-exchange"
+
   - title: "荣誉奖项"
     url: "/#-honors-and-awards"
 
