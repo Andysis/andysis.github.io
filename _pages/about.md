@@ -28,7 +28,7 @@ redirect_from:
 
 ---
 
-我的研究方向为重大疾病人工智能辅助筛查与手术治疗（近几年主要聚焦于微创外科、消化内镜等）。我曾获评武汉市优秀青年人才, 校教师先进典型培育对象和优秀共产党员等荣誉称号。
+我是生物医学工程学科硕士生导师、博士生导师，研究方向为重大疾病人工智能辅助筛查与手术治疗（近几年主要聚焦于微创外科、消化内镜等）。我曾获评武汉市优秀青年人才, 校教师先进典型培育对象和优秀共产党员等荣誉称号。
 
 近五年，我主持了国家自然科学基金青年项目1项、面上项目1项，担任科技部青年科学家项目课题负责人（总排名第二），并主持了武汉市科技重大专项“卡脖子”技术攻关课题。我的研究成果《基于深度学习的冠状动脉、肺动脉CTA辅助诊断系统的研究及临床应用》获得省科技进步二等奖；《面向脑胶质瘤手术的新型人工智能神经外科精准手术系统》入选湖北省人工智能重大创新成果（场景），并被央视、《长江日报》等媒体报道。
 
@@ -371,6 +371,10 @@ redirect_from:
 
 # 💬 学术兼职与服务
 
+- <span style="background-color:#1E40AF; color:white; padding:0.5px 4px; border:1px solid #0F2460; border-radius:6px; font-weight:normal; font-size:0.9em; text-shadow:0.5px 0.5px 1px rgba(0,0,0,0.2); box-shadow:1px 1px 2px rgba(0,0,0,0.1); display:inline-block;">学会会员</span> 中国图象图形学学会（CSIG），**会员**。
+
+- <span style="background-color:#1E40AF; color:white; padding:0.5px 4px; border:1px solid #0F2460; border-radius:6px; font-weight:normal; font-size:0.9em; text-shadow:0.5px 0.5px 1px rgba(0,0,0,0.2); box-shadow:1px 1px 2px rgba(0,0,0,0.1); display:inline-block;">专业委员会</span> 中国控烟与健康协会人工智能助力肿瘤筛查与治疗专业委员会，**委员**。
+
 - <span style="background-color:#1E40AF; color:white; padding:0.5px 4px; border:1px solid #0F2460; border-radius:6px; font-weight:normal; font-size:0.9em; text-shadow:0.5px 0.5px 1px rgba(0,0,0,0.2); box-shadow:1px 1px 2px rgba(0,0,0,0.1); display:inline-block;">期刊编辑</span> *Frontiers in Imaging*，**副主编、专题编辑**。
 
 - <span style="background-color:#1E40AF; color:white; padding:0.5px 4px; border:1px solid #0F2460; border-radius:6px; font-weight:normal; font-size:0.9em; text-shadow:0.5px 0.5px 1px rgba(0,0,0,0.2); box-shadow:1px 1px 2px rgba(0,0,0,0.1); display:inline-block;">期刊编辑</span> *Diagnostics*，**专题编辑**。
@@ -384,6 +388,9 @@ redirect_from:
 - <span style="background-color:#1E40AF; color:white; padding:0.5px 4px; border:1px solid #0F2460; border-radius:6px; font-weight:normal; font-size:0.9em; text-shadow:0.5px 0.5px 1px rgba(0,0,0,0.2); box-shadow:1px 1px 2px rgba(0,0,0,0.1); display:inline-block;">优秀审稿人</span> *2023.10* “IEEE TMI Distinguished Reviewer Silver Level”，IEEE Transactions on Medical Imaging
 
 - <span style="background-color:#1E40AF; color:white; padding:0.5px 4px; border:1px solid #0F2460; border-radius:6px; font-weight:normal; font-size:0.9em; text-shadow:0.5px 0.5px 1px rgba(0,0,0,0.2); box-shadow:1px 1px 2px rgba(0,0,0,0.1); display:inline-block;">优秀审稿人</span> *2022.08* "IEEE TMI Distinguished Reviewer Bronze Level"，IEEE Transactions on Medical Imaging
+
+
+- <span style="background-color:#1E40AF; color:white; padding:0.5px 4px; border:1px solid #0F2460; border-radius:6px; font-weight:normal; font-size:0.9em; text-shadow:0.5px 0.5px 1px rgba(0,0,0,0.2); box-shadow:1px 1px 2px rgba(0,0,0,0.1); display:inline-block;">校内兼职</span> 华中科技大学武汉光电国家研究中心，**研究生德育导师**。
 
 ---
 
