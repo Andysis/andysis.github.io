@@ -136,6 +136,15 @@
   font-size: $type-size-4;
 }
 
+.author__titles {
+  margin: 0.5em 0 0.75em;
+  line-height: 1.6;
+
+  span {
+    display: block;
+  }
+}
+
 .author__bio {
   margin: 0;
 

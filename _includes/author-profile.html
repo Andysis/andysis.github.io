@@ -10,6 +10,9 @@
 
   <div class="author__content">
     <h3 class="author__name">{{ author.name }}</h3>
+    {% if author.titles %}
+    <p class="author__titles">{% for title in author.titles %}<span>{{ title | escape }}</span>{% endfor %}</p>
+    {% endif %}
     {% if author.bio %}<p class="author__bio">{{ author.bio }}</p>{% endif %}
   </div>
 

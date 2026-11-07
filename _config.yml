@@ -7,7 +7,7 @@
 
 # Site Settings
 title                    : "王植炜 (Zhiwei Wang)"
-description              : "华中科技大学武汉光电国家研究中心副教授，新光电信息大楼D212。"
+description              : "华中科技大学武汉光电国家研究中心，新光电信息大楼D212。"
 repository               : "Andysis/andysis.github.io"
 google_scholar_stats_use_cdn : true
 
@@ -22,6 +22,9 @@ baidu_site_verification  :  # get baidu_site_verification from https://ziyuan.ba
 # Site Author
 author:
   name             : "王植炜 (Zhiwei Wang)"
+  titles:
+    - "副教授"
+    - "硕士生导师、博士生导师"
   avatar           : "images/andy.jpg"
   bio              : "生物医学光子学研究部，武汉光电国家研究中心，华中科技大学"
   location         : "Wuhan, China"
