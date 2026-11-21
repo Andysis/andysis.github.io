@@ -304,6 +304,8 @@ redirect_from:
 
 # 🎤 学术交流
 
+- <span style="background-color:#1E40AF; color:white; padding:0.5px 4px; border:1px solid #0F2460; border-radius:6px; font-weight:normal; font-size:0.9em; text-shadow:0.5px 0.5px 1px rgba(0,0,0,0.2); box-shadow:1px 1px 2px rgba(0,0,0,0.1); display:inline-block;">特邀报告</span> *泌尿外科手术分析与空间智能技术与应用*，联影泌尿外科技术发展委员会成立仪式 · 暨战略研讨会，武汉，2026.11.18，**特邀报告**。
+
 - <span style="background-color:#1E40AF; color:white; padding:0.5px 4px; border:1px solid #0F2460; border-radius:6px; font-weight:normal; font-size:0.9em; text-shadow:0.5px 0.5px 1px rgba(0,0,0,0.2); box-shadow:1px 1px 2px rgba(0,0,0,0.1); display:inline-block;">特邀报告</span> *肾早癌手术中的增强现实视觉引导技术与应用*，中港青年学者论坛，南京，2026.10.31，**特邀报告**。
 
 - <span style="background-color:#1E40AF; color:white; padding:0.5px 4px; border:1px solid #0F2460; border-radius:6px; font-weight:normal; font-size:0.9em; text-shadow:0.5px 0.5px 1px rgba(0,0,0,0.2); box-shadow:1px 1px 2px rgba(0,0,0,0.1); display:inline-block;">特邀报告</span> *Mask is Not All You Need: Box-supervised Polyp Segmentation in Images and Videos*，ICBIP，成都，2025.08.02，**特邀报告**。
